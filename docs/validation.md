@@ -18,6 +18,12 @@ The [diffraction report](diffraction.md) records remaining dielectric discrepanc
 
 ## Fresh installation
 
+The November 3 publication check passed 258 DiffeRT bridge tests, 45 inherited portable tests, report JavaScript checks, and the Linux GitHub CI job. A fresh public clone rebuilt the exact extension ZIP tested in Blender 5.2.3. The extracted ZIP passed the full workflow below and four paired scenes: free space, ground reflection, blocked LoS and receiver motion.
+
+Both clean runtimes completed seven pilot fixtures. The extended run completed 322 of 324 requested executions across native DiffeRT, native Sionna and the isolated Sionna `kp_depth` candidate. Two DiffeRT depth-5 searches reached the configured candidate limit. Native DiffeRT used complex128 coefficients, while Sionna used complex64. DiffeRT and the candidate each passed 40/40 nonzero signed PEC checks; native Sionna passed 0/40. Maximum relative complex errors were respectively `1.83679e-5`, `8.39323e-6` and `7.67029`. These fresh measurements are separate from the historical table above.
+
+The optional CPU adapter rebuilt to its exact expected binary hash, ran both Sionna profiles in the new environment, and restored the original Dr.Jit initializer byte-for-byte afterward. `fresh-install-evidence.zip` and `release-verification.json` in the release contain the generated measurements, actual dtypes, dependency versions and checksums.
+
 Release verification uses a new Python environment with `include-system-site-packages = false`, package installation from the pinned requirements, tests in the staged source checkout, deterministic ZIP rebuilding, and Blender background registration/workflow checks with factory startup. The user's saved Blender preferences and existing two runtimes are not modified.
 
 Run the commands in the root README. `scripts/blender_workflow_check.py` exercises public run operators, paths, 2D/3D coverage, HDF5, arrays, motion, cancellation and save/reopen:

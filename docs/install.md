@@ -20,7 +20,7 @@ In **DiffeRT → Runtime**, select External Python and the new environment's `Sc
 
 Follow [SionnaRT-Bridge's installation guide](https://github.com/fribas001/sionnart-bridge/blob/main/src/sionnart_bridge/README.md), using that repository's own dependency file. DiffeRT-Bridge does not import Sionna, Mitsuba or Dr.Jit inside its worker.
 
-For the specifically validated Windows CPU stack, see the [scoped LLVM adapter](https://github.com/fribas001/sionnart-bridge/tree/docs/dual-engine-validation/tools/windows_llvm_adapter). It is an optional runtime workaround with version/hash checks, backup and restore. CUDA users should follow Sionna's native setup. Do not treat the adapter as a generic LLVM upgrade or a diffraction physics fix.
+For the specifically validated Windows CPU stack, see the [scoped LLVM adapter](https://github.com/fribas001/sionnart-bridge/tree/main/tools/windows_llvm_adapter). It is an optional runtime workaround with version/hash checks, backup and restore. CUDA users should follow Sionna's native setup. Do not treat the adapter as a generic LLVM upgrade or a diffraction physics fix.
 
 ## Compare
 
