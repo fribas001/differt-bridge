@@ -29,7 +29,6 @@ def main():
     ap.add_argument('--fermat-native64-output',action='store_true',help='Deliberate incompatible-Warp dtype control')
     ap.add_argument('--nondeterministic',action='store_true')
     ap.add_argument('--diffraction-geometry',choices=['native','validated'],default='native')
-    ap.add_argument('--concrete-dispatch',action='store_true')
     args=ap.parse_args(); project=Path(__file__).resolve().parents[1]
     os.environ['DIFFERT_DIFFRACTION_GEOMETRY']=args.diffraction_geometry
     if args.precision=='native':os.environ.pop('DIFFERT_FIELD_PRECISION',None)
@@ -47,9 +46,6 @@ def main():
         import mitsuba as mi
         mi.set_variant('llvm_ad_mono_polarized')
         import sionna.rt as rt
-        if args.concrete_dispatch:
-            from sionna_mesh_dispatch import install
-            install()
         versions={k:importlib.metadata.version(k) for k in ['sionna-rt','mitsuba','drjit','numpy']}
     else:
         import differt_backend as rt
@@ -72,7 +68,7 @@ def main():
                 profiles={k:os.environ.get(k,'native') for k in ('RADIO_SEGMENT_PROFILE','SIONNA_GEOMETRY_PROFILE','DIFFERT_ARITHMETIC_PROFILE','DIFFERT_FIELD_PRECISION')},
                 diagnostic_interventions=dict(fermat_steps=args.fermat_steps or 'default',fermat_float64=args.fermat_float64,
                     diffraction_geometry=args.diffraction_geometry,
-                    concrete_mesh_dispatch=args.concrete_dispatch,
+                    concrete_mesh_dispatch=False,
                     fermat_result_cast_back_to_geometry_dtype=args.fermat_float64 and not args.fermat_native64_output,
                     deterministic=not args.nondeterministic),
                 started_utc=__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat(),cases=[],status='running')

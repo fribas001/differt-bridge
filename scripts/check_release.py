@@ -14,6 +14,6 @@ for p in ROOT.rglob('*'):
     if not p.is_file() or any(x in p.parts for x in ('.git','.venv','runs','dist','build','__pycache__','.pytest_cache')):continue
     if p.suffix in ('.py','.md','.json','.toml','.yml','.ps1','.txt'):
         text=p.read_text(encoding='utf-8-sig')
-        assert not re.search(r'C:[/\\]+Users[/\\]+feolr',text,re.I),p
+        assert not re.search(r'C:[/\\]+Users[/\\]+',text,re.I),p
         assert not re.search(r'gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}',text),p
 print('Portable source, package contents, versions and workstation-path checks passed.')
