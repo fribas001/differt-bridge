@@ -1,0 +1,19 @@
+DiffeRT-Bridge 0.6.3
+Derived from SionnaRT-Bridge 2.1.0, commit 811c87ce3c7f352278f891fb399b510f6ad3ddb0.
+Modified on 2026-10-29: isolated Blender namespace, DiffeRT workers, runtime configuration, setup-copy and comparison tools.
+Modified on 2026-10-30: shared benchmarks, path diagnostics, unshifted float64 LoS/specular visibility, and explicit passband/baseband coefficient conventions.
+Modified on 2026-11-03: portable release documentation and isolated diffraction diagnostics.
+GPL-3.0-or-later. Original attribution follows. The original reference-runtime statements describe the upstream project, not this fork.
+
+SionnaRT-Bridge
+Copyright (C) 2026 Felipe Oliveira Ribas and contributors
+
+This repository interfaces with Sionna RT, Mitsuba 3, Dr.Jit, Blender, and a
+separately distributed Mitsuba-Blender compatibility extension. Those projects
+are not bundled here and retain their own copyrights, trademarks, and licenses.
+
+Institutional ownership and the final copyright line must be confirmed with
+Ghent University-imec before the public v1.0.0 release.
+
+Detailed upstream links, tested versions, licenses, provenance, and citation
+guidance are provided in THIRD_PARTY_SOFTWARE.md.

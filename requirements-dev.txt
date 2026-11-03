@@ -1,0 +1,2 @@
+-r requirements-external.txt
+pytest>=9,<10

@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/fribas001/sionnart-bridge",
+  "commit": "811c87ce3c7f352278f891fb399b510f6ad3ddb0",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "backend": "DiffeRT 0.12.0",
+  "generated_on": "2026-10-29"
+}

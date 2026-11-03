@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+dist/
+build/
+runs/
+*.blend1
+*.dll
+*.lib
+*.obj
+*.mp4
+*.zip
+gh-config/

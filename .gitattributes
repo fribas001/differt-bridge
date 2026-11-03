@@ -1,0 +1,4 @@
+# Preserve the validated upstream file bytes and deterministic extension archives.
+# Python and PowerShell accept the inherited Windows line endings.
+* -text
+*.blend binary

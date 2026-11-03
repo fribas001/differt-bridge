@@ -1,0 +1,73 @@
+schema_version = "1.0.0"
+id = "differt_bridge"
+version = "0.6.3"
+name = "DiffeRT-Bridge"
+tagline = "Run DiffeRT radio simulations beside your Sionna workflow"
+maintainer = "Felipe Oliveira Ribas"
+type = "add-on"
+tags = ["3D View", "Import-Export", "Geometry Nodes"]
+blender_version_min = "5.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Felipe Oliveira Ribas and contributors"]
+
+[permissions]
+files = "Export evaluated scenes, run workers and save simulation results"
+
+[build]
+paths = [
+  "ISAC_DATA_DICTIONARY.md",
+  "LICENSE",
+  "NOTICE",
+  "PLANT_MATERIALS.md",
+  "README.md",
+  "THIRD_PARTY_SOFTWARE.md",
+  "VALIDATION.md",
+  "VEGETATION_METRICS.md",
+  "__init__.py",
+  "benchmark.py",
+  "benchmark_blender.py",
+  "comparison.py",
+  "comparison_blender.py",
+  "point_coverage.py",
+  "path_diagnostics.py",
+  "path_diagnostics.html",
+  "path_diagnostics_blender.py",
+  "assets/differt_geometry_nodes.blend",
+  "differt_backend.py",
+  "precise_visibility.py",
+  "validated_diffraction.py",
+  "segment_policy.py",
+  "differt_worker.py",
+  "geometry_nodes_metadata.py",
+  "human_materials.py",
+  "integrated_mitsuba_exporter.py",
+  "isac_blender.py",
+  "isac_export.py",
+  "isac_hud.py",
+  "parameter_analysis.py",
+  "parameter_report.html",
+  "parameter_study_blender.py",
+  "path_safety.py",
+  "plant_materials.py",
+  "plant_materials_blender.py",
+  "radio_map_3d_worker.py",
+  "radio_map_orientation.py",
+  "radio_map_worker.py",
+  "result_export_worker.py",
+  "runtime_preferences.py",
+  "tests/test_geometry_nodes_metadata.py",
+  "tests/test_human_materials.py",
+  "tests/test_isac_export.py",
+  "tests/test_parameter_analysis.py",
+  "tests/test_plant_materials.py",
+  "tests/test_radio_map_orientation.py",
+  "tests/test_release_reliability.py",
+  "tests/test_report_math.cjs",
+  "tests/test_vegetation_metrics.py",
+  "ui_panels.py",
+  "vegetation_blender.py",
+  "vegetation_fields.py",
+  "vegetation_metrics.py",
+  "worker_runtime.py",
+  "workflow_compat.py"
+]
