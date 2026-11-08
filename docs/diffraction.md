@@ -1,5 +1,10 @@
 # Diffraction findings
 
+The [dielectric follow-up](dielectric-diffraction.md) extends this baseline with
+1,768 completed fixture executions focused on reciprocity, skew polarization,
+boundary behavior and face enumeration. The earlier numbers below remain the
+historical sample; no experimental field correction is installed.
+
 The [field-diagnostics archive](https://github.com/fribas001/differt-bridge/releases/download/v0.6.3/diffraction-reports.zip) contains the measured report, figures and numerical evidence. The [side-by-side video](https://github.com/fribas001/differt-bridge/releases/download/v0.6.3/Sionna_vs_DiffeRT_Diffraction.mp4) shows the installed native-field baseline, not the experimental corrections.
 
 ## Findings

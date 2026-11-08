@@ -43,12 +43,21 @@ def main():
     os.environ['WP_CACHE_DIR']=str(args.output/'cache')
     sys.path.insert(0,str(project/'src/differt_bridge'))
     if args.engine=='sionna':
+        if args.precision not in ('native','float32'):raise RuntimeError('This Sionna variant uses float32 fields')
+        field_precision_profile='float32'
         import mitsuba as mi
         mi.set_variant('llvm_ad_mono_polarized')
         import sionna.rt as rt
         versions={k:importlib.metadata.version(k) for k in ['sionna-rt','mitsuba','drjit','numpy']}
     else:
         import differt_backend as rt
+        try:
+            from differt.em._bridge_precision import field_precision
+            field_precision_profile=field_precision()
+        except ModuleNotFoundError:
+            field_precision_profile='upstream_native'
+        if args.precision!='native' and field_precision_profile!=args.precision:
+            raise RuntimeError('Requested field precision is not configured in this runtime; use --precision native')
         versions={k:importlib.metadata.version(k) for k in ['differt','jax','jaxlib','warp-lang','numpy']}
         if args.fermat_steps or args.fermat_float64:
             # Diagnostic intervention in this process only. Installed files are untouched.
@@ -65,7 +74,7 @@ def main():
             dispatch.fermat_path_on_linear_objects=controlled_fermat
     result=dict(engine=args.engine,precision=args.precision if args.engine=='differt' else 'float32',versions=versions,
                 platform=platform.platform(),processor=platform.processor(),python=sys.version,manifest_sha256=digest(args.manifest),
-                profiles={k:os.environ.get(k,'native') for k in ('RADIO_SEGMENT_PROFILE','SIONNA_GEOMETRY_PROFILE','DIFFERT_ARITHMETIC_PROFILE','DIFFERT_FIELD_PRECISION')},
+                profiles={k:os.environ.get(k,'native') for k in ('RADIO_SEGMENT_PROFILE','SIONNA_GEOMETRY_PROFILE','DIFFERT_ARITHMETIC_PROFILE','DIFFERT_FIELD_PRECISION','RADIO_DIELECTRIC_PROFILE')},
                 diagnostic_interventions=dict(fermat_steps=args.fermat_steps or 'default',fermat_float64=args.fermat_float64,
                     diffraction_geometry=args.diffraction_geometry,
                     concrete_mesh_dispatch=False,
@@ -108,8 +117,9 @@ def main():
             else: cir,_=paths.cir(normalize_delays=False)
             cir=np.asarray(cir)[...,0]
             row['coefficient_dtype']=str(coeff.dtype)
-            if args.precision!='native' and str(coeff.dtype)!=('complex64' if args.precision=='float32' else 'complex128'):
-                raise RuntimeError('Requested field precision is not supported by this runtime; use --precision native')
+            # Carrier conversion and bridge storage can promote complex64 fields
+            # to complex128. Export dtype is not the arithmetic precision policy.
+            row['field_precision_profile']=field_precision_profile
             row['array_shapes']={k:list(v.shape) for k,v in dict(valid=valid,coefficient=coeff,vertices=vertices,interactions=interactions,delay=delays,cir=cir).items()}
             records=[]
             for index in np.argwhere(valid):

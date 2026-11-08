@@ -9,6 +9,8 @@ This first public release is a **prerelease**. The extension is derived from Sio
 - [Install and configure both engines](docs/install.md)
 - [Validation, release checks and limitations](docs/validation.md)
 - [Diffraction findings and experimental corrections](docs/diffraction.md)
+- [Dielectric reciprocity and boundary investigation](docs/dielectric-diffraction.md)
+- [Reciprocal corrections and independent Maxwell validation](docs/dielectric-corrections.md)
 - [Release downloads: extension, reports and animation](https://github.com/fribas001/differt-bridge/releases/tag/v0.6.3)
 - [Changes and provenance](CHANGELOG.md)
 
@@ -50,3 +52,19 @@ python scripts/build_extension.py
 The deterministic ZIP and SHA-256 file are written to `dist/`. Scientific runtimes, compiler binaries, caches, generated frames and workstation backups are not bundled. Reproduce a generated diffraction fixture with `scripts/run_diffraction.py`; experimental Sionna field changes require an explicit flag and run only in that child process.
 
 See [third-party attribution](THIRD_PARTY_SOFTWARE.md), [upstream provenance](UPSTREAM.json), [authors](AUTHORS.md), and [license](LICENSE).
+
+See [the Maxwell model-error addendum](docs/diffraction-model-errors.md) for the independent boundary-integral cross-check, new angular/material sweeps, comparison-normalization correction and animation reproduction. No additional runtime physics patch is promoted by this study.
+
+The [optional full-wave 2D refinement](docs/maxwell-refinement.md) reduces the canonical Maxwell discrepancy with a separate coupled boundary solve. It preserves native 3D engine exports and rejects unsupported scenes; see its independent FDFD validation and companion workflow.
+
+The [native 3D investigation](docs/native3d-diffraction.md) validates point-dipole fields against an independent PEC Maxwell reference. It adds an optional canonical 3D Hertz-UTD correction and a guarded opaque-slab numerical fix in the reciprocal profile.
+
+The [3D dielectric follow-up](docs/dielectric3d-diffraction.md) compares all vector dipole ports with independent coupled BIE/FEM Maxwell solutions, checks reciprocity and boundaries, and fixes weak-loss cancellation in Sionna's material square root. It preserves native exports and documents the remaining model errors, finite-distance source effects and limits of the infinite-wedge benchmark.
+
+The [optional 3D dielectric refinement](docs/dielectric3d-refinement.md) adds a shared coupled full-wave field beside both ray exports. It validates new materials and port positions against independent FEM, rejects unsupported geometry before computation, and retains native UTD behavior for the normal Blender workflow.
+
+The [weak-polarization convergence follow-up](docs/dielectric3d-weak.md) reduces the companion's panel-discretization error with fixed, unfitted spatial extrapolation. The default companion now uses the validated 16/32-panel pair; the original standard mode remains available. New materials, complete vector ports, finer independent FEM and spectral/domain controls verify the correction.
+
+The [remaining-polarization reference audit](docs/dielectric3d-polarization.md) separates the previous 4.39% residual from Maxwell mesh uncertainty. It adds finer independent references, explicit tail and domain controls, an equivalent sparse-factorization policy for large reference solves, and an updated animation. Production companion fields and both native runtimes are preserved.
+
+The [further polarization residual study](docs/dielectric3d-residual.md) refines the independent Maxwell reference, rejects an unsupported field-recovery change, and evaluates a separate finer BIE candidate. It includes off-grid analytic controls, explicit numerical uncertainty and a regenerated animation; production and installed workflows remain unchanged.
