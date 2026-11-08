@@ -1,5 +1,13 @@
 # Changes
 
+## Unreleased — developer structure
+
+- Add a documentation index, contributor guide, architecture map and research catalog.
+- Add shared check/test/build commands and an isolated Blender package smoke test.
+- Record a reviewable Geometry Nodes contract and validate the shipped library against it.
+- Separate portable and Blender CI, with Windows and Linux coverage configured.
+- Document remaining reproduction gaps; retain existing extension/scientific source bytes and historical paths.
+
 ## 0.6.3 — first public prerelease
 
 - Separate Blender namespace, runtime preferences and result collections for DiffeRT beside SionnaRT-Bridge.

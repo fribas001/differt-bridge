@@ -1,0 +1,33 @@
+name: Blender package
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+concurrency:
+  group: blender-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  package:
+    name: Blender 5.2.3 (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Pinned setup-blender v5 revision reviewed with MolecularNodes' workflow.
+      - uses: BradyAJohnston/setup-blender@1006ec809db1af1422bd1197e107e2c4d368d81e
+        with:
+          version: '5.2.3'
+      - name: Validate and exercise the built extension
+        run: python tools/dev.py blender --blender blender
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: blender-receipt-${{ matrix.os }}
+          path: runs/blender/receipt.json
+          if-no-files-found: warn

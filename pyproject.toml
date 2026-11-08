@@ -1,3 +1,11 @@
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+
+# The Blender manifest remains the authority for extension identity/version.
+# Python 3.12 runs the external workers; Blender supplies its own Python.
+[tool.bridge]
+source = "src/differt_bridge"
+asset_contract = "tests/fixtures/geometry_nodes.json"
+study_catalog = "research/studies.toml"
+blender_series = "5.2"

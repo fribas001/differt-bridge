@@ -1,0 +1,98 @@
+schema_version = 1
+# Entry points retain their original paths: historical evidence hashes them.
+# Prerequisites are the declared entry prerequisites, not a complete cache lock.
+
+[[study]]
+id = "diffraction"
+title = "Native diffraction fixtures and isolated Sionna candidates"
+portability = "generated-fixtures"
+report = "docs/diffraction.md"
+entrypoints = ["scripts/run_diffraction.py"]
+prerequisites = []
+
+[[study]]
+id = "dielectric"
+title = "Dielectric reciprocity and boundary survey"
+portability = "workspace-study"
+report = "docs/dielectric-diffraction.md"
+entrypoints = ["scripts/run_dielectric.py", "scripts/analyze_dielectric.py", "scripts/build_dielectric_report.py"]
+prerequisites = []
+
+[[study]]
+id = "reciprocity"
+title = "Reciprocal corrections and independent Maxwell controls"
+portability = "workspace-study"
+report = "docs/dielectric-corrections.md"
+entrypoints = ["scripts/run_maxwell_reference.py", "scripts/analyze_reciprocal_limits.py", "scripts/build_reciprocal_report.py"]
+prerequisites = []
+
+[[study]]
+id = "model-errors"
+title = "Diffraction model errors against Maxwell"
+portability = "workspace-study"
+report = "docs/diffraction-model-errors.md"
+entrypoints = ["scripts/run_model_error_reference.py", "scripts/analyze_model_errors.py", "scripts/build_model_error_report.py"]
+prerequisites = []
+
+[[study]]
+id = "maxwell-2d"
+title = "Optional canonical two-dimensional full-wave companion"
+portability = "workspace-study"
+report = "docs/maxwell-refinement.md"
+entrypoints = ["scripts/canonical_maxwell_refinement.py", "scripts/run_refinement_fdfd.py", "scripts/build_refinement_report.py"]
+prerequisites = []
+
+[[study]]
+id = "native-3d"
+title = "Native three-dimensional diffraction and PEC controls"
+portability = "workspace-study"
+report = "docs/native3d-diffraction.md"
+entrypoints = ["scripts/compare_native3d.py", "scripts/validate_maxwell3d_reference.py", "scripts/build_native3d_report.py"]
+prerequisites = []
+
+[[study]]
+id = "dielectric-3d"
+title = "Native dielectric diffraction and independent vector Maxwell fields"
+portability = "workspace-study"
+report = "docs/dielectric3d-diffraction.md"
+entrypoints = ["scripts/compare_dielectric3d.py", "scripts/validate_dielectric3d_controls.py", "scripts/build_dielectric3d_report.py"]
+prerequisites = []
+
+[[study]]
+id = "companion-3d"
+title = "Optional shared three-dimensional dielectric companion"
+portability = "workspace-study"
+report = "docs/dielectric3d-refinement.md"
+entrypoints = ["scripts/dielectric3d_refinement.py", "scripts/validate_dielectric3d_refinement.py", "scripts/build_dielectric3d_refinement_report.py"]
+prerequisites = []
+
+[[study]]
+id = "weak-polarization"
+title = "Fixed spatial extrapolation and weak-polarization controls"
+portability = "workspace-study"
+report = "docs/dielectric3d-weak.md"
+entrypoints = ["scripts/dielectric3d_converged.py", "scripts/run_dielectric3d_weak_reference.py", "scripts/build_dielectric3d_weak_report.py"]
+prerequisites = []
+
+[[study]]
+id = "polarization-reference"
+title = "Independent reference refinement for the 4.39 percent residual"
+portability = "workspace-study"
+report = "docs/dielectric3d-polarization.md"
+entrypoints = ["scripts/investigate_dielectric3d_polarization.py", "scripts/run_dielectric3d_polarization_reference.py", "scripts/build_dielectric3d_polarization_report.py"]
+prerequisites = []
+
+[[study]]
+id = "polarization-residual"
+title = "Further independent reference refinement for the 1.56 percent residual"
+portability = "workspace-study"
+report = "docs/dielectric3d-residual.md"
+entrypoints = ["scripts/investigate_dielectric3d_residual.py", "scripts/run_dielectric3d_bounded_reference.py", "scripts/analyze_dielectric3d_residual.py", "scripts/build_dielectric3d_residual_report.py"]
+prerequisites = [
+  "outputs/differt-bridge/examples/dielectric3d_polarization/verification.json",
+  "outputs/differt-bridge/examples/dielectric3d_polarization/analysis.json",
+  "work/d3pol/diagnostics.json",
+  "work/d3pol/production_baseline.json",
+  "work/d3pol/holdout_b_fem64q8/config.json",
+  "work/d3pol/target_fem96q8_lowmem/result.json",
+]

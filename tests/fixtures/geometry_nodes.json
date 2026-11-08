@@ -1,0 +1,4948 @@
+{
+  "schema_version": 1,
+  "asset": "src/differt_bridge/assets/differt_geometry_nodes.blend",
+  "sha256": "0885773c55e7c616f4414c0fef4df0e67c1031a2781f93d5f42a3131cd726eec",
+  "blender_series": "5.2",
+  "groups": [
+    {
+      "name": "DiffeRT_Paths",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain less than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Delay less than (ns)",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_5",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Trim path",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_6",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Path radius",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_7",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Paths LOS",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_8",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketBool"
+        },
+        {
+          "name": "Paths Reflection",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_9",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketBool"
+        },
+        {
+          "name": "Paths Scattering",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_10",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketBool"
+        },
+        {
+          "name": "Paths Diffraction",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_11",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketBool"
+        },
+        {
+          "name": "Paths Refraction",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_12",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketBool"
+        },
+        {
+          "name": "Color Filter - Path single color",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_4",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketBool"
+        },
+        {
+          "name": "Path color slider",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Boolean Math",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.001",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.002",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.003",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.004",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.005",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.006",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.007",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.008",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Boolean Math.009",
+          "type": "FunctionNodeBooleanMath"
+        },
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.002",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.003",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.004",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.005",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.006",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.007",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.008",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.009",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.010",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.011",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.012",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.013",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Curve Circle",
+          "type": "GeometryNodeCurvePrimitiveCircle"
+        },
+        {
+          "name": "Curve to Mesh",
+          "type": "GeometryNodeCurveToMesh"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.002",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.003",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.006",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.007",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.003",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.004",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.005",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.003",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_uid_num",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "interaction_type_id",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "interaction_type_id",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "interaction_type_id",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "interaction_type_id",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.009",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "interaction_type_id",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.010",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "interaction_type_id",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.011",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.012",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "delay_ns",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.013",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "interaction_type_id",
+          "data_type": "INT"
+        },
+        {
+          "name": "Points to Curves",
+          "type": "GeometryNodePointsToCurves"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Material.001",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Material.002",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Material.003",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Material.004",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Material.005",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Material.006",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "path_color",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Switch",
+          "type": "GeometryNodeSwitch"
+        },
+        {
+          "name": "Trim Curve",
+          "type": "GeometryNodeTrimCurve"
+        }
+      ],
+      "links": [
+        [
+          "Boolean Math",
+          "Boolean",
+          "Boolean Math.005",
+          "Boolean"
+        ],
+        [
+          "Boolean Math.001",
+          "Boolean",
+          "Boolean Math.005",
+          "Boolean_001"
+        ],
+        [
+          "Boolean Math.002",
+          "Boolean",
+          "Boolean Math.006",
+          "Boolean"
+        ],
+        [
+          "Boolean Math.003",
+          "Boolean",
+          "Boolean Math.006",
+          "Boolean_001"
+        ],
+        [
+          "Boolean Math.004",
+          "Boolean",
+          "Boolean Math.008",
+          "Boolean_001"
+        ],
+        [
+          "Boolean Math.005",
+          "Boolean",
+          "Boolean Math.007",
+          "Boolean"
+        ],
+        [
+          "Boolean Math.006",
+          "Boolean",
+          "Boolean Math.008",
+          "Boolean"
+        ],
+        [
+          "Boolean Math.007",
+          "Boolean",
+          "Boolean Math.009",
+          "Boolean"
+        ],
+        [
+          "Boolean Math.008",
+          "Boolean",
+          "Boolean Math.007",
+          "Boolean_001"
+        ],
+        [
+          "Boolean Math.009",
+          "Boolean",
+          "Delete Geometry.003",
+          "Selection"
+        ],
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Set Material",
+          "Selection"
+        ],
+        [
+          "Compare.002",
+          "Result",
+          "Set Material.001",
+          "Selection"
+        ],
+        [
+          "Compare.003",
+          "Result",
+          "Set Material.002",
+          "Selection"
+        ],
+        [
+          "Compare.004",
+          "Result",
+          "Set Material.003",
+          "Selection"
+        ],
+        [
+          "Compare.005",
+          "Result",
+          "Set Material.004",
+          "Selection"
+        ],
+        [
+          "Compare.006",
+          "Result",
+          "Set Material.005",
+          "Selection"
+        ],
+        [
+          "Compare.007",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Compare.008",
+          "Result",
+          "Delete Geometry.002",
+          "Selection"
+        ],
+        [
+          "Compare.009",
+          "Result",
+          "Boolean Math",
+          "Boolean"
+        ],
+        [
+          "Compare.010",
+          "Result",
+          "Boolean Math.001",
+          "Boolean"
+        ],
+        [
+          "Compare.011",
+          "Result",
+          "Boolean Math.002",
+          "Boolean"
+        ],
+        [
+          "Compare.012",
+          "Result",
+          "Boolean Math.003",
+          "Boolean"
+        ],
+        [
+          "Compare.013",
+          "Result",
+          "Boolean Math.004",
+          "Boolean"
+        ],
+        [
+          "Curve Circle",
+          "Curve",
+          "Curve to Mesh",
+          "Profile Curve"
+        ],
+        [
+          "Curve to Mesh",
+          "Mesh",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Delete Geometry.003",
+          "Geometry"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Delete Geometry.002",
+          "Geometry"
+        ],
+        [
+          "Delete Geometry.002",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Delete Geometry.003",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare.007",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Group Input.002",
+          "Socket_4",
+          "Switch",
+          "False"
+        ],
+        [
+          "Group Input.003",
+          "Socket_5",
+          "Compare.008",
+          "B"
+        ],
+        [
+          "Group Input.004",
+          "Socket_6",
+          "Trim Curve",
+          "End"
+        ],
+        [
+          "Group Input.004",
+          "Socket_7",
+          "Curve Circle",
+          "Radius"
+        ],
+        [
+          "Group Input.005",
+          "Socket_10",
+          "Boolean Math.002",
+          "Boolean_001"
+        ],
+        [
+          "Group Input.005",
+          "Socket_11",
+          "Boolean Math.003",
+          "Boolean_001"
+        ],
+        [
+          "Group Input.005",
+          "Socket_12",
+          "Boolean Math.004",
+          "Boolean_001"
+        ],
+        [
+          "Group Input.005",
+          "Socket_8",
+          "Boolean Math",
+          "Boolean_001"
+        ],
+        [
+          "Group Input.005",
+          "Socket_9",
+          "Boolean Math.001",
+          "Boolean_001"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.003",
+          "Attribute",
+          "Points to Curves",
+          "Curve Group ID"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Compare",
+          "B"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Named Attribute.006",
+          "Attribute",
+          "Compare.002",
+          "B"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Compare.003",
+          "B"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.004",
+          "B"
+        ],
+        [
+          "Named Attribute.009",
+          "Attribute",
+          "Compare.005",
+          "B"
+        ],
+        [
+          "Named Attribute.010",
+          "Attribute",
+          "Compare.006",
+          "B"
+        ],
+        [
+          "Named Attribute.011",
+          "Attribute",
+          "Compare.007",
+          "A"
+        ],
+        [
+          "Named Attribute.012",
+          "Attribute",
+          "Compare.008",
+          "A"
+        ],
+        [
+          "Named Attribute.013",
+          "Attribute",
+          "Compare.009",
+          "B"
+        ],
+        [
+          "Named Attribute.013",
+          "Attribute",
+          "Compare.010",
+          "B"
+        ],
+        [
+          "Named Attribute.013",
+          "Attribute",
+          "Compare.011",
+          "B"
+        ],
+        [
+          "Named Attribute.013",
+          "Attribute",
+          "Compare.012",
+          "B"
+        ],
+        [
+          "Named Attribute.013",
+          "Attribute",
+          "Compare.013",
+          "B"
+        ],
+        [
+          "Points to Curves",
+          "Curves",
+          "Trim Curve",
+          "Curve"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Set Material.001",
+          "Geometry"
+        ],
+        [
+          "Set Material.001",
+          "Geometry",
+          "Set Material.002",
+          "Geometry"
+        ],
+        [
+          "Set Material.002",
+          "Geometry",
+          "Set Material.003",
+          "Geometry"
+        ],
+        [
+          "Set Material.003",
+          "Geometry",
+          "Set Material.004",
+          "Geometry"
+        ],
+        [
+          "Set Material.004",
+          "Geometry",
+          "Set Material.005",
+          "Geometry"
+        ],
+        [
+          "Set Material.005",
+          "Geometry",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Set Material.006",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Points to Curves",
+          "Points"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Set Material.006",
+          "Geometry"
+        ],
+        [
+          "Switch",
+          "Output",
+          "Set Material.006",
+          "Selection"
+        ],
+        [
+          "Trim Curve",
+          "Curve",
+          "Curve to Mesh",
+          "Curve"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_3d_pathgain_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (db) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Cube",
+          "type": "GeometryNodeMeshCube"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Cube",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Sample Index.001",
+          "Value",
+          "Cube",
+          "Size"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_3d_rss_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (db) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Cube",
+          "type": "GeometryNodeMeshCube"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Cube",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Sample Index.001",
+          "Value",
+          "Cube",
+          "Size"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_3d_sinr_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (db) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Cube",
+          "type": "GeometryNodeMeshCube"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Cube",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Sample Index.001",
+          "Value",
+          "Cube",
+          "Size"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_pathgain_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (db) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Cube",
+          "type": "GeometryNodeMeshCube"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Cube",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Sample Index.001",
+          "Value",
+          "Cube",
+          "Size"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_pathgain_oriented_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (dB) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Combine XYZ.001",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Euler to Rotation",
+          "type": "FunctionNodeEulerToRotation"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Grid",
+          "type": "GeometryNodeMeshGrid"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.003",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.009",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.010",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "map_rotation",
+          "data_type": "FLOAT_VECTOR"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Combine XYZ.001",
+          "Vector",
+          "Instance on Points",
+          "Scale"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Euler to Rotation",
+          "Rotation",
+          "Instance on Points",
+          "Rotation"
+        ],
+        [
+          "Grid",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.003",
+          "Attribute",
+          "Combine XYZ.001",
+          "X"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Named Attribute.009",
+          "Attribute",
+          "Combine XYZ.001",
+          "Y"
+        ],
+        [
+          "Named Attribute.010",
+          "Attribute",
+          "Euler to Rotation",
+          "Euler"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_projected_pathgain_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (db) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Cube",
+          "type": "GeometryNodeMeshCube"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Cube",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Sample Index.001",
+          "Value",
+          "Cube",
+          "Size"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_rss_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (db) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Cube",
+          "type": "GeometryNodeMeshCube"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Cube",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Sample Index.001",
+          "Value",
+          "Cube",
+          "Size"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_rss_oriented_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "RSS (dBm) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Combine XYZ.001",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Euler to Rotation",
+          "type": "FunctionNodeEulerToRotation"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Grid",
+          "type": "GeometryNodeMeshGrid"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.003",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "rss_dbm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "rss_dbm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "rss_dbm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.009",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.010",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "map_rotation",
+          "data_type": "FLOAT_VECTOR"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Combine XYZ.001",
+          "Vector",
+          "Instance on Points",
+          "Scale"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Euler to Rotation",
+          "Rotation",
+          "Instance on Points",
+          "Rotation"
+        ],
+        [
+          "Grid",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.003",
+          "Attribute",
+          "Combine XYZ.001",
+          "X"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Named Attribute.009",
+          "Attribute",
+          "Combine XYZ.001",
+          "Y"
+        ],
+        [
+          "Named Attribute.010",
+          "Attribute",
+          "Euler to Rotation",
+          "Euler"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_sinr_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Path gain (db) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Cube",
+          "type": "GeometryNodeMeshCube"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "path_gain_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Cube",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Sample Index.001",
+          "Value",
+          "Cube",
+          "Size"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    },
+    {
+      "name": "DiffeRT_radio_map_sinr_oriented_node",
+      "type": "GeometryNodeTree",
+      "interface": [
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_1",
+          "direction": "OUTPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "Geometry",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_0",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketGeometry"
+        },
+        {
+          "name": "SINR (dB) greater than",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_2",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        },
+        {
+          "name": "Map alpha",
+          "kind": "SOCKET",
+          "parent": "",
+          "identifier": "Socket_3",
+          "direction": "INPUT",
+          "socket_type": "NodeSocketFloat"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Combine XYZ.001",
+          "type": "ShaderNodeCombineXYZ"
+        },
+        {
+          "name": "Compare",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Compare.001",
+          "type": "FunctionNodeCompare"
+        },
+        {
+          "name": "Delete Geometry",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "Delete Geometry.001",
+          "type": "GeometryNodeDeleteGeometry"
+        },
+        {
+          "name": "DiffeRT Embedded Mesh to Points",
+          "type": "GeometryNodeMeshToPoints"
+        },
+        {
+          "name": "Euler to Rotation",
+          "type": "FunctionNodeEulerToRotation"
+        },
+        {
+          "name": "Frame",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.001",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.002",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.003",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.004",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Frame.005",
+          "type": "NodeFrame"
+        },
+        {
+          "name": "Grid",
+          "type": "GeometryNodeMeshGrid"
+        },
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.001",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Input.002",
+          "type": "NodeGroupInput"
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput"
+        },
+        {
+          "name": "Instance on Points",
+          "type": "GeometryNodeInstanceOnPoints"
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange"
+        },
+        {
+          "name": "Mesh to Volume",
+          "type": "GeometryNodeMeshToVolume"
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.002",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "z",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.003",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_x",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.004",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.005",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "sinr_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.006",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "sinr_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.007",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "sinr_db",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.008",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "frame",
+          "data_type": "INT"
+        },
+        {
+          "name": "Named Attribute.009",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "cell_size_y",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Named Attribute.010",
+          "type": "GeometryNodeInputNamedAttribute",
+          "attribute": "map_rotation",
+          "data_type": "FLOAT_VECTOR"
+        },
+        {
+          "name": "Realize Instances",
+          "type": "GeometryNodeRealizeInstances"
+        },
+        {
+          "name": "Sample Index.001",
+          "type": "GeometryNodeSampleIndex"
+        },
+        {
+          "name": "Scene Time.001",
+          "type": "GeometryNodeInputSceneTime"
+        },
+        {
+          "name": "Set Material",
+          "type": "GeometryNodeSetMaterial"
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition"
+        },
+        {
+          "name": "Store Named Attribute",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.001",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "gain_norm",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Store Named Attribute.002",
+          "type": "GeometryNodeStoreNamedAttribute",
+          "attribute": "alpha_map",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "Viewer",
+          "type": "GeometryNodeViewer"
+        },
+        {
+          "name": "Volume to Mesh",
+          "type": "GeometryNodeVolumeToMesh"
+        }
+      ],
+      "links": [
+        [
+          "Combine XYZ",
+          "Vector",
+          "Set Position",
+          "Position"
+        ],
+        [
+          "Combine XYZ.001",
+          "Vector",
+          "Instance on Points",
+          "Scale"
+        ],
+        [
+          "Compare",
+          "Result",
+          "Delete Geometry",
+          "Selection"
+        ],
+        [
+          "Compare.001",
+          "Result",
+          "Delete Geometry.001",
+          "Selection"
+        ],
+        [
+          "Delete Geometry",
+          "Geometry",
+          "Instance on Points",
+          "Points"
+        ],
+        [
+          "Delete Geometry.001",
+          "Geometry",
+          "Set Position",
+          "Geometry"
+        ],
+        [
+          "DiffeRT Embedded Mesh to Points",
+          "Points",
+          "Delete Geometry.001",
+          "Geometry"
+        ],
+        [
+          "Euler to Rotation",
+          "Rotation",
+          "Instance on Points",
+          "Rotation"
+        ],
+        [
+          "Grid",
+          "Mesh",
+          "Instance on Points",
+          "Instance"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "DiffeRT Embedded Mesh to Points",
+          "Mesh"
+        ],
+        [
+          "Group Input",
+          "Socket_0",
+          "Viewer",
+          "Geometry"
+        ],
+        [
+          "Group Input.001",
+          "Socket_2",
+          "Compare",
+          "B"
+        ],
+        [
+          "Group Input.002",
+          "Socket_3",
+          "Store Named Attribute.002",
+          "Value"
+        ],
+        [
+          "Instance on Points",
+          "Instances",
+          "Realize Instances",
+          "Geometry"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Store Named Attribute",
+          "Value"
+        ],
+        [
+          "Mesh to Volume",
+          "Volume",
+          "Volume to Mesh",
+          "Volume"
+        ],
+        [
+          "Named Attribute",
+          "Attribute",
+          "Combine XYZ",
+          "X"
+        ],
+        [
+          "Named Attribute.001",
+          "Attribute",
+          "Combine XYZ",
+          "Y"
+        ],
+        [
+          "Named Attribute.002",
+          "Attribute",
+          "Combine XYZ",
+          "Z"
+        ],
+        [
+          "Named Attribute.003",
+          "Attribute",
+          "Combine XYZ.001",
+          "X"
+        ],
+        [
+          "Named Attribute.004",
+          "Attribute",
+          "Sample Index.001",
+          "Value"
+        ],
+        [
+          "Named Attribute.005",
+          "Attribute",
+          "Compare",
+          "A"
+        ],
+        [
+          "Named Attribute.007",
+          "Attribute",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Named Attribute.008",
+          "Attribute",
+          "Compare.001",
+          "B"
+        ],
+        [
+          "Named Attribute.009",
+          "Attribute",
+          "Combine XYZ.001",
+          "Y"
+        ],
+        [
+          "Named Attribute.010",
+          "Attribute",
+          "Euler to Rotation",
+          "Euler"
+        ],
+        [
+          "Realize Instances",
+          "Geometry",
+          "Set Material",
+          "Geometry"
+        ],
+        [
+          "Scene Time.001",
+          "Frame",
+          "Compare.001",
+          "A"
+        ],
+        [
+          "Set Material",
+          "Geometry",
+          "Group Output",
+          "Socket_1"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Sample Index.001",
+          "Geometry"
+        ],
+        [
+          "Set Position",
+          "Geometry",
+          "Store Named Attribute",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute",
+          "Geometry",
+          "Store Named Attribute.002",
+          "Geometry"
+        ],
+        [
+          "Store Named Attribute.002",
+          "Geometry",
+          "Delete Geometry",
+          "Geometry"
+        ]
+      ]
+    }
+  ]
+}
