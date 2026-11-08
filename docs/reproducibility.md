@@ -15,6 +15,13 @@ The latest studies are on `research/dielectric-diffraction`; a default clone's
 
 ## Fresh clone checks
 
+Commit `642b432` passed the
+[portable checks](https://github.com/fribas001/differt-bridge/actions/runs/42500132794)
+and [Blender 5.2.3 package checks](https://github.com/fribas001/differt-bridge/actions/runs/42500132860)
+in fresh Windows and Linux GitHub-hosted environments. This verifies those
+test/build workflows beyond the original workstation. It does not reproduce
+the full Maxwell campaign or the workstation's Sionna research profile.
+
 Follow [Contributing](../CONTRIBUTING.md) to create a clean external development
 environment, then run:
 

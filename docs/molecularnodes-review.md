@@ -52,5 +52,15 @@ cleanup passed. The extension ZIP retained its previous SHA-256:
 `f5419cbb7a57719a88749757ae51ef7a7c9d64e63929b1bfb5b6e2e4a3c58009`.
 Extension and existing scientific source files were not changed.
 
-The Windows/Linux CI matrix is configured, but has not been executed for this
-local change. No Maxwell campaign was rerun for this organizational update.
+GitHub Actions subsequently passed all four jobs for
+[`642b432`](https://github.com/fribas001/differt-bridge/commit/642b43242dbb7f7f3927abef3f37fcae90501ebe):
+
+| Workflow | Linux | Windows |
+| --- | --- | --- |
+| [Portable Python/report checks and build](https://github.com/fribas001/differt-bridge/actions/runs/42500132794) | Passed | Passed |
+| [Blender 5.2.3 package and node checks](https://github.com/fribas001/differt-bridge/actions/runs/42500132860) | Passed | Passed |
+
+These runs use fresh GitHub-hosted environments. They validate the repository
+tests and built extension on both systems; they do not recreate the installed
+Sionna research profile or the full Maxwell campaign. No Maxwell campaign was
+rerun for this organizational update.
