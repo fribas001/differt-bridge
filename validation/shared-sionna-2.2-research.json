@@ -1,0 +1,402 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "status": "validated_with_archived_replay_exceptions",
+  "scope": "Windows x64 CPU, explicit process-local phase and reciprocal RT 2.2 research profiles; no shared package changes",
+  "numerical_tolerances": {
+    "point_m": 1e-05,
+    "delay_s": 1e-13,
+    "field_rtol": 1e-05,
+    "field_atol": 2e-10,
+    "phase_rad": 0.0001,
+    "phase_floor": 1e-09
+  },
+  "phase": {
+    "passed": true,
+    "matched_physical_routes": 1299,
+    "same_vertices": true,
+    "maximum_before_after": {
+      "path_gain_db": 0.0,
+      "delay_ns": 0.0,
+      "phase_rad": 0.0,
+      "doppler_hz": 0.0
+    },
+    "paired_phase_difference_rad": [
+      0.0,
+      0.0
+    ],
+    "note": "Matched by TX/RX, ordered vertices and interactions; native storage order/path indices may differ."
+  },
+  "reciprocal_fresh_rt21_vs_rt22": {
+    "passed": true,
+    "cases": 286,
+    "passed_cases": 286,
+    "maxima": {
+      "point_m": 0.0,
+      "delay_s": 0.0,
+      "field_absolute": 0.0,
+      "field_relative": 0.0,
+      "phase_rad": 7.040228561689287e-17
+    },
+    "failed_cases": [],
+    "baseline_sha256": "501be03b131d6847d9531e19acf6454a2d82b8757e0f0f3df9b40c268bc499ea",
+    "new_sha256": "f8f87b62bdf7960eb6c08d97ceb3ec5a221505e521e96581db69f789498b2a46"
+  },
+  "reciprocal_archived_holdout": {
+    "passed": true,
+    "cases": 72,
+    "passed_cases": 72,
+    "maxima": {
+      "point_m": 0.0,
+      "delay_s": 0.0,
+      "field_absolute": 0.0,
+      "field_relative": 0.0,
+      "phase_rad": 8.156209660676399e-17
+    },
+    "failed_cases": [],
+    "baseline_sha256": "6927bb92e426ba6d755eb202249b91b75f637055a85267b03ed5b04f7855c120",
+    "new_sha256": "82a8738c8b38a00012c665242e08d8b901a773d826c71dc3d958d47b2c511bb1"
+  },
+  "reciprocal_archived_main": {
+    "passed": false,
+    "cases": 286,
+    "passed_cases": 280,
+    "maxima": {
+      "point_m": 0.0,
+      "delay_s": 0.0,
+      "field_absolute": 1.1926916000187998e-09,
+      "field_relative": 0.08060816113413369,
+      "phase_rad": 0.0002054944789951115
+    },
+    "failed_cases": [
+      {
+        "name": "boundary_concrete_skew_incident_VH",
+        "completed": true,
+        "input_shape_count_match": true,
+        "point_m": 0.0,
+        "delay_s": 0.0,
+        "field_absolute": 1.347254259675428e-12,
+        "field_relative": 0.08060816113413369,
+        "phase_rad": 0.0002054944789951115,
+        "fields_pass": true,
+        "passed": false
+      },
+      {
+        "name": "boundary_concrete_skew_incident_HV",
+        "completed": true,
+        "input_shape_count_match": true,
+        "point_m": 0.0,
+        "delay_s": 0.0,
+        "field_absolute": 1.5919134066932945e-12,
+        "field_relative": 0.07805633104241268,
+        "phase_rad": 0.00013874977298070892,
+        "fields_pass": true,
+        "passed": false
+      },
+      {
+        "name": "boundary_concrete_28GHz_reflection0_VV",
+        "completed": true,
+        "input_shape_count_match": true,
+        "point_m": 0.0,
+        "delay_s": 0.0,
+        "field_absolute": 1.1926916000187998e-09,
+        "field_relative": 2.443313210573324e-05,
+        "phase_rad": 2.2457368704589993e-05,
+        "fields_pass": false,
+        "passed": false
+      },
+      {
+        "name": "boundary_concrete_28GHz_reflectionn_VV",
+        "completed": true,
+        "input_shape_count_match": true,
+        "point_m": 0.0,
+        "delay_s": 0.0,
+        "field_absolute": 1.1602014222511424e-09,
+        "field_relative": 1.4536152742056285e-05,
+        "phase_rad": 5.635617688427524e-06,
+        "fields_pass": false,
+        "passed": false
+      },
+      {
+        "name": "boundary_concrete_28GHz_reflection0_HH",
+        "completed": true,
+        "input_shape_count_match": true,
+        "point_m": 0.0,
+        "delay_s": 0.0,
+        "field_absolute": 1.099508002609053e-09,
+        "field_relative": 3.062090202684904e-05,
+        "phase_rad": 2.8877323217406322e-05,
+        "fields_pass": false,
+        "passed": false
+      },
+      {
+        "name": "boundary_concrete_28GHz_reflectionn_HH",
+        "completed": true,
+        "input_shape_count_match": true,
+        "point_m": 0.0,
+        "delay_s": 0.0,
+        "field_absolute": 3.792451135984091e-10,
+        "field_relative": 2.701210006138427e-05,
+        "phase_rad": 1.5218211243397636e-05,
+        "fields_pass": false,
+        "passed": false
+      }
+    ],
+    "baseline_sha256": "f9c84e3998d7f062030317d930d9dea00f94eaaf04e74c05856a25d8c2752237",
+    "new_sha256": "f8f87b62bdf7960eb6c08d97ceb3ec5a221505e521e96581db69f789498b2a46"
+  },
+  "archive_caveat": "Six archived boundary discrepancies also occur in fresh retained RT 2.1. Fresh RT 2.1 and RT 2.2 coefficients are exactly equal in all 286 cases. Historical cause unresolved; archived results and tolerances preserved.",
+  "profiles": {
+    "phase": {
+      "guards": {
+        "passed": true,
+        "profile": "phase",
+        "detail": {
+          "profile": "phase",
+          "versions": {
+            "sionna-rt": "2.2.0",
+            "mitsuba": "3.9.1",
+            "drjit": "1.5.0",
+            "numpy": "2.5.4",
+            "scipy": "1.18.1"
+          },
+          "details": {
+            "geometry": "unshifted_float64",
+            "segments": "shared_1mm",
+            "field_arithmetic": "RT 2.1 operation order on RT 2.2 data structures",
+            "scope": "CPU LoS/specular paths; native 2.2 discovery, complete-mesh visibility, unchanged threshold"
+          },
+          "manifest_sha256": "634aee65b9c5130ffff85164f72c256302d03869085d62d0bf95919eed39d4ab",
+          "installation": "Process-local; shared packages and native-library bootstrap unchanged",
+          "obstacle_rejections": 108,
+          "valid_corner_cases": 2,
+          "runs": [
+            {
+              "deterministic": true,
+              "lengths_m": [
+                0.0008999999845400453,
+                0.0009999999310821295,
+                0.0010000000474974513,
+                0.0010000001639127731,
+                0.0010499999625608325,
+                0.006029999814927578,
+                0.009999999776482582,
+                0.012000000104308128
+              ],
+              "accepted": [
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "deterministic": false,
+              "lengths_m": [
+                0.0008999999845400453,
+                0.0009999999310821295,
+                0.0010000000474974513,
+                0.0010000001639127731,
+                0.0010499999625608325,
+                0.006029999814927578,
+                0.009999999776482582,
+                0.012000000104308128
+              ],
+              "accepted": [
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        "idempotence": true,
+        "source_guard_rejection": true,
+        "cross_profile_rejected": true
+      },
+      "blender": {
+        "profile": "phase",
+        "runtime": "shared",
+        "counts": {
+          "matched": 1299
+        },
+        "maximum_phase_difference_rad": 0.0,
+        "scene_sha256": "4eb4f41ed39613e13a51e1289d30ebfec259ce8967e5915d10b425e1e8310a45",
+        "saved_source_scene": false
+      }
+    },
+    "reciprocal": {
+      "guards": {
+        "passed": true,
+        "profile": "reciprocal",
+        "detail": {
+          "profile": "reciprocal",
+          "versions": {
+            "sionna-rt": "2.2.0",
+            "mitsuba": "3.9.1",
+            "drjit": "1.5.0",
+            "numpy": "2.5.4",
+            "scipy": "1.18.1"
+          },
+          "details": {
+            "original_source_sha256": "ed281ec75f616220fb9fc9d761ba006f289af764059b6dcecb3df8b6f347cacd",
+            "diagnostic_source_sha256": "742886ed2420ec55c3146cbca56f990f465b8f9533bf48572e6753c1207d4029",
+            "scope": "Reciprocal full Jones matrix before native field transport; no conjugation or completed-channel averaging",
+            "distance": {
+              "original_source_sha256": "42e77c27806a3d05569eed185112b7a2ba88f679ab9c1fd2d009edece7cb963b",
+              "diagnostic_source_sha256": "13adcd786afb7dbebc1ef000e1b1603e1a40be071049c8338076cad626f5cc11",
+              "scope": "In-process distance accumulation only; ignore NONE padding, preserve all active segments"
+            },
+            "opaque_slab": {
+              "source_sha256": "d5b2913cc181239fd4ac00b40c921d62752a74db50431a05cd14854cbf395cac",
+              "patched_sha256": "4c15bb84d4de27e6d41b34775a137b313877f72740309e2467744856a1017cb1",
+              "attenuation_threshold": -80.0,
+              "scope": "Opaque slab exponential only; source-guarded numerical fix, no conductivity clamp"
+            },
+            "material_sqrt": {
+              "scope": "Fresnel and slab material square root only; preserve small passive loss and automatic derivatives",
+              "source_sha256": "a631ffe1798b8c38b61cb5391962a683a88c08a4abdbd25d4f6b6df06fa2d71e"
+            },
+            "field_arithmetic": "RT 2.1 operation order on RT 2.2 data structures",
+            "geometry": {
+              "scope": "Diffraction-enabled solves only. Reconstruct native-discovered pure specular/LoS candidates, including offset-rejected candidates; refine native-accepted R/D chains. Enforce finite surfaces, interaction laws, native segment limits and complete-mesh visibility.",
+              "source_sha256": "da109f3ab460e1f0dcacc6655594cd9a691edc519ec50cfcb66f54efcd626122"
+            },
+            "boundary_convention": {
+              "name": "shadow-side joint-field limit",
+              "angular_kernel_band_rad": 8e-07,
+              "coincident_route_tolerance_rad": 4e-07,
+              "scope": "Single-edge coincidence. Coincident GO companions merge into the finite diffraction contribution; no invalid path is accepted."
+            },
+            "profile": "reciprocal",
+            "engine": "sionna",
+            "runtime": "2.2.0",
+            "installer": "project-local rt22_profiles"
+          },
+          "manifest_sha256": "634aee65b9c5130ffff85164f72c256302d03869085d62d0bf95919eed39d4ab",
+          "installation": "Process-local; shared packages and native-library bootstrap unchanged"
+        },
+        "idempotence": true,
+        "source_guard_rejection": true,
+        "cross_profile_rejected": true
+      },
+      "blender": {
+        "profile": "reciprocal",
+        "runtime": "shared",
+        "counts": {
+          "matched": 3
+        },
+        "maximum_phase_difference_rad": 1.7285346984863281e-06,
+        "scene_sha256": "ba314a2b8724cc3c024939cede0ac0aa4523ce7299ed1a1c7bd3d9a9c30aecf7",
+        "saved_source_scene": false
+      }
+    }
+  },
+  "maxwell_companions": [
+    {
+      "name": "pec3d",
+      "paired_rows": 60,
+      "companion_exact": true,
+      "maximum_native_absolute": 0.0,
+      "maximum_companion_absolute": 0.0
+    },
+    {
+      "name": "maxwell2d",
+      "paired_rows": 80,
+      "companion_exact": true,
+      "maximum_native_absolute": 5.773182681911848e-09,
+      "maximum_companion_absolute": 0.0,
+      "complex_field_comparison": {
+        "passed": true,
+        "maximum_absolute": 5.98433508377417e-09,
+        "maximum_relative": 2.1400036842923516e-07,
+        "maximum_phase_rad": 1.6987282324695573e-07
+      }
+    },
+    {
+      "name": "dielectric3d",
+      "paired_rows": 108,
+      "companion_exact": true,
+      "maximum_native_absolute": 0.0,
+      "maximum_companion_absolute": 0.0
+    }
+  ],
+  "tests": {
+    "focused_before_finalization": 40,
+    "dispatch_and_numerical_comparator_after_finalization": 14,
+    "distinct_focused_tests": 47,
+    "native_workflow": {
+      "status": "passed",
+      "processes": [
+        {
+          "label": "runtime",
+          "returncode": 0
+        },
+        {
+          "label": "paired",
+          "returncode": 0
+        },
+        {
+          "label": "blender-free_space",
+          "returncode": 0
+        },
+        {
+          "label": "blender-ground_reflection",
+          "returncode": 0
+        },
+        {
+          "label": "blender-blocked_los",
+          "returncode": 0
+        },
+        {
+          "label": "blender-receiver_motion",
+          "returncode": 0
+        },
+        {
+          "label": "blender-batch",
+          "returncode": 0
+        }
+      ]
+    },
+    "baseline_full_suite": "360/363 passed before migration; three existing strict patched-DiffeRT float32 failures; tolerances unchanged"
+  },
+  "preservation": {
+    "protected_files": 12264,
+    "passed": true,
+    "shared_packages_changed": false,
+    "old_environments_deleted": false,
+    "old_environment_bytes": {
+      "work/sionna-runtime": 445876118,
+      "work/runtime": 645085810
+    },
+    "scene_hashes": {
+      "phase": "4eb4f41ed39613e13a51e1289d30ebfec259ce8967e5915d10b425e1e8310a45",
+      "reciprocal": "ba314a2b8724cc3c024939cede0ac0aa4523ce7299ed1a1c7bd3d9a9c30aecf7"
+    }
+  },
+  "profile_manifest_sha256": "634aee65b9c5130ffff85164f72c256302d03869085d62d0bf95919eed39d4ab",
+  "evidence_folders": [
+    "work/migrate-research22",
+    "work/r22-final-old",
+    "work/r22-final-order",
+    "work/r22-holdout-order",
+    "work/r22-check-1110-164335-988431",
+    "work/rt22-check-20261110-164011-626451"
+  ],
+  "limitations": [
+    "Phase: LoS/specular paths only; no diffraction/refraction/diffuse fields.",
+    "Reciprocal: source exclusion boxes unsupported; old KP experiments remain RT 2.1.",
+    "Research coverage and AD gradients not certified; native coverage remains available.",
+    "No new Maxwell model-accuracy claim. Unchanged companion domains and reference uncertainty.",
+    "Historical animation regeneration and unfinished reproduction bundle retain original environments."
+  ]
+}

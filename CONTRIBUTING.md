@@ -6,6 +6,13 @@ different validation requirements.
 
 ## Development environment
 
+For native and explicitly profiled research RT work on the shared Windows workstation, follow the
+[RT 2.2 bootstrap commands](docs/shared-sionna-runtime.md). Do not install this
+project, pytest, DiffeRT or upgraded dependencies into that shared environment.
+Development, DiffeRT, Maxwell and legacy replay keep separate interpreters.
+Research adapters use the guarded process-only route in
+[research migration](docs/shared-sionna-research.md); never relax the RT 2.1 guards.
+
 Use a clean Python 3.12 virtual environment and Node.js 22 or newer:
 
 ```sh

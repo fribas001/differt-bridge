@@ -7,6 +7,8 @@ This first public release is a **prerelease**. The extension is derived from Sio
 ## Start here
 
 - [Install and configure both engines](docs/install.md)
+- [Shared Sionna RT 2.2 workflow and historical-runtime rollback](docs/shared-sionna-runtime.md)
+- [Reciprocal and phase-alignment migration measurements](docs/shared-sionna-research.md)
 - [Documentation index](docs/index.md)
 - [Validation, release checks and limitations](docs/validation.md)
 - [Research studies: diffraction, reciprocity and Maxwell references](research/README.md)
@@ -17,7 +19,7 @@ This first public release is a **prerelease**. The extension is derived from Sio
 
 ## Workflow
 
-Install `differt_bridge-0.6.3.zip` with Blender's **Install from Disk** command. Configure **DiffeRT → Runtime → External Python** with a separate environment created from `requirements-external.txt`. In the DiffeRT panel, use **Copy Sionna Setup**, then **Run Both — Paths**. Each engine keeps its own settings, workers and result collections.
+Install `differt_bridge-0.6.3.zip` with Blender's **Install from Disk** command. Configure **DiffeRT â†’ Runtime â†’ External Python** with a separate environment created from `requirements-external.txt`. In the DiffeRT panel, use **Copy Sionna Setup**, then **Run Both â€” Paths**. Each engine keeps its own settings, workers and result collections.
 
 Geometry is shared. Device objects and radio settings are copied; repeat the copy after changing device constraints, static settings or animation assignments. Custom drivers on radio properties are not translated automatically. Use separate output folders for both engines.
 

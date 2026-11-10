@@ -1,0 +1,8 @@
+historical_fields.py derives from Sionna RT 2.1.0 field_calculator.py,
+Copyright (c) 2021-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Apache License 2.0; see LICENSE.apache-2.0 in this directory.
+Source: https://github.com/NVlabs/sionna-rt, release 2.1.0.
+Changes: __call__, _compute_cir and _update_field extracted as top-level
+functions, with unchanged arithmetic, for process-local compatibility with
+the RT 2.2 FieldCalculator. The original source hash is in manifest.json.
+The separately developed geometry/segment helpers retain their original bytes.

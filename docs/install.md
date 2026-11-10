@@ -12,11 +12,18 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -c "import differt,jax; print(differt.__version__,jax.__version__,jax.devices())"
 ```
 
-Alternatively, `scripts/setup_runtime.ps1 -Python C:/path/to/python.exe -Environment .venv` creates and probes the environment. Install the ZIP from the [prerelease](https://github.com/fribas001/differt-bridge/releases/tag/v0.6.3) through Blender 5.2 **Edit → Preferences → Add-ons → Install from Disk**. Enable DiffeRT-Bridge; retain SionnaRT-Bridge.
+Alternatively, `scripts/setup_runtime.ps1 -Python C:/path/to/python.exe -Environment .venv` creates and probes the environment. Install the ZIP from the [prerelease](https://github.com/fribas001/differt-bridge/releases/tag/v0.6.3) through Blender 5.2 **Edit â†’ Preferences â†’ Add-ons â†’ Install from Disk**. Enable DiffeRT-Bridge; retain SionnaRT-Bridge.
 
-In **DiffeRT → Runtime**, select External Python and the new environment's `Scripts/python.exe`. Choose a writable results folder and press **Test Runtime**. Default Python/results paths can also be saved under the extension's preferences. Explicit scene paths take precedence over these defaults.
+In **DiffeRT â†’ Runtime**, select External Python and the new environment's `Scripts/python.exe`. Choose a writable results folder and press **Test Runtime**. Default Python/results paths can also be saved under the extension's preferences. Explicit scene paths take precedence over these defaults.
 
 ## Sionna runtime
+
+On the validated shared Windows workstation, use the
+[shared RT 2.2 launchers and bootstrap](shared-sionna-runtime.md). Keep that
+environment pinned; do not run the installation commands below inside it.
+Explicit reciprocal and phase-alignment profiles now run on shared RT 2.2; see
+[research migration and validation](shared-sionna-research.md). RT 2.1 is retained
+for historical replay and unsupported experimental profiles.
 
 Follow [SionnaRT-Bridge's installation guide](https://github.com/fribas001/sionnart-bridge/blob/main/src/sionnart_bridge/README.md), using that repository's own dependency file. DiffeRT-Bridge does not import Sionna, Mitsuba or Dr.Jit inside its worker.
 
@@ -25,10 +32,10 @@ For the specifically validated Windows CPU stack, see the [scoped LLVM adapter](
 ## Compare
 
 1. Open or create your Sionna scene.
-2. Use **DiffeRT → Copy Sionna Setup**. Geometry is shared; devices and radio controls are copied into separate DiffeRT collections.
+2. Use **DiffeRT â†’ Copy Sionna Setup**. Geometry is shared; devices and radio controls are copied into separate DiffeRT collections.
 3. Set each extension's external interpreter and separate results folder.
 4. Begin with maximum depth 1, LoS and specular reflection, isotropic antennas and a small scene.
-5. Use **Run Both — Paths** and open the comparison report. Check its actual-input and geometry matching status before interpreting deltas.
+5. Use **Run Both â€” Paths** and open the comparison report. Check its actual-input and geometry matching status before interpreting deltas.
 6. Enable diffraction or additional features separately and consult the model-limit table and diffraction report.
 
 Do not expect the workstation research profile's zero phase residual on a fresh native installation. That historical result used additional arithmetic/material/geometry alignment beyond this release's default runtime. The native comparison is retained to expose actual engine differences.

@@ -1,8 +1,10 @@
 # Documentation
 
-| I want to… | Start here |
+| I want toâ€¦ | Start here |
 | --- | --- |
 | Install the extension and configure both engines | [Installation](install.md) |
+| Use the shared Windows Sionna RT 2.2 environment | [Shared runtime and rollback](shared-sionna-runtime.md) |
+| Run reciprocal and phase-aligned research on RT 2.2 | [Research migration and evidence](shared-sionna-research.md) |
 | Understand what has been validated | [Validation and limitations](validation.md) |
 | Find the latest dielectric/Maxwell results | [Research studies](../research/README.md) |
 | Reproduce a study on another computer | [Reproducibility status](reproducibility.md) |

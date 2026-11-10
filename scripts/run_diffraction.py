@@ -6,6 +6,7 @@ from pathlib import Path
 import numpy as np
 from diffraction_cases import pilot_cases
 from diffraction_physics_cases import cases as physics_cases,pec_channel
+from shared_sionna import command as runtime_command, is_shared, require_native, worker_environment
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
@@ -16,6 +17,7 @@ def main():
     ap.add_argument('--experimental-sionna',choices=['kp_assembly','kp_depth'])
     args=ap.parse_args();out=args.output.resolve();out.mkdir(parents=True,exist_ok=True)
     if args.experimental_sionna and not args.sionna_python:ap.error('An experimental Sionna profile requires --sionna-python')
+    if args.sionna_python and is_shared(args.sionna_python):require_native(args.experimental_sionna or 'native')
     cases=physics_cases() if args.suite=='physics' else pilot_cases()
     if args.only:
         names=set(args.only.split(','));cases=[c for c in cases if c['name'] in names]
@@ -30,6 +32,8 @@ def main():
         command=[str(python.resolve()),'-B',str(ROOT/'scripts/diffraction_physics_worker.py'),profile,engine,str(manifest),str(folder),'--precision','native','--diffraction-geometry','validated']
         env=os.environ.copy()
         if args.llvm_library:env['DRJIT_LIBLLVM_PATH']=str(args.llvm_library.resolve())
+        if engine=='sionna' and is_shared(python):
+            command=runtime_command(python,command[1:]);env=worker_environment(env)
         started=time.perf_counter()
         with (folder/'process.log').open('w',encoding='utf-8') as log:p=subprocess.run(command,env=env,stdout=log,stderr=subprocess.STDOUT)
         path=folder/(engine+'_native.json');data=json.loads(path.read_text()) if path.exists() else {}

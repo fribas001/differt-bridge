@@ -33,7 +33,16 @@ bpy.context.preferences.filepaths.save_version=0
 ss=scene.sionna_bridge;ds=scene.differt_bridge
 ss.runtime_mode=ds.runtime_mode='EXTERNAL'
 ss.sionna_python=sionna_python;ds.differt_python=differt_python
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from shared_sionna import is_shared, attach_bridge
+if is_shared(sionna_python):
+    attach_bridge(s)
 ss.drjit_libllvm_path=os.environ.get('DRJIT_LIBLLVM_PATH','')
+if is_shared(sionna_python):
+    ss.drjit_libllvm_path=''
+    assert bpy.ops.sionna_bridge.test_environment()=={'FINISHED'},ss.last_status
+    probe=json.loads(ss.runtime_probe_json)
+    assert probe['sionna_rt']=='2.2.0' and probe['variant']=='llvm_ad_mono_polarized'
 ss.workspace_dir=str(out/'sionna_runs');ds.workspace_dir=str(out/'differt_runs')
 ss.dynamic_mode=ds.dynamic_mode=False
 ss.parameter_analysis_enabled=True

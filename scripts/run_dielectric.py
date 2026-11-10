@@ -3,6 +3,7 @@ import argparse,hashlib,json,os,subprocess,time
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 from dielectric_cases import cases
+from shared_sionna import command, is_shared, worker_environment
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
@@ -16,6 +17,10 @@ def main():
     allowed={'differt-native','sionna-native','sionna-kp_depth','differt-polarization','differt-incident','differt-symmetric_cosine','differt-reciprocal','sionna-reciprocal'}
     if not profiles or len(profiles)!=len(set(profiles)) or not set(profiles)<=allowed:
         ap.error('Choose unique profiles from: '+','.join(sorted(allowed)))
+    if is_shared(args.sionna_python):
+        for label in profiles:
+            if label.startswith('sionna-') and label not in ('sionna-native','sionna-reciprocal'):
+                ap.error('Shared RT 2.2 supports native and reciprocal dielectric profiles; KP diagnostics retain the legacy runtime')
     out=args.output.resolve();out.mkdir(parents=True,exist_ok=True)
     selected=json.loads(args.manifest.read_text(encoding='utf-8-sig'))['cases'] if args.manifest else cases()
     if args.only:
@@ -30,12 +35,18 @@ def main():
         env=os.environ.copy();env['DIFFERT_FIELD_PRECISION']='float64' if args.precision=='float64' else 'float32'
         env['RADIO_DIELECTRIC_PROFILE']='native'  # Explicit process-local profile below; never inherit a corrected baseline.
         if args.llvm_library:env['DRJIT_LIBLLVM_PATH']=str(args.llvm_library.resolve())
+        if engine=='sionna' and is_shared(python):
+            env.update(RADIO_RT22_PROFILE=profile,RADIO_DIELECTRIC_PROFILE=profile,
+                       RADIO_SEGMENT_PROFILE='native',SIONNA_GEOMETRY_PROFILE='native')
+            cmd=command(python,cmd[1:],profile=profile);env=worker_environment(env)
         start=time.perf_counter()
         with (folder/'process.log').open('w',encoding='utf-8') as log:p=subprocess.run(cmd,env=env,stdout=log,stderr=subprocess.STDOUT)
         datafile=folder/(engine+'_'+precision+'.json');data=json.loads(datafile.read_text()) if datafile.exists() else {}
         receipt=dict(profile=label,returncode=p.returncode,elapsed_seconds=time.perf_counter()-start,requested=len(selected),completed=sum(c['status']=='completed' for c in data.get('cases',[])),
                      status=data.get('status'),output=datafile.name,output_sha256=hashlib.sha256(datafile.read_bytes()).hexdigest() if datafile.exists() else None)
         receipt['passed']=p.returncode==0 and receipt['completed']==len(selected) and receipt['status']=='completed'
+        receipt['command']=cmd
+        receipt['runtime_versions']=data.get('versions',{})
         (folder/'receipt.json').write_text(json.dumps(receipt,indent=2));print(json.dumps(receipt),flush=True);return receipt
     with ThreadPoolExecutor(max_workers=2) as pool:receipts=list(pool.map(run,profiles))
     result=dict(status='passed' if all(r['passed'] for r in receipts) else 'failed',manifest_sha256=hashlib.sha256(manifest.read_bytes()).hexdigest(),processes=receipts)

@@ -1,0 +1,30 @@
+{
+  "historical_files": {
+    "_bridge_geometry.py": "31d7b2b7a7af75f343d7bb078850721303bcbf964d15601e9ba56ed1cecc704c",
+    "_bridge_segment_policy.py": "29c953cb023c85923e95e58cd488c3dcbd4cd13019bfa3340b5b89150c9ef045",
+    "field_calculator.py": "02ac0e5264e8c6ad7bf299055c4b37c133b522f6d2d40e3ba923013f52d31ed0"
+  },
+  "native_files": {
+    "path_solvers/image_method.py": "a5abab3c33bcd69ca06c40557a4ed5cd44cf21f5cfed569ad4b2b3e74df50a00",
+    "path_solvers/path_solver.py": "421c3926a2d9c8dc77c7323752f04d4f9bfba79c5d8a3faa6494806d51a6d71b",
+    "path_solvers/sb_candidate_generator.py": "000990cff3b22a65466411d4c13ea6d18fa0acb67e3508e50849ff4a6a42c3f5",
+    "path_solvers/sb_deterministic.py": "d53fa5f02667e2aa647b5de2650c4d63f7d077f5a380723a62decbaede7a7ed9",
+    "path_solvers/field_calculator.py": "8eb079049a4ecd76b76efb47378de69948c24eb4f6dea812cd29f06885c8ccf8",
+    "path_solvers/paths_buffer.py": "450ae7436205af1f519654d5723e16e4edc4303c3361e0921c9023c8bda0f892",
+    "radio_materials/radio_material.py": "e32aca941e7e1e841fff8d46b6fcbcbb59b9488b5401ff163559afda8d2ebb1e",
+    "utils/electromagnetics.py": "ce9d8533f521d12a50948fe794264b17351110db4253a72a6daeec71363690b5",
+    "utils/geometry.py": "5651a0b5e37416c86665201c7728538be6ff9415002f144e0ea04882e0a5c56f",
+    "utils/ray_tracing.py": "d4dd69ec9a9ed32849b49e546596a74e104d80964374949d9ec5458056f17333",
+    "utils/wedges.py": "d896c1010ea1501098de6a2b82b871df58775601e94e522b9ab1e56c111ed06d",
+    "utils/jones.py": "8725aa9ee59d439efac864c9b22ab787071b488415048bfe232bccdc384b0a63"
+  },
+  "payload": {
+    "historical_fields.py": "a8aa96c704f7d499b30d705941b7ee2b40125744a06ef9151776207c5112b437",
+    "_bridge_geometry.py": "31d7b2b7a7af75f343d7bb078850721303bcbf964d15601e9ba56ed1cecc704c",
+    "_bridge_segment_policy.py": "29c953cb023c85923e95e58cd488c3dcbd4cd13019bfa3340b5b89150c9ef045",
+    "../reciprocal_corrections.py": "ad376163ebedc37420439f895efe8a9d46871b2682c79589dfa65f669f75b15c",
+    "../reciprocal_geometry.py": "a1ae57625924fd338f70bdd00989db09d02b96ab299a47b8705e605664f5a941",
+    "../reciprocal_boundary.py": "87effe52737e7142dac37777d869d874f56d7cb58386f43095efe726bad38698",
+    "../diffraction_physics_worker.py": "3289966e23643afd8e0445314a473143de45c5d5aa8a5faa30de21a196eb1f60"
+  }
+}

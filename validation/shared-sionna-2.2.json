@@ -1,0 +1,957 @@
+{
+  "date": "2026-11-10",
+  "status": "compatible-native-workflows-migrated",
+  "scope": "Windows x64 CPU native RT 2.2; historical patched RT 2.1 and DiffeRT/Maxwell retained",
+  "shared_packages_modified": false,
+  "greenhouse_modified": false,
+  "existing_environments_deleted": false,
+  "diffraction_comparison": {
+    "tolerances": {
+      "position_m": 1e-05,
+      "delay_s": 1e-13,
+      "field_relative": 1e-05,
+      "field_absolute": 2e-10,
+      "phase_rad": 0.0001
+    },
+    "before": {
+      "sionna-rt": "2.1.0",
+      "mitsuba": "3.9.1",
+      "drjit": "1.5.0",
+      "numpy": "2.5.2"
+    },
+    "after": {
+      "sionna-rt": "2.2.0",
+      "mitsuba": "3.9.1",
+      "drjit": "1.5.0",
+      "numpy": "2.5.4"
+    },
+    "cases": [
+      {
+        "name": "wedge_v",
+        "completed": true,
+        "paths_before": 1,
+        "paths_after": 1,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 1.6918973923955024e-07,
+        "field_absolute": 8.134767913360665e-12,
+        "phase_rad": 4.646404426875029e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "wedge_h",
+        "completed": true,
+        "paths_before": 1,
+        "paths_after": 1,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 2.017584031336835e-07,
+        "field_absolute": 9.094947017729282e-12,
+        "phase_rad": 1.8913780247151455e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "wedge_reciprocal",
+        "completed": true,
+        "paths_before": 1,
+        "paths_after": 1,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 1.3990842372135548e-07,
+        "field_absolute": 8.134767913360665e-12,
+        "phase_rad": 4.0723257342637783e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "diffraction_disabled",
+        "completed": true,
+        "paths_before": 0,
+        "paths_after": 0,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 0.0,
+        "field_absolute": 0.0,
+        "phase_rad": 0.0,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "open_sheet_edge_on",
+        "completed": true,
+        "paths_before": 4,
+        "paths_after": 4,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 2.4604786808595733e-07,
+        "field_absolute": 5.1448789686149945e-12,
+        "phase_rad": 3.259757887613568e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "reflection_diffraction",
+        "completed": true,
+        "paths_before": 2,
+        "paths_after": 2,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 1.6918973923955024e-07,
+        "field_absolute": 8.134767913360665e-12,
+        "phase_rad": 4.646404426875029e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "shadow_boundary_v",
+        "completed": true,
+        "paths_before": 13,
+        "paths_after": 13,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 3.814697265625e-06,
+        "delay_s": 0.0,
+        "field_relative": 2.0679619924853916e-07,
+        "field_absolute": 1.3015628661377063e-10,
+        "phase_rad": 3.9655079090927335e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "shadow_boundary_h",
+        "completed": true,
+        "paths_before": 13,
+        "paths_after": 13,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 3.814697265625e-06,
+        "delay_s": 0.0,
+        "field_relative": 2.0349384046313478e-07,
+        "field_absolute": 1.3015628661377063e-10,
+        "phase_rad": 1.306636974319349e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "block_incoming",
+        "completed": true,
+        "paths_before": 0,
+        "paths_after": 0,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 0.0,
+        "field_absolute": 0.0,
+        "phase_rad": 0.0,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "block_outgoing",
+        "completed": true,
+        "paths_before": 0,
+        "paths_after": 0,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 0.0,
+        "field_absolute": 0.0,
+        "phase_rad": 0.0,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "clear_nearby",
+        "completed": true,
+        "paths_before": 1,
+        "paths_after": 1,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 1.6918973923955024e-07,
+        "field_absolute": 8.134767913360665e-12,
+        "phase_rad": 4.646404426875029e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      },
+      {
+        "name": "repeat_warm",
+        "completed": true,
+        "paths_before": 1,
+        "paths_after": 1,
+        "shapes_equal": true,
+        "inputs_equal": true,
+        "material_equal": true,
+        "same_paths": true,
+        "position_m": 0.0,
+        "delay_s": 0.0,
+        "field_relative": 1.6918973923955024e-07,
+        "field_absolute": 8.134767913360665e-12,
+        "phase_rad": 4.646404426875029e-08,
+        "fields_within_tolerance": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "blender": [
+    {
+      "case": "free_space",
+      "blender": "5.2.3 LTS",
+      "checks": [
+        "cancel terminates owned worker and restores settings",
+        "opening another file cancels the comparison",
+        "captured inputs and exported geometry matched",
+        "all available metric deltas below 0.001 in their stated units",
+        "reference path counts and analytic free-space/doppler checks",
+        "saved embedded results compare without rerunning"
+      ],
+      "links": 1,
+      "expected_paths_per_link": 1,
+      "max_gain_delta_db": 1.1867839546653158e-06,
+      "scene": "work/migration-rt22/blender-shared/free_space/free_space.blend",
+      "report": "work/migration-rt22/blender-shared/free_space/comparison/comparison.html"
+    },
+    {
+      "case": "ground_reflection",
+      "blender": "5.2.3 LTS",
+      "checks": [
+        "captured inputs and exported geometry matched",
+        "all available metric deltas below 0.001 in their stated units",
+        "reference path counts and analytic free-space/doppler checks",
+        "saved embedded results compare without rerunning"
+      ],
+      "links": 1,
+      "expected_paths_per_link": 2,
+      "max_gain_delta_db": 2.19245616506214e-06,
+      "scene": "work/migration-rt22/blender-shared/ground_reflection/ground_reflection.blend",
+      "report": "work/migration-rt22/blender-shared/ground_reflection/comparison/comparison.html"
+    },
+    {
+      "case": "blocked_los",
+      "blender": "5.2.3 LTS",
+      "checks": [
+        "captured inputs and exported geometry matched",
+        "all available metric deltas below 0.001 in their stated units",
+        "reference path counts and analytic free-space/doppler checks",
+        "saved embedded results compare without rerunning"
+      ],
+      "links": 1,
+      "expected_paths_per_link": 0,
+      "max_gain_delta_db": null,
+      "scene": "work/migration-rt22/blender-shared/blocked_los/blocked_los.blend",
+      "report": "work/migration-rt22/blender-shared/blocked_los/comparison/comparison.html"
+    },
+    {
+      "case": "receiver_motion",
+      "blender": "5.2.3 LTS",
+      "checks": [
+        "captured inputs and exported geometry matched",
+        "all available metric deltas below 0.001 in their stated units",
+        "reference path counts and analytic free-space/doppler checks",
+        "saved embedded results compare without rerunning"
+      ],
+      "links": 2,
+      "expected_paths_per_link": 1,
+      "max_gain_delta_db": 1.8246802895305336e-06,
+      "scene": "work/migration-rt22/blender-shared/receiver_motion/receiver_motion.blend",
+      "report": "work/migration-rt22/blender-shared/receiver_motion/comparison/comparison.html"
+    }
+  ],
+  "batch_hdf5": {
+    "passed": true,
+    "datasets": [
+      {
+        "dataset": "simulations/coverage_2d/coordinates/cell_centers",
+        "shape": [
+          2,
+          2,
+          3
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/frame",
+        "shape": [
+          1
+        ],
+        "dtype": "int32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/plane_basis",
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/plane_center",
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/plane_orientation",
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/plane_u",
+        "shape": [
+          2
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/plane_v",
+        "shape": [
+          2
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/time_seconds",
+        "shape": [
+          1
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/tx",
+        "shape": [
+          1
+        ],
+        "dtype": "object",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/u",
+        "shape": [
+          2
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/v",
+        "shape": [
+          2
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/x",
+        "shape": [
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/xyz",
+        "shape": [
+          3
+        ],
+        "dtype": "object",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/y",
+        "shape": [
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/coordinates/z_plane",
+        "shape": [],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/data/associated_tx",
+        "shape": [
+          1,
+          2,
+          2
+        ],
+        "dtype": "int32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/data/coverage_valid",
+        "shape": [
+          1,
+          2,
+          2
+        ],
+        "dtype": "int32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/data/metric_norm",
+        "shape": [
+          1,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 1.7881393432617188e-07,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/data/values",
+        "shape": [
+          1,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 7.105427357601002e-15,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_2d/data/values_db",
+        "shape": [
+          1,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 0.001,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/cell_centers",
+        "shape": [
+          2,
+          2,
+          2,
+          3
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/frame",
+        "shape": [
+          1
+        ],
+        "dtype": "int32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/layer_heights",
+        "shape": [
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/time_seconds",
+        "shape": [
+          1
+        ],
+        "dtype": "float64",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/tx",
+        "shape": [
+          1
+        ],
+        "dtype": "object",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/x",
+        "shape": [
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/xyz",
+        "shape": [
+          3
+        ],
+        "dtype": "object",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/y",
+        "shape": [
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/coordinates/z",
+        "shape": [
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/associated_tx",
+        "shape": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "dtype": "int32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/coverage_valid",
+        "shape": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "dtype": "int32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/grid_shape_zyx",
+        "shape": [
+          1,
+          3
+        ],
+        "dtype": "int32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/metric_norm",
+        "shape": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/path_gain",
+        "shape": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 2.842170943040401e-14,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/path_gain_db",
+        "shape": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 0.001,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/values",
+        "shape": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 2.842170943040401e-14,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/coverage_3d/data/values_db",
+        "shape": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 0.001,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/a_imag",
+        "shape": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 3.410605131648481e-13,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/a_real",
+        "shape": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/doppler",
+        "shape": [
+          1,
+          1,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/interactions",
+        "shape": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "dtype": "uint32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/objects",
+        "shape": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "dtype": "uint32",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/sources",
+        "shape": [
+          3,
+          1
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/targets",
+        "shape": [
+          3,
+          1
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/tau",
+        "shape": [
+          1,
+          1,
+          2
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/valid",
+        "shape": [
+          1,
+          1,
+          2
+        ],
+        "dtype": "bool",
+        "passed": true
+      },
+      {
+        "dataset": "simulations/paths/frames/frame_000001/raw/vertices",
+        "shape": [
+          1,
+          1,
+          1,
+          2,
+          3
+        ],
+        "dtype": "float32",
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-05,
+        "passed": true
+      }
+    ],
+    "shapes_and_dtypes_equal": true,
+    "coordinate_system": {
+      "units": "meters",
+      "blender_up_axis": "Z",
+      "note": "TX/RX positions are evaluated Blender world-space coordinates."
+    },
+    "unit_scope": "Metres/Z-up declarations compared in export metadata; raw delay uses seconds; dataset unit attributes are absent in this schema."
+  },
+  "maxwell": {
+    "mode": 5,
+    "shape": [
+      28,
+      3,
+      6
+    ],
+    "relative_complex_error": 0.0,
+    "tolerance": 1e-09,
+    "linear_residual": 1.4513741412281507e-15,
+    "python": "work/runtime/Scripts/python.exe",
+    "passed": true
+  },
+  "launcher_session": {
+    "passed": true,
+    "subsequent_scene_loads": 2,
+    "blender_imported_mitsuba": false,
+    "source_scenes_unchanged": true
+  },
+  "portable_runner_checks": {
+    "paired": {
+      "status": "passed",
+      "processes": [
+        {
+          "profile": "differt-native",
+          "returncode": 0,
+          "requested": 6,
+          "completed": 6,
+          "runtime_versions": {
+            "differt": "0.12.0",
+            "jax": "0.12.0.1",
+            "jaxlib": "0.12.0.1",
+            "warp-lang": "1.18.0",
+            "numpy": "2.5.2"
+          }
+        },
+        {
+          "profile": "sionna-native",
+          "returncode": 0,
+          "requested": 6,
+          "completed": 6,
+          "runtime_versions": {
+            "sionna-rt": "2.2.0",
+            "mitsuba": "3.9.1",
+            "drjit": "1.5.0",
+            "numpy": "2.5.4"
+          }
+        }
+      ]
+    },
+    "pilot": {
+      "status": "completed",
+      "processes": [
+        {
+          "engine": "differt",
+          "profile": "native",
+          "returncode": 0,
+          "requested_cases": 3,
+          "completed_cases": 3
+        },
+        {
+          "engine": "sionna",
+          "profile": "native",
+          "returncode": 0,
+          "requested_cases": 3,
+          "completed_cases": 3
+        }
+      ]
+    }
+  },
+  "default_health_launcher": "passed",
+  "tests": {
+    "baseline_total": 363,
+    "baseline_passed": 360,
+    "baseline_failed": 3,
+    "baseline_failures": [
+      "test_free_space_delay_loss_and_doppler",
+      "test_passband_phase_and_baseband_cir_are_distinct[3500000000.0]",
+      "test_passband_phase_and_baseband_cir_are_distinct[28000000000.0]"
+    ],
+    "cause": "Existing patched DiffeRT float32 coefficients exceed clean-upstream relative tolerances (2.59e-7 power, 1.08e-7 amplitude). No tolerances changed.",
+    "migration_and_comparison_tests_passed": 17
+  },
+  "structural_checks": "passed: source/package paths, documentation links, 11 research studies and Geometry Nodes contract",
+  "preserved": {
+    "protected_files": 12264,
+    "snapshot_sha256": "7f85a92129e8f97e66102f4c4230bbd322600e4e311149ca771bb7c140d2ab8d",
+    "shared_and_legacy_runtime_hash_verification": "passed",
+    "environments": [
+      {
+        "path": "work/runtime",
+        "bytes": 645085810,
+        "removable_now": false
+      },
+      {
+        "path": "work/sionna-runtime",
+        "bytes": 445876118,
+        "removable_now": false
+      }
+    ]
+  },
+  "limitations": [
+    "Historical reciprocal correction and geometry/arithmetic alignment require RT 2.1; shared research requests fail closed.",
+    "Maxwell retains NumPy 2.5.2 / SciPy 1.18.0; one fresh modal solve checked, full convergence campaign not rerun.",
+    "GPU, PHY/SYS, legacy TensorFlow and general finite-object Maxwell accuracy are outside this migration.",
+    "Sandbox emitted nonfatal Dr.Jit cache-link and Blender thumbnail warnings; numerical and process-exit checks passed.",
+    "First added batch receipt reader expected intermediate JSON removed by the addon after HDF5 export; corrected to use retained HDF5 metadata. The original failed test log is retained."
+  ]
+}
