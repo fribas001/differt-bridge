@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "release": "project-2026-11-11",
   "repository": "fribas001/differt-bridge",
   "source_commit": "be1f6abcae946ff92244752f74e596b0df9dc50e",
@@ -17,193 +17,3148 @@
       "name": "project-source.zip",
       "bytes": 2705084,
       "sha256": "5962d7570cf72c5d963e93fc5f5ec8e1e42a9b8a9706e4b43a9eecece8d8ef3e",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-source.zip"
+      "parts": [
+        {
+          "name": "project-source.zip",
+          "bytes": 2705084,
+          "sha256": "5962d7570cf72c5d963e93fc5f5ec8e1e42a9b8a9706e4b43a9eecece8d8ef3e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-source.zip"
+        }
+      ]
     },
     {
       "name": "project-results.zip",
       "bytes": 1072297493,
       "sha256": "c8420666c80a990eb45ee45655b0ce01c1a982768ded3fac91e89e1f2eafbef6",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip"
+      "parts": [
+        {
+          "name": "project-results.zip.part-0001",
+          "bytes": 4194304,
+          "sha256": "509dba914d1be3ae2f8c818a5df2216c51fb80fa8ad8534c0fd4a870609a043c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0001"
+        },
+        {
+          "name": "project-results.zip.part-0002",
+          "bytes": 4194304,
+          "sha256": "65a41c097ba0926076c27b7dda24e9c49fd42e3023b1c5c09d371f5ff666769a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0002"
+        },
+        {
+          "name": "project-results.zip.part-0003",
+          "bytes": 4194304,
+          "sha256": "68ec656994f9a40186b4a3265aeffa5c19f4580d987b50a3d351aad83d57aae2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0003"
+        },
+        {
+          "name": "project-results.zip.part-0004",
+          "bytes": 4194304,
+          "sha256": "0576c88979eb37c5374393f8fe80ed0487d565de3ce0c5f302ec66bc06aea618",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0004"
+        },
+        {
+          "name": "project-results.zip.part-0005",
+          "bytes": 4194304,
+          "sha256": "0df556663cc7b3e5ba5fdb0816d481eb932822be748e562ac1a23116c34b2f86",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0005"
+        },
+        {
+          "name": "project-results.zip.part-0006",
+          "bytes": 4194304,
+          "sha256": "aa458119e8845102b5662d8911ae051603b542f27effa3aac046bf75107e37f0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0006"
+        },
+        {
+          "name": "project-results.zip.part-0007",
+          "bytes": 4194304,
+          "sha256": "757400f647c120612743ec9270987bf8de472d7d3368f72db77ec77ce42725d7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0007"
+        },
+        {
+          "name": "project-results.zip.part-0008",
+          "bytes": 4194304,
+          "sha256": "4b04198db0bf31b794560c229c255b6c183563fa7741941bd03cc3086bd5cf57",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0008"
+        },
+        {
+          "name": "project-results.zip.part-0009",
+          "bytes": 4194304,
+          "sha256": "2cb15551ae550d1b964735eb8fbb936f668ab54088f4b320c355e56113e09fcd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0009"
+        },
+        {
+          "name": "project-results.zip.part-0010",
+          "bytes": 4194304,
+          "sha256": "a2802ae6c7c95d64096ab3b72054f2a2d47a3e531ef4931106890e4f12830dcd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0010"
+        },
+        {
+          "name": "project-results.zip.part-0011",
+          "bytes": 4194304,
+          "sha256": "0b8e89da15fa09c12a4ec32db5affeb7f70ec867af5de6302d050b9c14c2527b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0011"
+        },
+        {
+          "name": "project-results.zip.part-0012",
+          "bytes": 4194304,
+          "sha256": "925d0801519fa2b61dec232480bc11374a720cdaf27c9003ba426a9d643291f8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0012"
+        },
+        {
+          "name": "project-results.zip.part-0013",
+          "bytes": 4194304,
+          "sha256": "71445a67fbb70fdbda1a1f98bcb750373793497d683a872185df354275bb142a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0013"
+        },
+        {
+          "name": "project-results.zip.part-0014",
+          "bytes": 4194304,
+          "sha256": "f2e6b4e6029b36c7d3044cba22d3668c998494b3d87fe507cb0c56313180fc61",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0014"
+        },
+        {
+          "name": "project-results.zip.part-0015",
+          "bytes": 4194304,
+          "sha256": "0a1fc7fe0b8a22bf7ecdc999193e29e6b0437cc83b7e55071d7f3829bd158a0e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0015"
+        },
+        {
+          "name": "project-results.zip.part-0016",
+          "bytes": 4194304,
+          "sha256": "e8a66ab552e70f63858c33d6b0738d72d28701f9fa816b19018eb15ccd25a338",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0016"
+        },
+        {
+          "name": "project-results.zip.part-0017",
+          "bytes": 4194304,
+          "sha256": "29032e550c0363c44b1fc0b3ba7b91bd6fa2675fb73ffd5f39ddcc497ae9bb08",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0017"
+        },
+        {
+          "name": "project-results.zip.part-0018",
+          "bytes": 4194304,
+          "sha256": "7475f2cb76f9f632de5fd3e73bce31ea7abc8ff108573400928423346e6ee446",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0018"
+        },
+        {
+          "name": "project-results.zip.part-0019",
+          "bytes": 4194304,
+          "sha256": "7e32ec608dcecd797c7caccc46ed76fbbef6a5ac1178847c7bfcb6fd27fd6152",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0019"
+        },
+        {
+          "name": "project-results.zip.part-0020",
+          "bytes": 4194304,
+          "sha256": "2ee203b1b8d8fb8cbdf23857f8eb3808b15b3cf9fad67089379d23304a6d5945",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0020"
+        },
+        {
+          "name": "project-results.zip.part-0021",
+          "bytes": 4194304,
+          "sha256": "7e5fa9f341c7e23d08dd2e178d2235d41e7be38a252c0b0f4005f7cb11a4df3f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0021"
+        },
+        {
+          "name": "project-results.zip.part-0022",
+          "bytes": 4194304,
+          "sha256": "1c2b2a55e370970a7dbf3340e4c94e71afce69edb38ec1daefe3b04fbf72a74d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0022"
+        },
+        {
+          "name": "project-results.zip.part-0023",
+          "bytes": 4194304,
+          "sha256": "a2ccedf665873a6bbdd836c38c7761d0dd2e3c0bae1787ef1ee0d77aef11a5d1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0023"
+        },
+        {
+          "name": "project-results.zip.part-0024",
+          "bytes": 4194304,
+          "sha256": "d8e4eb50b23a0e78db45a714bcbcf07f25591ce4c55b0ebdeb985df784d699b5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0024"
+        },
+        {
+          "name": "project-results.zip.part-0025",
+          "bytes": 4194304,
+          "sha256": "2c3ba35fb4886b2f6dc180a2cd9bc86b205fbf4f8e2a862db25972502dd7c9dc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0025"
+        },
+        {
+          "name": "project-results.zip.part-0026",
+          "bytes": 4194304,
+          "sha256": "bbd3af3ff7220b1a65f82f4c43ce4c3ff12b3814a3158eee0c6b809d05b2bf89",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0026"
+        },
+        {
+          "name": "project-results.zip.part-0027",
+          "bytes": 4194304,
+          "sha256": "4831e7bfba19c13635ce5a7031b1a4fa486fe98f495b46b6c4fd2d6accba6fd5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0027"
+        },
+        {
+          "name": "project-results.zip.part-0028",
+          "bytes": 4194304,
+          "sha256": "20b731259a6d3ae693c397aaf392733695bbaee690d03d89c848b5b273995027",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0028"
+        },
+        {
+          "name": "project-results.zip.part-0029",
+          "bytes": 4194304,
+          "sha256": "6b7049a57fe1a745fd4fe31b114c3ef8839c2f51a18a9e4580b46f4f6f98ef8b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0029"
+        },
+        {
+          "name": "project-results.zip.part-0030",
+          "bytes": 4194304,
+          "sha256": "83be157f3b7bb43dd7ab6030d0e14c1b9d20ec1b736e1f8e9b9e75b9e8af7934",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0030"
+        },
+        {
+          "name": "project-results.zip.part-0031",
+          "bytes": 4194304,
+          "sha256": "bd791c005c2f45cdf935b972fd01f642ae329d50bc29021908acfc86bb54afe6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0031"
+        },
+        {
+          "name": "project-results.zip.part-0032",
+          "bytes": 4194304,
+          "sha256": "6ddfd7a7f9d52f7f81d27487046602cb5b8608f4e2af29b6a15b287516b48dd7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0032"
+        },
+        {
+          "name": "project-results.zip.part-0033",
+          "bytes": 4194304,
+          "sha256": "fe1e9bbb5311dabaad814a1c5695ce921f92b505e1a083360028326e1aa64054",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0033"
+        },
+        {
+          "name": "project-results.zip.part-0034",
+          "bytes": 4194304,
+          "sha256": "31d9d8b9d8130ebc8c4594b8defdc86a6b574338e08ea70262ca64be6f50b2fa",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0034"
+        },
+        {
+          "name": "project-results.zip.part-0035",
+          "bytes": 4194304,
+          "sha256": "527db725c47716d33912ca227a95671ceead717f00661147149027ed6827e9f9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0035"
+        },
+        {
+          "name": "project-results.zip.part-0036",
+          "bytes": 4194304,
+          "sha256": "688a1680f86f67f2e5a46826065b28fb437e23e98b0c1eb664d34df12cfcdafa",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0036"
+        },
+        {
+          "name": "project-results.zip.part-0037",
+          "bytes": 4194304,
+          "sha256": "9667183a8d403f9228a7ca1632df41deea6895fc95d3d9a041eb0ea2981aafc7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0037"
+        },
+        {
+          "name": "project-results.zip.part-0038",
+          "bytes": 4194304,
+          "sha256": "3e85d23d01e1dd1834091e1b5a0a7d1feae5c067190f20b0d79571532713a5c3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0038"
+        },
+        {
+          "name": "project-results.zip.part-0039",
+          "bytes": 4194304,
+          "sha256": "6072d49a4221eb3b52c4b7f16943aa27590c27b4adf64756dffa5aea84b184ca",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0039"
+        },
+        {
+          "name": "project-results.zip.part-0040",
+          "bytes": 4194304,
+          "sha256": "924729a03d9267edbb957d33f0a38d524e2ba9f11b238ae7fafcff79f4cb5407",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0040"
+        },
+        {
+          "name": "project-results.zip.part-0041",
+          "bytes": 4194304,
+          "sha256": "6456db50df9f06b67ea35370d73b3e04ab0ddf677f811f11d65856af0b4849e1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0041"
+        },
+        {
+          "name": "project-results.zip.part-0042",
+          "bytes": 4194304,
+          "sha256": "a0da48ad37d36b74ed85545a94c750888c9161b0273e56f5919416357340a03c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0042"
+        },
+        {
+          "name": "project-results.zip.part-0043",
+          "bytes": 4194304,
+          "sha256": "935eb0027f42713d8ee966dab25d76264336c060b995dafc9ca787644492aaad",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0043"
+        },
+        {
+          "name": "project-results.zip.part-0044",
+          "bytes": 4194304,
+          "sha256": "4557b083f733da2b4e9c9a5f8638e62f57285b4ff15e49bbf77e51c9c474275a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0044"
+        },
+        {
+          "name": "project-results.zip.part-0045",
+          "bytes": 4194304,
+          "sha256": "6661303b3312d2013ab7760de44b66075659edfe62b24d17d059336710cb4955",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0045"
+        },
+        {
+          "name": "project-results.zip.part-0046",
+          "bytes": 4194304,
+          "sha256": "4a1493d0ec236fcfaae13e663d184460437cec8a5b1622084a2a67f796d8974b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0046"
+        },
+        {
+          "name": "project-results.zip.part-0047",
+          "bytes": 4194304,
+          "sha256": "bc53d100cfe2976664eb570cc26a124bf98023d2aa182456aa06679a2a54f2e7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0047"
+        },
+        {
+          "name": "project-results.zip.part-0048",
+          "bytes": 4194304,
+          "sha256": "411bb0ce386f7e0c887b668bc5998df7dc57185664a5974490604d9206d8de13",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0048"
+        },
+        {
+          "name": "project-results.zip.part-0049",
+          "bytes": 4194304,
+          "sha256": "6b3d4430b27a5e69c207a52b88b6f743ccd45a7d0578dd92d798d2253ccb8da3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0049"
+        },
+        {
+          "name": "project-results.zip.part-0050",
+          "bytes": 4194304,
+          "sha256": "dfef423edf2a7785216672291af50ad8ed5a094aafdd7c79f5c09285031b2e2c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0050"
+        },
+        {
+          "name": "project-results.zip.part-0051",
+          "bytes": 4194304,
+          "sha256": "c7194eeea3dfd4a7be2b26015f1d73a2a4a99a5e17c23975fc9eeb75f10673d6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0051"
+        },
+        {
+          "name": "project-results.zip.part-0052",
+          "bytes": 4194304,
+          "sha256": "1a65290587d23e51a817cf8a78b44c238015e2de13e7198113c521b0ef879abe",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0052"
+        },
+        {
+          "name": "project-results.zip.part-0053",
+          "bytes": 4194304,
+          "sha256": "cafee0b3df12fde343c0c5ffbfcf00ad241bb156ebedbea41b08c195fda96021",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0053"
+        },
+        {
+          "name": "project-results.zip.part-0054",
+          "bytes": 4194304,
+          "sha256": "3ccc77626a61000e49ebfddb63bdfbdca6cc60e0d53912403938df847d720b38",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0054"
+        },
+        {
+          "name": "project-results.zip.part-0055",
+          "bytes": 4194304,
+          "sha256": "a0e7994d3adc502814b4c96b7136f4c71bc762ae84022c8d6a1ea855111a747d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0055"
+        },
+        {
+          "name": "project-results.zip.part-0056",
+          "bytes": 4194304,
+          "sha256": "174513675afd281d3b198770305035f30cc3b5aeb13d68ae98869a6a1381e244",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0056"
+        },
+        {
+          "name": "project-results.zip.part-0057",
+          "bytes": 4194304,
+          "sha256": "8339de724d8a858ee1b7498ef10f4967e975e168a9bf1f9d8118823e256e0089",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0057"
+        },
+        {
+          "name": "project-results.zip.part-0058",
+          "bytes": 4194304,
+          "sha256": "5bc37fe76f9a562b678cc64fad553325202ca5ca99c9cd6887448d04ffcf2fa4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0058"
+        },
+        {
+          "name": "project-results.zip.part-0059",
+          "bytes": 4194304,
+          "sha256": "db4438c8ae730914cb7a4791c6c9cf33ac42e660dd140dbc28696810aa0a4081",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0059"
+        },
+        {
+          "name": "project-results.zip.part-0060",
+          "bytes": 4194304,
+          "sha256": "032539dd9aae2f04b3a695bd322448d564a133cc1e43f399e62338a96a329ec4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0060"
+        },
+        {
+          "name": "project-results.zip.part-0061",
+          "bytes": 4194304,
+          "sha256": "f3923d0f8451f316b31e96a7856cd449a8076c2b59efa0a8a2aa54666da9f668",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0061"
+        },
+        {
+          "name": "project-results.zip.part-0062",
+          "bytes": 4194304,
+          "sha256": "7faecbea8f94c634078435fb57fa934e999753cd821f88666563e7b3eb90baf0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0062"
+        },
+        {
+          "name": "project-results.zip.part-0063",
+          "bytes": 4194304,
+          "sha256": "23601155d3b3c19fb43486b1783df5c37a5758c1809bc345ddb2f53a3c253e0d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0063"
+        },
+        {
+          "name": "project-results.zip.part-0064",
+          "bytes": 4194304,
+          "sha256": "95b1f1059430c39d0e34b71fe5a98459cb0d4701456bf6e52647961f7804efbe",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0064"
+        },
+        {
+          "name": "project-results.zip.part-0065",
+          "bytes": 4194304,
+          "sha256": "aa700762652866a78124c61638b24fd2aa52d21a992f41ff17e428fc98a6f0eb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0065"
+        },
+        {
+          "name": "project-results.zip.part-0066",
+          "bytes": 4194304,
+          "sha256": "9faa598b0bd4756e2858605b983754e2b45d8e03d529d30679ef04a89dc5da5c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0066"
+        },
+        {
+          "name": "project-results.zip.part-0067",
+          "bytes": 4194304,
+          "sha256": "f29dd251e6bd9b952a382e2600ded736dc3f851696c43308f266f92dc708a068",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0067"
+        },
+        {
+          "name": "project-results.zip.part-0068",
+          "bytes": 4194304,
+          "sha256": "0eabfeeaf9cda6d80cb20202362428d08c20d889f3a917bc315b37bad82d15bd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0068"
+        },
+        {
+          "name": "project-results.zip.part-0069",
+          "bytes": 4194304,
+          "sha256": "6ee6cf4a3c1fcc011a67f0430ade6b2d07928292099a26bf8ea36421f3441316",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0069"
+        },
+        {
+          "name": "project-results.zip.part-0070",
+          "bytes": 4194304,
+          "sha256": "27e550e98eec5f3720a9a98766cebb81ad748daf47ba65fa1d5110d2f4ca164d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0070"
+        },
+        {
+          "name": "project-results.zip.part-0071",
+          "bytes": 4194304,
+          "sha256": "3bc33e7996b687174902c2c2ba0508ccdc1c06a7764723d6a31e8cb9a4ed63a1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0071"
+        },
+        {
+          "name": "project-results.zip.part-0072",
+          "bytes": 4194304,
+          "sha256": "34c5050fab15c5dbce338a24f8886cab4a589fa0a5f5465b952c29c315968ed3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0072"
+        },
+        {
+          "name": "project-results.zip.part-0073",
+          "bytes": 4194304,
+          "sha256": "c2cf64a7232205cde76c64613e3e919f6998e1a42b654d97fdf7091fba80f702",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0073"
+        },
+        {
+          "name": "project-results.zip.part-0074",
+          "bytes": 4194304,
+          "sha256": "4de372c88fe1ac2011985d03ba168356d2aee1b156fcd43171df4bcd69e94c6a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0074"
+        },
+        {
+          "name": "project-results.zip.part-0075",
+          "bytes": 4194304,
+          "sha256": "d5704c1a8fd3e9513cecf1dd1c4873d207b878921148ba3e4f7d6e1edca198ae",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0075"
+        },
+        {
+          "name": "project-results.zip.part-0076",
+          "bytes": 4194304,
+          "sha256": "f12525ddc177b48e4cfc9a63df9d4d493591e0a42485839f9b5338b075c4cc10",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0076"
+        },
+        {
+          "name": "project-results.zip.part-0077",
+          "bytes": 4194304,
+          "sha256": "b973d0a8c295e5aef39750a986caf1044f121947078ba5083ff5af91bafbb616",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0077"
+        },
+        {
+          "name": "project-results.zip.part-0078",
+          "bytes": 4194304,
+          "sha256": "7c60b033dc92ca1ecffd753858f95ad327a21bed5b9a0abd8082c27eacd66cda",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0078"
+        },
+        {
+          "name": "project-results.zip.part-0079",
+          "bytes": 4194304,
+          "sha256": "0494169ffac71439b5fc9918d1c7d6cad8beeacb2a2adc6fbf19daacdaabf4ee",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0079"
+        },
+        {
+          "name": "project-results.zip.part-0080",
+          "bytes": 4194304,
+          "sha256": "d2485e9cfc18c2fc7b880bd87ab66a3c19df15a6b18620945b65fdbefcdd6a1a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0080"
+        },
+        {
+          "name": "project-results.zip.part-0081",
+          "bytes": 4194304,
+          "sha256": "c921849df467d1a321d9d79d8506c83156ff15ac4fbae069b01fbcad34123964",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0081"
+        },
+        {
+          "name": "project-results.zip.part-0082",
+          "bytes": 4194304,
+          "sha256": "4f92c3e2564597239477d8fe9b95daae71ac29ca6f5bf687574c7cf210d0a5e8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0082"
+        },
+        {
+          "name": "project-results.zip.part-0083",
+          "bytes": 4194304,
+          "sha256": "0da5f431aa67e835c8a6d72919f188ad29fe78342fb68e9259146cda14a9aac6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0083"
+        },
+        {
+          "name": "project-results.zip.part-0084",
+          "bytes": 4194304,
+          "sha256": "8b555d29185e0e9567e298237782cd2bb719b15c02e30bd0969468f22f4fe768",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0084"
+        },
+        {
+          "name": "project-results.zip.part-0085",
+          "bytes": 4194304,
+          "sha256": "f6bafccfe629e91ccf9fb9dd629dc078e037f5ae157550b984b15d6117f08035",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0085"
+        },
+        {
+          "name": "project-results.zip.part-0086",
+          "bytes": 4194304,
+          "sha256": "566417003e8ee74e34e4fee0f5cd3bff383d1510e81534398e9c10b5f210159a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0086"
+        },
+        {
+          "name": "project-results.zip.part-0087",
+          "bytes": 4194304,
+          "sha256": "d8e089821439f6d40e8899e144362609ae745fe4750ff6b0449b8c718e0e8a19",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0087"
+        },
+        {
+          "name": "project-results.zip.part-0088",
+          "bytes": 4194304,
+          "sha256": "07eece4f07547335a3b45cb399581d24ca82ab0fc11312e518188c92d756881e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0088"
+        },
+        {
+          "name": "project-results.zip.part-0089",
+          "bytes": 4194304,
+          "sha256": "22415484a72c67d52218cd166fff087c54411ce4f267e05caf77dd28de6350a1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0089"
+        },
+        {
+          "name": "project-results.zip.part-0090",
+          "bytes": 4194304,
+          "sha256": "64826aed222b8e0f8880021c67ed18644755c6c8b94a1ab90589e033ff1c023a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0090"
+        },
+        {
+          "name": "project-results.zip.part-0091",
+          "bytes": 4194304,
+          "sha256": "29d3dbc30fb3ceca83920db681656781a4d0990367e3d90111a3072dddefd9f8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0091"
+        },
+        {
+          "name": "project-results.zip.part-0092",
+          "bytes": 4194304,
+          "sha256": "df45981d5ad3127bfcff9dd9c3bafdb9eb15a0e0aa2c5ef9d1dfe16830f48ed3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0092"
+        },
+        {
+          "name": "project-results.zip.part-0093",
+          "bytes": 4194304,
+          "sha256": "393df6f84f799a87635e078a70e2eeda76963769edb728f228a8d6efbf2cc320",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0093"
+        },
+        {
+          "name": "project-results.zip.part-0094",
+          "bytes": 4194304,
+          "sha256": "c49c8e65bc7832dd05cda5ff294217d8f8c32ab86301e184d618a62ab21f171c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0094"
+        },
+        {
+          "name": "project-results.zip.part-0095",
+          "bytes": 4194304,
+          "sha256": "48753554e7b45dda6838b5cdfc31e25836ef53f8b46587671ac81f83b7c9d421",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0095"
+        },
+        {
+          "name": "project-results.zip.part-0096",
+          "bytes": 4194304,
+          "sha256": "3d353ac81f1308c1657a6f3c89011d2e4ffdf0fc56f446b541933ee266c65110",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0096"
+        },
+        {
+          "name": "project-results.zip.part-0097",
+          "bytes": 4194304,
+          "sha256": "f7e1727d0cd4fe01eefe9669a3b25ed788f5242ceeed6a737779a0148a880113",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0097"
+        },
+        {
+          "name": "project-results.zip.part-0098",
+          "bytes": 4194304,
+          "sha256": "738fcdf71cf9630d24947c109aa252d8d55b55f1aeab3528577f77681a67734d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0098"
+        },
+        {
+          "name": "project-results.zip.part-0099",
+          "bytes": 4194304,
+          "sha256": "d065cb0159be6952eed66dc71098429a7ba322d5af3a6333dc848b1e4b06e99c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0099"
+        },
+        {
+          "name": "project-results.zip.part-0100",
+          "bytes": 4194304,
+          "sha256": "cf6f42213f2ad642506a65a99a2614f6279605b37e69851b0e3cac58de72b3b0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0100"
+        },
+        {
+          "name": "project-results.zip.part-0101",
+          "bytes": 4194304,
+          "sha256": "e1aaf9b976cefeadc35ee4c5721127cbc51fbb5f4d336cb541992f89ddd5f7c5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0101"
+        },
+        {
+          "name": "project-results.zip.part-0102",
+          "bytes": 4194304,
+          "sha256": "087eaab851ed32bdbd1fd0778714b32d15c90acdbb881acda2f13975b78f1ed9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0102"
+        },
+        {
+          "name": "project-results.zip.part-0103",
+          "bytes": 4194304,
+          "sha256": "b25e98f40abcfce3160a395370419dd9043c3f8d7894b8b5662397469adf5b16",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0103"
+        },
+        {
+          "name": "project-results.zip.part-0104",
+          "bytes": 4194304,
+          "sha256": "12298911f8f7f113d84f3e704a8e6181ee5a57c5d7d5cbd2ec1ef2837795448f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0104"
+        },
+        {
+          "name": "project-results.zip.part-0105",
+          "bytes": 4194304,
+          "sha256": "382b5bee9bbf63e7c3a4745ba77d02098dd11dcd3760ffe9eb20e91339ebea55",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0105"
+        },
+        {
+          "name": "project-results.zip.part-0106",
+          "bytes": 4194304,
+          "sha256": "2fea4164768bcd1069b6a09835226340a583ca60aa48234eedfd58e95d82a7d0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0106"
+        },
+        {
+          "name": "project-results.zip.part-0107",
+          "bytes": 4194304,
+          "sha256": "77ea00e1a3dfdf78d322638f8b08687d4cf69423494df10c7660d01ee79be46f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0107"
+        },
+        {
+          "name": "project-results.zip.part-0108",
+          "bytes": 4194304,
+          "sha256": "ed59fee761ea0d5524906c3d1bbeb54592b17b26aeca11b9f4537b3132f78b82",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0108"
+        },
+        {
+          "name": "project-results.zip.part-0109",
+          "bytes": 4194304,
+          "sha256": "8360c3705b3c73b661ff54188da5640996efa7985d7d1ab04346bbe5591402e4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0109"
+        },
+        {
+          "name": "project-results.zip.part-0110",
+          "bytes": 4194304,
+          "sha256": "cc25967b613e83a6a49ee7aca13306c1dd280ebac390cb3b7ff3d06f11715805",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0110"
+        },
+        {
+          "name": "project-results.zip.part-0111",
+          "bytes": 4194304,
+          "sha256": "0e86fd6090a25e8ad23cb5878ce7d08c66732cf8d92713a7949c3b76480ec802",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0111"
+        },
+        {
+          "name": "project-results.zip.part-0112",
+          "bytes": 4194304,
+          "sha256": "6d831f948eeb65fd5b3da4c45832b22796b3d58612c32756046b001758f017fb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0112"
+        },
+        {
+          "name": "project-results.zip.part-0113",
+          "bytes": 4194304,
+          "sha256": "581b60e7c7b1e68d8b9d6afccdc680bac95de5c647344263f3f85579665a6c08",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0113"
+        },
+        {
+          "name": "project-results.zip.part-0114",
+          "bytes": 4194304,
+          "sha256": "c13e15b67e3ac5a1fdbd53e9b2e7935c1d5b2bc41df0721d1da9485ad108afc1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0114"
+        },
+        {
+          "name": "project-results.zip.part-0115",
+          "bytes": 4194304,
+          "sha256": "2a17f76cead3ee28c3879a8607048ff1bc8761ff07271d6e67a50c06b4546a15",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0115"
+        },
+        {
+          "name": "project-results.zip.part-0116",
+          "bytes": 4194304,
+          "sha256": "eb85a72311b416b1ca5301ffaf308e7d7984bf60541ec8e713aba422653c0afb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0116"
+        },
+        {
+          "name": "project-results.zip.part-0117",
+          "bytes": 4194304,
+          "sha256": "65ed8e116574e5e0e3fa1d3d34f1d81012a4ae6a125d37caa19e9664e9d5cf95",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0117"
+        },
+        {
+          "name": "project-results.zip.part-0118",
+          "bytes": 4194304,
+          "sha256": "b7c8394eb21be24472cede7f40048571f87a77a63c4a8dde42695cd850422c47",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0118"
+        },
+        {
+          "name": "project-results.zip.part-0119",
+          "bytes": 4194304,
+          "sha256": "b13d40b57fa4a8ce51a5954028f6513ae8cc84f522aeca74ac2c3eeb8b1b083a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0119"
+        },
+        {
+          "name": "project-results.zip.part-0120",
+          "bytes": 4194304,
+          "sha256": "9ef351f7754af218ab67eff235cc102c3cd514f77805b56f61a43ac8d2417b99",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0120"
+        },
+        {
+          "name": "project-results.zip.part-0121",
+          "bytes": 4194304,
+          "sha256": "cb2659e9ffa311e2314f9d632cf13e6a7a8e2f034e5eed0917f50e1afaf2f961",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0121"
+        },
+        {
+          "name": "project-results.zip.part-0122",
+          "bytes": 4194304,
+          "sha256": "af89ca64dc3d0a5fcae111548deca5a27854c9b33c73ea2c2f2afedd516dcb86",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0122"
+        },
+        {
+          "name": "project-results.zip.part-0123",
+          "bytes": 4194304,
+          "sha256": "04f649c25088403c8f6dbc697eafaa792b7b5c41630f99326095191b77c34e5b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0123"
+        },
+        {
+          "name": "project-results.zip.part-0124",
+          "bytes": 4194304,
+          "sha256": "899ceda9a3e87be49ad95ae55105bdb640dbd72826eebd9ca903176d433cf074",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0124"
+        },
+        {
+          "name": "project-results.zip.part-0125",
+          "bytes": 4194304,
+          "sha256": "af8923c525eaa979915744b6196d2d1930a80fc67a3e31d9078cb6eb263509a9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0125"
+        },
+        {
+          "name": "project-results.zip.part-0126",
+          "bytes": 4194304,
+          "sha256": "a16d214d98bee4afe538bb89f84c2b37ea29cc322515748a092008bf24e93064",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0126"
+        },
+        {
+          "name": "project-results.zip.part-0127",
+          "bytes": 4194304,
+          "sha256": "44a0ad9c03a46b258ca2772dcfdf78e9c81431abf493ba3e61441b04b06d0150",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0127"
+        },
+        {
+          "name": "project-results.zip.part-0128",
+          "bytes": 4194304,
+          "sha256": "2d6422e931eac62043efb790aa6067267a6afa92fd3348ca67092644cba41d55",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0128"
+        },
+        {
+          "name": "project-results.zip.part-0129",
+          "bytes": 4194304,
+          "sha256": "9bb25a15bf48508d24e061c2a6a9ba89a34df459c6353bc25100bb2fec0a3065",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0129"
+        },
+        {
+          "name": "project-results.zip.part-0130",
+          "bytes": 4194304,
+          "sha256": "995255142322a99799349259f39c51f56dca95ec5eb7af94c306c5d2b5a4f30a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0130"
+        },
+        {
+          "name": "project-results.zip.part-0131",
+          "bytes": 4194304,
+          "sha256": "992919ef9bc5a7c07e2445de148f100485405c8ec43fcf4de483249eb25e0cc0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0131"
+        },
+        {
+          "name": "project-results.zip.part-0132",
+          "bytes": 4194304,
+          "sha256": "e96916b32c6acd0d4db2bcb476e41aed1640d84bc8f8d5e86ba6b6ccd0c61e3b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0132"
+        },
+        {
+          "name": "project-results.zip.part-0133",
+          "bytes": 4194304,
+          "sha256": "68a786634c9788ca9235397e38e834a419318f2580af990a8d50720846a71582",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0133"
+        },
+        {
+          "name": "project-results.zip.part-0134",
+          "bytes": 4194304,
+          "sha256": "2ad5be56e1d0c13c592d72071bf0e1a0c8c65b487241f057c58a34cd754edf6b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0134"
+        },
+        {
+          "name": "project-results.zip.part-0135",
+          "bytes": 4194304,
+          "sha256": "b3006425c4b61a076b576e37d144b8cad2e4443bd2140d192dfc05d33afbe78e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0135"
+        },
+        {
+          "name": "project-results.zip.part-0136",
+          "bytes": 4194304,
+          "sha256": "1881c8de459cf2ca7b66f5d4fe99dfc1a49401f6386c56a9139fa5bf73440cfb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0136"
+        },
+        {
+          "name": "project-results.zip.part-0137",
+          "bytes": 4194304,
+          "sha256": "3a05098de77f03fa8608a74eb7fdfe77d53229384e9c44b1dfba1ccb3bb6790e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0137"
+        },
+        {
+          "name": "project-results.zip.part-0138",
+          "bytes": 4194304,
+          "sha256": "c87ae8839e6b1400325699e1ec59c4a1188b1db26f48a673eaf073b2d0b8945a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0138"
+        },
+        {
+          "name": "project-results.zip.part-0139",
+          "bytes": 4194304,
+          "sha256": "0935d67804f5992dba70b2156571fd899dc589dd57dae7a22eb9a158b6972392",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0139"
+        },
+        {
+          "name": "project-results.zip.part-0140",
+          "bytes": 4194304,
+          "sha256": "ba3e0c1d1d7eed727a2c3dc11adcd36c7c06b24720c0db3577f7475c06c47593",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0140"
+        },
+        {
+          "name": "project-results.zip.part-0141",
+          "bytes": 4194304,
+          "sha256": "2dbe170f1438cc34c33cc46139387d104edbee80e3e7ccdce77e3c44db67e8de",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0141"
+        },
+        {
+          "name": "project-results.zip.part-0142",
+          "bytes": 4194304,
+          "sha256": "c0ce24b6f65cf320981cf8155fd2745bd03d626971c7ef813ccd3d4a7a02e6f5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0142"
+        },
+        {
+          "name": "project-results.zip.part-0143",
+          "bytes": 4194304,
+          "sha256": "00d3215debf5790e7fe283241fda5f59a2c4a99b96505c2bafa61d54e35fb863",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0143"
+        },
+        {
+          "name": "project-results.zip.part-0144",
+          "bytes": 4194304,
+          "sha256": "52b769d7c8a422276e5a0cac68038e9e909830a72e18943741e81712c20a057c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0144"
+        },
+        {
+          "name": "project-results.zip.part-0145",
+          "bytes": 4194304,
+          "sha256": "cb741d632426bbf360cca6c1c1545ca337e0c7c0544e06b40e86d22d164761cd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0145"
+        },
+        {
+          "name": "project-results.zip.part-0146",
+          "bytes": 4194304,
+          "sha256": "6854c29c68afbe0edccfa6c986f190742e943cb16133a83d23f6c59c3c48e820",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0146"
+        },
+        {
+          "name": "project-results.zip.part-0147",
+          "bytes": 4194304,
+          "sha256": "48d93e98e80dd7fa08955fe6c2774d652c827dfa3ee9a370bbcd847d84f8567a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0147"
+        },
+        {
+          "name": "project-results.zip.part-0148",
+          "bytes": 4194304,
+          "sha256": "89463e33297c1a2f1a7133f1458523442d4ac1a930dbc6cc8a22c6cd54a81261",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0148"
+        },
+        {
+          "name": "project-results.zip.part-0149",
+          "bytes": 4194304,
+          "sha256": "0780ce11ed49465eeb32c7eb6baaf35bc2a1f6a422119b726ff890ac13a869e2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0149"
+        },
+        {
+          "name": "project-results.zip.part-0150",
+          "bytes": 4194304,
+          "sha256": "6678a75d9d6d0d562897e6d925ad511ef5ca28fecf0ae6fae91258506899c1e1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0150"
+        },
+        {
+          "name": "project-results.zip.part-0151",
+          "bytes": 4194304,
+          "sha256": "0dddbdd487279bec8de90d39cdba43993dce7893c6670187d7f879602e303586",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0151"
+        },
+        {
+          "name": "project-results.zip.part-0152",
+          "bytes": 4194304,
+          "sha256": "5403eb81d75b5bf3d70b78aff1c614d47854c0e8534e9da5e6485fb497771cae",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0152"
+        },
+        {
+          "name": "project-results.zip.part-0153",
+          "bytes": 4194304,
+          "sha256": "1e5bce3f4d1b82c05fad0aa1788b353ef0f7af261122956f64c6223cfa1ac2df",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0153"
+        },
+        {
+          "name": "project-results.zip.part-0154",
+          "bytes": 4194304,
+          "sha256": "fc1f46e3811d24f0ee91dadf759d5745e4b6faf280710fbc312df46aabfa5e41",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0154"
+        },
+        {
+          "name": "project-results.zip.part-0155",
+          "bytes": 4194304,
+          "sha256": "6360620bdfa309b363d8fa46aaedd4e6f2e3047edb90e6c7712d2b9770548033",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0155"
+        },
+        {
+          "name": "project-results.zip.part-0156",
+          "bytes": 4194304,
+          "sha256": "8a115bdc46f94ac8bbb1fd20052a9dadd41cfc85e118a47b33cf014bc4d93f76",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0156"
+        },
+        {
+          "name": "project-results.zip.part-0157",
+          "bytes": 4194304,
+          "sha256": "052e979a18558e02a3c86f71ba4b73df2d951c502e6e35363768fd0f4e462a79",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0157"
+        },
+        {
+          "name": "project-results.zip.part-0158",
+          "bytes": 4194304,
+          "sha256": "ed0853e8573a94568ef6a7b505305564188442513ebee1069e665b17b1cfcc65",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0158"
+        },
+        {
+          "name": "project-results.zip.part-0159",
+          "bytes": 4194304,
+          "sha256": "ef2cd8de2e92ecf2f565f307de4ed060439587f941ae4e35cac0770c9ef080fc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0159"
+        },
+        {
+          "name": "project-results.zip.part-0160",
+          "bytes": 4194304,
+          "sha256": "4479828b42f428172c51063895b21ea0e9c4cb0c9008eafc5adbfafc8a3ddae1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0160"
+        },
+        {
+          "name": "project-results.zip.part-0161",
+          "bytes": 4194304,
+          "sha256": "adb7f25f454e4185148a8dcb41fa3a7ee4cba08af7e12e573187d2f8761e100a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0161"
+        },
+        {
+          "name": "project-results.zip.part-0162",
+          "bytes": 4194304,
+          "sha256": "a944d1f1b160cdd6c8c4b588e6dd089f6099080651380924858e1762e5c2fc53",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0162"
+        },
+        {
+          "name": "project-results.zip.part-0163",
+          "bytes": 4194304,
+          "sha256": "b683d12bd0f8cb72726efeb5da2f1be8451097244d3bf82c9104e5155c3a3e7d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0163"
+        },
+        {
+          "name": "project-results.zip.part-0164",
+          "bytes": 4194304,
+          "sha256": "0fd5da0a59d2f8c71b6d9aa430dac15e30ab5087974b7a149379a54ba59fad2f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0164"
+        },
+        {
+          "name": "project-results.zip.part-0165",
+          "bytes": 4194304,
+          "sha256": "9ade77dff3219a05265c7d57354d99d34d18a1ea1c6d0a958edcd52d7b2c29d5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0165"
+        },
+        {
+          "name": "project-results.zip.part-0166",
+          "bytes": 4194304,
+          "sha256": "6f4640d31ba913b0155ca40d6e7f588f99c3ad1afb1b1d5edd34a33aa05c9c37",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0166"
+        },
+        {
+          "name": "project-results.zip.part-0167",
+          "bytes": 4194304,
+          "sha256": "bb8ab53cc344cc5d2cc52167fa7fb33c8aa9ede3749fe4d44d71c40ee298d656",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0167"
+        },
+        {
+          "name": "project-results.zip.part-0168",
+          "bytes": 4194304,
+          "sha256": "015aac73c2911adf78097feb6f513086477d9464958e50e43c5e39d888d0ea6a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0168"
+        },
+        {
+          "name": "project-results.zip.part-0169",
+          "bytes": 4194304,
+          "sha256": "1bd3dc4ac5e22191dc1caf0ba0fb58327d4d23a53fa68a2f4005683b7915e2b2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0169"
+        },
+        {
+          "name": "project-results.zip.part-0170",
+          "bytes": 4194304,
+          "sha256": "1a3158ad9790240f5f47db1150496672da5ced9f204264fe75c05ff2a21067db",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0170"
+        },
+        {
+          "name": "project-results.zip.part-0171",
+          "bytes": 4194304,
+          "sha256": "6c422f4a2bb53de47d61db9a7b5427094c07fa473ad692e6ec83f71de0c030a8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0171"
+        },
+        {
+          "name": "project-results.zip.part-0172",
+          "bytes": 4194304,
+          "sha256": "369b6c4ec39b536a9819357d92def37c39dece75ccef7dbcdff47b3d83ffeeda",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0172"
+        },
+        {
+          "name": "project-results.zip.part-0173",
+          "bytes": 4194304,
+          "sha256": "d70cde6a77ec2e0d1c8812fa0e796355e0eaeb3106d5eaa3b9f42e5c80173867",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0173"
+        },
+        {
+          "name": "project-results.zip.part-0174",
+          "bytes": 4194304,
+          "sha256": "3dbbe8fa53cc0eb9c3159c07b00a3abe666bfaf1e288fb73d0cb9e30191890d2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0174"
+        },
+        {
+          "name": "project-results.zip.part-0175",
+          "bytes": 4194304,
+          "sha256": "81e4a1e502f81b00382e804fdbc3973823e56a415972077ffaa7193d9065dbef",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0175"
+        },
+        {
+          "name": "project-results.zip.part-0176",
+          "bytes": 4194304,
+          "sha256": "41382da8dfd69395b0f1ab460bcd521466ba1aff049ac2ce03075e55425cd8f6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0176"
+        },
+        {
+          "name": "project-results.zip.part-0177",
+          "bytes": 4194304,
+          "sha256": "b09b3414759f97fbf9a0ebd4d3b84e379d6cb72ba5f93be41e78d358bc21a0e2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0177"
+        },
+        {
+          "name": "project-results.zip.part-0178",
+          "bytes": 4194304,
+          "sha256": "2ab79037527a78e07a32297b77c7cf2e671cb281c66fdda760c46670f6ae2f7d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0178"
+        },
+        {
+          "name": "project-results.zip.part-0179",
+          "bytes": 4194304,
+          "sha256": "75539dbfa6d1d1a97a4e1d980b11d5f6f649cedee68ed9813c88760064c6f5d7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0179"
+        },
+        {
+          "name": "project-results.zip.part-0180",
+          "bytes": 4194304,
+          "sha256": "cdb785c1db9ff4bd63fca0ddd023e8e9eb3de522fa6da50dfe6320ad3ff4f59d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0180"
+        },
+        {
+          "name": "project-results.zip.part-0181",
+          "bytes": 4194304,
+          "sha256": "f96dc8131144b59331450961a17a139463477c3a6600bcf1786c06bba72e0ac9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0181"
+        },
+        {
+          "name": "project-results.zip.part-0182",
+          "bytes": 4194304,
+          "sha256": "0839c7105f5cde3cda503a2591ec81af7c7c82c5be7e1c75fd9f39101e33dd03",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0182"
+        },
+        {
+          "name": "project-results.zip.part-0183",
+          "bytes": 4194304,
+          "sha256": "861901fe7d6023e64a734fbeafd3c1f4f1345bc3a6f2019689c8d52e6849be71",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0183"
+        },
+        {
+          "name": "project-results.zip.part-0184",
+          "bytes": 4194304,
+          "sha256": "44a98655135defe39e5083d66b5f0aba6d43ef8046a1ff417950d7e144c6a322",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0184"
+        },
+        {
+          "name": "project-results.zip.part-0185",
+          "bytes": 4194304,
+          "sha256": "95604b12a4b87e74c44ae1a1ca97e220b5896c5025d044024b43ba6c2a906e08",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0185"
+        },
+        {
+          "name": "project-results.zip.part-0186",
+          "bytes": 4194304,
+          "sha256": "5831f58dad5306c07c51e1f9c9fb58ac62004e4c2614c001f8da157cf13dd237",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0186"
+        },
+        {
+          "name": "project-results.zip.part-0187",
+          "bytes": 4194304,
+          "sha256": "31b362c933b719655661f13247d8c7f92364489aeb57e6fb8f52552e1ec97618",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0187"
+        },
+        {
+          "name": "project-results.zip.part-0188",
+          "bytes": 4194304,
+          "sha256": "839fc13b232939641bb7abe6c0744d36ef0a96a1c469146de51e59a83824e11b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0188"
+        },
+        {
+          "name": "project-results.zip.part-0189",
+          "bytes": 4194304,
+          "sha256": "45d8e9b3da72e5c0b24c8cc118c314fa08ac6d0fb55c0c4378b0b738bf600437",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0189"
+        },
+        {
+          "name": "project-results.zip.part-0190",
+          "bytes": 4194304,
+          "sha256": "4ea9fc8c3a41be392059bc15eb2e308cc52e7836bd488d2806bdf195013632f6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0190"
+        },
+        {
+          "name": "project-results.zip.part-0191",
+          "bytes": 4194304,
+          "sha256": "1019f0b5b14fb707af346fe5c8e860dde7945549a050db8ae045750b90df52a1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0191"
+        },
+        {
+          "name": "project-results.zip.part-0192",
+          "bytes": 4194304,
+          "sha256": "cf804f6133eb8be88604482ee3eae847a150b0dbbfe489108f5dff24decc88d3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0192"
+        },
+        {
+          "name": "project-results.zip.part-0193",
+          "bytes": 4194304,
+          "sha256": "4486cd6d6cabfb43ddfd0752523304481f1cec334ba404a74863902a50af505a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0193"
+        },
+        {
+          "name": "project-results.zip.part-0194",
+          "bytes": 4194304,
+          "sha256": "bf8a7dc2de5c77123824237f8ac97eaee9222dca35682fbeec79b0f19b749bec",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0194"
+        },
+        {
+          "name": "project-results.zip.part-0195",
+          "bytes": 4194304,
+          "sha256": "779c60b1859b92bf77001135b35b257b67838d70eb6a5ba2537a2c0a5b5ffb86",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0195"
+        },
+        {
+          "name": "project-results.zip.part-0196",
+          "bytes": 4194304,
+          "sha256": "59103c24a27c913fdebe036b77871fc5901895d9b6887ba0bb7ffa42f47106b4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0196"
+        },
+        {
+          "name": "project-results.zip.part-0197",
+          "bytes": 4194304,
+          "sha256": "28d7fbf5c0f76895d06e0a1b652e705ff47cb80fed00e1c4ee2b980aeda88f2d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0197"
+        },
+        {
+          "name": "project-results.zip.part-0198",
+          "bytes": 4194304,
+          "sha256": "7a94310a29636bd6c2a44abffb74dbc6ab07d4eb324b43b7aba7b18984d7eedc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0198"
+        },
+        {
+          "name": "project-results.zip.part-0199",
+          "bytes": 4194304,
+          "sha256": "716624b42511e98ff9b463520cf92151873605a68f012199c77fd4b0bcfb39d3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0199"
+        },
+        {
+          "name": "project-results.zip.part-0200",
+          "bytes": 4194304,
+          "sha256": "26abb5ba8922b9b41c2996396404a753bbb9c7fa1f23145c944e62c13572c657",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0200"
+        },
+        {
+          "name": "project-results.zip.part-0201",
+          "bytes": 4194304,
+          "sha256": "a2c02807c28a2e554d85a17449bd7fb3aa57543d8326738cb69e941d10ae0bf9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0201"
+        },
+        {
+          "name": "project-results.zip.part-0202",
+          "bytes": 4194304,
+          "sha256": "135db77ebe1e1edeacedc7a6f0cafb9fa4d6c41de58c85f640d28b59078b8bea",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0202"
+        },
+        {
+          "name": "project-results.zip.part-0203",
+          "bytes": 4194304,
+          "sha256": "ee0be005bcc8d3c63f791ab530edf0b46d8426afe514df4b86ac8947b61c8b03",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0203"
+        },
+        {
+          "name": "project-results.zip.part-0204",
+          "bytes": 4194304,
+          "sha256": "6d5030d125739eea36907e0f55565b278a6736fab1132eb9e8321c2bab5a52d2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0204"
+        },
+        {
+          "name": "project-results.zip.part-0205",
+          "bytes": 4194304,
+          "sha256": "3287f1373376c0a92c5d191eded590243b90b050309bd82cc1c288115459d462",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0205"
+        },
+        {
+          "name": "project-results.zip.part-0206",
+          "bytes": 4194304,
+          "sha256": "95503b331b00c3f2733b6868fc208d4a0dd6414e44d0646896d631a0ddf5b863",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0206"
+        },
+        {
+          "name": "project-results.zip.part-0207",
+          "bytes": 4194304,
+          "sha256": "6bc168246d5f417b727be5495705cb3e7a9fe0dd6bad405c1238636e02b766b4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0207"
+        },
+        {
+          "name": "project-results.zip.part-0208",
+          "bytes": 4194304,
+          "sha256": "1890329d8412a8f98134ad25eb15bda39a1562109b189d06ced922d22a00e234",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0208"
+        },
+        {
+          "name": "project-results.zip.part-0209",
+          "bytes": 4194304,
+          "sha256": "aa8d2aed64ee28b5aae0c6954008b775ed974a795b861a3bb508225289d1f9a7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0209"
+        },
+        {
+          "name": "project-results.zip.part-0210",
+          "bytes": 4194304,
+          "sha256": "0f9747baac7b3152f37ce27b51699fab42f56a46d5ce8949036679a362b5615d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0210"
+        },
+        {
+          "name": "project-results.zip.part-0211",
+          "bytes": 4194304,
+          "sha256": "d4e4c248a7bbe7126a0bfa4e1ba90d8cc9f376b7682dc3d8d6a8e7efe94cd73f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0211"
+        },
+        {
+          "name": "project-results.zip.part-0212",
+          "bytes": 4194304,
+          "sha256": "d2c17910d279920f013720778251e0872c0f610de296b08bec83a1a2392bcfbf",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0212"
+        },
+        {
+          "name": "project-results.zip.part-0213",
+          "bytes": 4194304,
+          "sha256": "79627632aa1f94322014678cbb91b0a06a2b2d54dbdc38487758b1d422968fc6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0213"
+        },
+        {
+          "name": "project-results.zip.part-0214",
+          "bytes": 4194304,
+          "sha256": "e64d7a52e52fec115f948eded3e675dace76f9cebe476998212d7b6c8677f1fc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0214"
+        },
+        {
+          "name": "project-results.zip.part-0215",
+          "bytes": 4194304,
+          "sha256": "2543fc72507aa0b5d7d4a4341ef04e385ae794f0022396b556a493d52fc8cb3a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0215"
+        },
+        {
+          "name": "project-results.zip.part-0216",
+          "bytes": 4194304,
+          "sha256": "6ba9cea53ca0e2887def0d90fe9f24146c51b8e24b5a56baa5c601cf0e0b182c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0216"
+        },
+        {
+          "name": "project-results.zip.part-0217",
+          "bytes": 4194304,
+          "sha256": "8c46ce51bbe9d2140567af38a1b441ad19a68db0bb9b2eb7e65691f4cdbc1776",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0217"
+        },
+        {
+          "name": "project-results.zip.part-0218",
+          "bytes": 4194304,
+          "sha256": "f3a6009eb10a744b9e94c47da6db705db540f45893a3251ea74277a665ce6b3c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0218"
+        },
+        {
+          "name": "project-results.zip.part-0219",
+          "bytes": 4194304,
+          "sha256": "ceadebf9b1f0e82d2a26b9144f79ccafa6922c998f02252829895a399f3b2572",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0219"
+        },
+        {
+          "name": "project-results.zip.part-0220",
+          "bytes": 4194304,
+          "sha256": "473e9e5eded7eb52e6e5d0f8e8c986d8fc9648bd4da78780e3caef1be58d78b6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0220"
+        },
+        {
+          "name": "project-results.zip.part-0221",
+          "bytes": 4194304,
+          "sha256": "948613391042692cb014ba357d8cefd4eeb9a52098b591132f0507ed36b5ebb2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0221"
+        },
+        {
+          "name": "project-results.zip.part-0222",
+          "bytes": 4194304,
+          "sha256": "27c47420675fba89a4370f884e7740a11d63e977b3ad9f8f9ff5117a767b6383",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0222"
+        },
+        {
+          "name": "project-results.zip.part-0223",
+          "bytes": 4194304,
+          "sha256": "1bd6c4af70bc10eebef48f7a3032ea914dc0e507880c487a93adb6f9221cc841",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0223"
+        },
+        {
+          "name": "project-results.zip.part-0224",
+          "bytes": 4194304,
+          "sha256": "e2429c81c22337b39765514f996d70378360cb398d26bdc3a444b25ede0631d8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0224"
+        },
+        {
+          "name": "project-results.zip.part-0225",
+          "bytes": 4194304,
+          "sha256": "f29377fa0b90136879baa017f4fad6cd4f53a24025e3774503eafe93acecf257",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0225"
+        },
+        {
+          "name": "project-results.zip.part-0226",
+          "bytes": 4194304,
+          "sha256": "04622ea571f974fb6e3e64f61a79f9c26108c2f165d49160dbf507b2e7e2bc94",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0226"
+        },
+        {
+          "name": "project-results.zip.part-0227",
+          "bytes": 4194304,
+          "sha256": "942071baf4cd198ba4c925815cfcdbc857bd0d130c17a96a14e67960943786bf",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0227"
+        },
+        {
+          "name": "project-results.zip.part-0228",
+          "bytes": 4194304,
+          "sha256": "ce3e37817c7d6a5176c885dbf893d17a87bf01391203680fd0eb633a09fba0c9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0228"
+        },
+        {
+          "name": "project-results.zip.part-0229",
+          "bytes": 4194304,
+          "sha256": "37ddea00942271182492081f09e3333dd61d2a6ca9381d26f61ce1bc71f3989a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0229"
+        },
+        {
+          "name": "project-results.zip.part-0230",
+          "bytes": 4194304,
+          "sha256": "60a255d4b4769e0b0343891118516c3a57f6e52db273aa21ad85ee6fe637520d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0230"
+        },
+        {
+          "name": "project-results.zip.part-0231",
+          "bytes": 4194304,
+          "sha256": "a489cc76cea2bf16be2b9e881318383587a83663089b918cef1f046e90d884e8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0231"
+        },
+        {
+          "name": "project-results.zip.part-0232",
+          "bytes": 4194304,
+          "sha256": "7ed1cca25981939757abd504d960da198219d83ce7a3ef3ce3d95415ccb46103",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0232"
+        },
+        {
+          "name": "project-results.zip.part-0233",
+          "bytes": 4194304,
+          "sha256": "e362f56101c83d8e75a39594ca0e7c84f8ae0058bc1fb72b534e9ede42e380e5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0233"
+        },
+        {
+          "name": "project-results.zip.part-0234",
+          "bytes": 4194304,
+          "sha256": "53156b0633f70cd7b661986116c5bdc35c619dad08a765dc54ad444137905c48",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0234"
+        },
+        {
+          "name": "project-results.zip.part-0235",
+          "bytes": 4194304,
+          "sha256": "74653755c899a053cd3230fa0f82f9e04740c54c73af7e5ea1d1badfd6bb0bf0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0235"
+        },
+        {
+          "name": "project-results.zip.part-0236",
+          "bytes": 4194304,
+          "sha256": "7baa0443b6b6d18ac1b990185bb7382cf23b1086686e896a1170f1483b8b0137",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0236"
+        },
+        {
+          "name": "project-results.zip.part-0237",
+          "bytes": 4194304,
+          "sha256": "4a327c348c454b2d62be006df63b5f8b289823a49a7b120cf5fad371839326e9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0237"
+        },
+        {
+          "name": "project-results.zip.part-0238",
+          "bytes": 4194304,
+          "sha256": "a911fe299bdb8d16e888a1fd295704d6a39fc46dc0406d4ad900fcd5c42c7868",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0238"
+        },
+        {
+          "name": "project-results.zip.part-0239",
+          "bytes": 4194304,
+          "sha256": "d641a7f7c39f9eebd9cf9fc78c388e7f61724f38319d57f99d55de6568c85260",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0239"
+        },
+        {
+          "name": "project-results.zip.part-0240",
+          "bytes": 4194304,
+          "sha256": "757285d25445f25ac55314b14a04e61b130aa234a84af0c214eb5aab14a98a66",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0240"
+        },
+        {
+          "name": "project-results.zip.part-0241",
+          "bytes": 4194304,
+          "sha256": "7ef84b422576b13f497e1bdd93813f8709f804c7fb6a1ec047095fcbeb6bbee5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0241"
+        },
+        {
+          "name": "project-results.zip.part-0242",
+          "bytes": 4194304,
+          "sha256": "2ba335fd458a21f6ee80d0d006e8181976afcc4d5af0e9184eeaa58c01963edb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0242"
+        },
+        {
+          "name": "project-results.zip.part-0243",
+          "bytes": 4194304,
+          "sha256": "bf56d05a567fa745e5a1580b0f89b18ed9d0bca241c7ccfc6a31b026af7362da",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0243"
+        },
+        {
+          "name": "project-results.zip.part-0244",
+          "bytes": 4194304,
+          "sha256": "0359bb1749ae9e7d19f58c3865583a33d67d87c74ac433eeefbf14bf20fe6ce0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0244"
+        },
+        {
+          "name": "project-results.zip.part-0245",
+          "bytes": 4194304,
+          "sha256": "4a661442496597f2f0be1703f30adaae0b165c95cad85a6b4d78503e41744558",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0245"
+        },
+        {
+          "name": "project-results.zip.part-0246",
+          "bytes": 4194304,
+          "sha256": "b9ee7a92f1820673d238f63248b34ef22500eccbae7c551649f62481f1b2ece4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0246"
+        },
+        {
+          "name": "project-results.zip.part-0247",
+          "bytes": 4194304,
+          "sha256": "e36f0441bdabcf1523a09bae6b8c85ddca44e57923a6843e877532de4bd91564",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0247"
+        },
+        {
+          "name": "project-results.zip.part-0248",
+          "bytes": 4194304,
+          "sha256": "9beb759ff80b57f67a39bc5af01151c7d6465982f67e3367cac142dec97a801f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0248"
+        },
+        {
+          "name": "project-results.zip.part-0249",
+          "bytes": 4194304,
+          "sha256": "8d53dc63c555cc5fc498fef8040e5a271199b48906e9d19d8898b7378d84b9c6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0249"
+        },
+        {
+          "name": "project-results.zip.part-0250",
+          "bytes": 4194304,
+          "sha256": "a4de144cb63e72c7eabd201e11a2d8933b343a0ef23305a7284c1626c7b92ee2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0250"
+        },
+        {
+          "name": "project-results.zip.part-0251",
+          "bytes": 4194304,
+          "sha256": "60c603e07c642d48f7018cc553ccf299cf6263dbf2fd939c1ca71a44bd2bb713",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0251"
+        },
+        {
+          "name": "project-results.zip.part-0252",
+          "bytes": 4194304,
+          "sha256": "f0877557d001007677e18f5d2926d89112dd379a61e4a4486fb80dddf8eb9588",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0252"
+        },
+        {
+          "name": "project-results.zip.part-0253",
+          "bytes": 4194304,
+          "sha256": "39f7f3eb22e360e19f2ad83b7013a799d96fd540772f74c776491b00b707b1f7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0253"
+        },
+        {
+          "name": "project-results.zip.part-0254",
+          "bytes": 4194304,
+          "sha256": "d4dc1c9ac94864090d5d14a85b0281412de985eb4fa11ed517cdff50020b0424",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0254"
+        },
+        {
+          "name": "project-results.zip.part-0255",
+          "bytes": 4194304,
+          "sha256": "bcd608d2eeb11b0bc9e6c0efe1467800325996a96714405497f11057d0a80be3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0255"
+        },
+        {
+          "name": "project-results.zip.part-0256",
+          "bytes": 2749973,
+          "sha256": "c55b1c51e411dae99e3146886b7b986955c6e2e6ec1d98e655cff5f71ccce07e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.part-0256"
+        }
+      ]
     },
     {
       "name": "project-animations.zip",
       "bytes": 145567193,
       "sha256": "7f9745fe027373c9868de23b51c487cfd87b81b98dc76e1a8fff0c8296481b6d",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip"
+      "parts": [
+        {
+          "name": "project-animations.zip.part-0001",
+          "bytes": 4194304,
+          "sha256": "1f4d45335c4d7921584e4a6fc630ad70651bd871f1a9d144e877487c6e643c01",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0001"
+        },
+        {
+          "name": "project-animations.zip.part-0002",
+          "bytes": 4194304,
+          "sha256": "c3c51ba2f803d9098b1d3a376db67dc3f521bc2b7abc4100b71c0d0f08509ec9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0002"
+        },
+        {
+          "name": "project-animations.zip.part-0003",
+          "bytes": 4194304,
+          "sha256": "7ace3bb369d855d0c924ef6b6ec484f662b24bfb25e3486f779d376b9364b190",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0003"
+        },
+        {
+          "name": "project-animations.zip.part-0004",
+          "bytes": 4194304,
+          "sha256": "e205e3dc27f8fe2d6020cbc4ce23584e10e10ac77a3ac44dff3faca34f090cad",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0004"
+        },
+        {
+          "name": "project-animations.zip.part-0005",
+          "bytes": 4194304,
+          "sha256": "ad1055077903bd231aa3ffb367080125eaa8306c9dc4d358e36d77d69c42fa36",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0005"
+        },
+        {
+          "name": "project-animations.zip.part-0006",
+          "bytes": 4194304,
+          "sha256": "f10252fdce54dc783c8cc26fecf326f95ac4a8adec1e6df04f2e167698e387f7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0006"
+        },
+        {
+          "name": "project-animations.zip.part-0007",
+          "bytes": 4194304,
+          "sha256": "2c5c3bf89ebde9e52f9fe271528c1205f18f77d472c70b4bfe058999c705feb6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0007"
+        },
+        {
+          "name": "project-animations.zip.part-0008",
+          "bytes": 4194304,
+          "sha256": "3d58659f43d22e80b2bf5d6cbf0afb5697913d4a52648f1ae95159c9840a150d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0008"
+        },
+        {
+          "name": "project-animations.zip.part-0009",
+          "bytes": 4194304,
+          "sha256": "5306043cf2d85e25f9aa4708f3871977eca603a28ef05796c7418cfd5075ea67",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0009"
+        },
+        {
+          "name": "project-animations.zip.part-0010",
+          "bytes": 4194304,
+          "sha256": "dcbf954429198d20a2e468a1b4c28b4afc487346825e70751c8e3c42f1143e81",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0010"
+        },
+        {
+          "name": "project-animations.zip.part-0011",
+          "bytes": 4194304,
+          "sha256": "946084610634c2e32603767fde4fe7bcaea18ed1c7db197d84431bbc18154d57",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0011"
+        },
+        {
+          "name": "project-animations.zip.part-0012",
+          "bytes": 4194304,
+          "sha256": "6bd57241c05b164da25f6248ffd7367f94887006d4b32e50fe011b17e28e7017",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0012"
+        },
+        {
+          "name": "project-animations.zip.part-0013",
+          "bytes": 4194304,
+          "sha256": "b347b497d5a34ed5b8130a5f3eb9864961035a3e1ee6e7397a14447b4b604113",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0013"
+        },
+        {
+          "name": "project-animations.zip.part-0014",
+          "bytes": 4194304,
+          "sha256": "afe0d36c74bca3881afc61ca646fe60c4654b5ca7536c168d1ac2121a3ce3949",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0014"
+        },
+        {
+          "name": "project-animations.zip.part-0015",
+          "bytes": 4194304,
+          "sha256": "454b6d9050542bb015b8e308e1a94a5d844fafc42920e687539dcb200b707eac",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0015"
+        },
+        {
+          "name": "project-animations.zip.part-0016",
+          "bytes": 4194304,
+          "sha256": "28bb8d9b6033cbe95dc8c7389333729c5e7bf20d15af809c7b1cab0ad8d1700b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0016"
+        },
+        {
+          "name": "project-animations.zip.part-0017",
+          "bytes": 4194304,
+          "sha256": "86565eba501a352eab9aaaabf3bdf80cd167969f6d3fb05b06abcbfc488bfb7c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0017"
+        },
+        {
+          "name": "project-animations.zip.part-0018",
+          "bytes": 4194304,
+          "sha256": "3d37683e5e97a2bcb3d6c9d2f752b6ff8df33775b6dc9cec22c746b4cafddad8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0018"
+        },
+        {
+          "name": "project-animations.zip.part-0019",
+          "bytes": 4194304,
+          "sha256": "3e05a7c9ed0b6c340ca2178202aa7bc8703cecfffcb4356d514d9faf98ee6d94",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0019"
+        },
+        {
+          "name": "project-animations.zip.part-0020",
+          "bytes": 4194304,
+          "sha256": "afd61ab5b1044719ca0b6e81ebf677703e91b7cb318ce191a7d59498ff5c3fc5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0020"
+        },
+        {
+          "name": "project-animations.zip.part-0021",
+          "bytes": 4194304,
+          "sha256": "25c9bf6d3ffd37bf002affbb61a05f44acaf360ddd3141401704eb2f9d65f1d4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0021"
+        },
+        {
+          "name": "project-animations.zip.part-0022",
+          "bytes": 4194304,
+          "sha256": "8275c7d5243de9ae6824ddc38ab243234431ac590f7bc5607d52e7392e51a433",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0022"
+        },
+        {
+          "name": "project-animations.zip.part-0023",
+          "bytes": 4194304,
+          "sha256": "80f8092083880f07ec9598823cd4552cfd14c951ce36aacbb5d01da1f49a2f19",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0023"
+        },
+        {
+          "name": "project-animations.zip.part-0024",
+          "bytes": 4194304,
+          "sha256": "def543624ccaeae37a1a0b68786f44a86ffc8892e0518b3bfc600c723768b6b0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0024"
+        },
+        {
+          "name": "project-animations.zip.part-0025",
+          "bytes": 4194304,
+          "sha256": "39ea5bd0aca5c203c8fc5396fe40000b5f87b65b07cc8a5d0128831a0e082f37",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0025"
+        },
+        {
+          "name": "project-animations.zip.part-0026",
+          "bytes": 4194304,
+          "sha256": "9275f8577f46de7d483e2ee8aca62878dc95e0a7b3920b1258faaecc17343d42",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0026"
+        },
+        {
+          "name": "project-animations.zip.part-0027",
+          "bytes": 4194304,
+          "sha256": "0297b8b2d8c915fa3b124df62bc7c95d31e3d4a950df70bdca8e381df1c0cc1d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0027"
+        },
+        {
+          "name": "project-animations.zip.part-0028",
+          "bytes": 4194304,
+          "sha256": "c3badd0fc4df46814b7f89fcaa433df9663d2c74170d1202f37e5295864c56da",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0028"
+        },
+        {
+          "name": "project-animations.zip.part-0029",
+          "bytes": 4194304,
+          "sha256": "6d14a53b1da3b49e125c16c03f6b63430291eea5eb6d9ec20a72662df4dedef7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0029"
+        },
+        {
+          "name": "project-animations.zip.part-0030",
+          "bytes": 4194304,
+          "sha256": "a9408c20679f168b52ffca1b33dbc9253a38ff600615caeea642e11d982ad194",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0030"
+        },
+        {
+          "name": "project-animations.zip.part-0031",
+          "bytes": 4194304,
+          "sha256": "f3332329576dbca0f4297996a1503a6400e3005842a77b9e3e40a65a27e3f114",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0031"
+        },
+        {
+          "name": "project-animations.zip.part-0032",
+          "bytes": 4194304,
+          "sha256": "1784affce5e7190f46eab76cca0abf2f6f1ccd018ae682bb1728b33e912a8914",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0032"
+        },
+        {
+          "name": "project-animations.zip.part-0033",
+          "bytes": 4194304,
+          "sha256": "0e21f1feb1f6319f962d77e2026472f693afdf8badceaf94daa13eb6bbf10c5d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0033"
+        },
+        {
+          "name": "project-animations.zip.part-0034",
+          "bytes": 4194304,
+          "sha256": "6466a6b9483baab6bf9eae60a5bf672d8da352e20d5c05c0ad984fb56d02a833",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0034"
+        },
+        {
+          "name": "project-animations.zip.part-0035",
+          "bytes": 2960857,
+          "sha256": "9c08dbaf6b30a6fac02dd09dd87e24c6e342791c1d0fc6b48e5aafb3cbb29b18",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.part-0035"
+        }
+      ]
     },
     {
       "name": "project-runtimes-windows-x64.zip",
       "bytes": 486812081,
       "sha256": "32c8c3ba3e923fa41ad634616ec5d6fd84970b712617cbf7ceb8bcb34e14688c",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip"
+      "parts": [
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0001",
+          "bytes": 4194304,
+          "sha256": "ba71649196fba4ae9568569ab5ff319e0b5e922cf4b3e8e5e7b1379cf0e0b9f4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0001"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0002",
+          "bytes": 4194304,
+          "sha256": "1b305407f896be43ff165dd7e3c5ef766143796188120cb993c5ebab1c9fcda2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0002"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0003",
+          "bytes": 4194304,
+          "sha256": "8d064f4b9a6cdae6143aea1a827c8c2180d1179fa460ba51f0d5aa89ea3fcb9a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0003"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0004",
+          "bytes": 4194304,
+          "sha256": "8fbd4b9d99893bce087313a3e6f389f03b0cf3a7b39185e4cefbd7746f871de9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0004"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0005",
+          "bytes": 4194304,
+          "sha256": "505e0b3da06d5e626ed90e7232ed81ce44096a3d238c91d694fe05e63f2a0ce3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0005"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0006",
+          "bytes": 4194304,
+          "sha256": "f4ead1f8559101627192e9db23eacd4487b3174a4f8bd1c59cf07938541bbcb0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0006"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0007",
+          "bytes": 4194304,
+          "sha256": "5c6282426e3d180f983da1120e150754292c02a882bd33dba77cbdd3832201bc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0007"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0008",
+          "bytes": 4194304,
+          "sha256": "4bdf94b8af9ba77da48cd6d2bf0ba6e7a5e1f34978083cf09729f2d206f99463",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0008"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0009",
+          "bytes": 4194304,
+          "sha256": "d6242798b71bc43472a57da1e652ad259ef34aee74c04adf6a45a9de7e31eec2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0009"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0010",
+          "bytes": 4194304,
+          "sha256": "3a1c75cc262e0bdebe28a1eb56d8b08e706e7985a009ce6e08afb9e18aab072b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0010"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0011",
+          "bytes": 4194304,
+          "sha256": "ae74d2e57d29e0a5b5e1744a251a3741bbad70548fa2c834aa63836100cd099b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0011"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0012",
+          "bytes": 4194304,
+          "sha256": "d516d4fd42531a3c915b6316cbef0324dfceac507602ae571832179b5e05b4a5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0012"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0013",
+          "bytes": 4194304,
+          "sha256": "1ee5c568054c6b166e3e30a089c3b0d399c381734fb5340a1df5d4292ddbdbef",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0013"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0014",
+          "bytes": 4194304,
+          "sha256": "4e5b8cb00610b97d783fc2c9360d6cc046040d19395a45adac9935b14bc30279",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0014"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0015",
+          "bytes": 4194304,
+          "sha256": "c16d403421b4e895911b359561cd556e77480de1ba4441ca72803fb46ad04339",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0015"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0016",
+          "bytes": 4194304,
+          "sha256": "90a1d3891bfb628673c30c36f6841e2e34d2b75cbb996bd99f3b2f93b8232635",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0016"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0017",
+          "bytes": 4194304,
+          "sha256": "e6ebcb6cf7d95882ad4943d1411a0e20ca1feb51bcee1cac3300f55369c50eae",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0017"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0018",
+          "bytes": 4194304,
+          "sha256": "635ffffd165a099ba814e88cd2b09a2cb0dee4f777f0edb4458b0da7f78c5adc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0018"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0019",
+          "bytes": 4194304,
+          "sha256": "870acdf9d62efaa229e32e5374256c2534509d04c19cd59eba6a9a64d10c1934",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0019"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0020",
+          "bytes": 4194304,
+          "sha256": "fc0fd34e7a80d9636ca1c4cd19d8a1e045e9cc0c554a490aba68ff5d610e9411",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0020"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0021",
+          "bytes": 4194304,
+          "sha256": "a036c37d34364e62e85eb119b7f4a36b5ba65d608a811339906a844595b2311a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0021"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0022",
+          "bytes": 4194304,
+          "sha256": "fa10a66e5f33b661c21e94024c87c88c6a0c0b9e3e7c856460a493cbf92133f9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0022"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0023",
+          "bytes": 4194304,
+          "sha256": "b916a8fb4160b3aa626232ee5a72fc1a83a3644c7174c418d479b11fafa1d287",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0023"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0024",
+          "bytes": 4194304,
+          "sha256": "ead454d8b944a4ceda3c8d6edf0d62655c0df5c706efafbaff6f8075bda326d1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0024"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0025",
+          "bytes": 4194304,
+          "sha256": "0818cc8e91bc052c6dda11e19a1ab56d68bded21db67fdf3f11199ca1c686893",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0025"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0026",
+          "bytes": 4194304,
+          "sha256": "42047043e8b854dcbe9412c7bd21cc4149f847a9457cc6060cb251e3b24e2383",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0026"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0027",
+          "bytes": 4194304,
+          "sha256": "21bc10b6a3823f328e1d911da590c1a84f368a403324f9f7525f36a7dbc894cd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0027"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0028",
+          "bytes": 4194304,
+          "sha256": "20d37d2ed706a9deefa90186ae9df687c9bd6839e79fce58d76b989ec4e5a416",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0028"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0029",
+          "bytes": 4194304,
+          "sha256": "acaaa9a96e0f40bb0d3c4973dc5c32826e54f3470e9cfae4ff4c52914737f2cd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0029"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0030",
+          "bytes": 4194304,
+          "sha256": "757c16c11b75f005ff0413df82de3af62de53034951fc20eb3f50878f162e631",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0030"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0031",
+          "bytes": 4194304,
+          "sha256": "657ce677fc740344ce90cfc7c4e42f85c0cb5a9efbc03a4d68dbef33ea13cdbc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0031"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0032",
+          "bytes": 4194304,
+          "sha256": "96c58fb0be1966065ad7638390bb368e780b1415a068fd3ee1d4db2aa22e8f6c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0032"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0033",
+          "bytes": 4194304,
+          "sha256": "bdeaa02ac2262563bc702b2ee2c76d6a723066edc1c3a09926ffb5e9fc1eec23",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0033"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0034",
+          "bytes": 4194304,
+          "sha256": "f15a2eaa1267b1e1477c36f0e6a79be597d79a681e5403f4d2d10ba11eb3b946",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0034"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0035",
+          "bytes": 4194304,
+          "sha256": "af35ddc96326ad3e3c087b4cacb54644076a1c8b77bcb7e4ffbe2a7905aee985",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0035"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0036",
+          "bytes": 4194304,
+          "sha256": "3b564a52299f52410b756414727e32130efa73bd8db25e79edee73f2fea3256f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0036"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0037",
+          "bytes": 4194304,
+          "sha256": "f9cdb421a2ce9ffa123fdfad806b721a4a078bb9ddee5535253b6cdf348289fd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0037"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0038",
+          "bytes": 4194304,
+          "sha256": "8b389ef72e76a0ffb88192f589f122464876e3fc60e4f71d092a0ac29cf88c84",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0038"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0039",
+          "bytes": 4194304,
+          "sha256": "21a57007cc63bf54b1acaa86c2a09f1eb1b5c20ecc79b4dc51a44e7165376432",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0039"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0040",
+          "bytes": 4194304,
+          "sha256": "94f16a4bc8f5196334e7f7fd3294069b56646ae3755cc816f3bd4c592932d7f7",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0040"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0041",
+          "bytes": 4194304,
+          "sha256": "1e125e6facbc035c391a93b49563852ca709352c2fa792fa168f70c36603f0bf",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0041"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0042",
+          "bytes": 4194304,
+          "sha256": "6601f9be070bf93bfed21f0c20c51ee7ca067306d6241eb523bdbbf6fb7e2213",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0042"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0043",
+          "bytes": 4194304,
+          "sha256": "593eefbfa8dbfd2fd6d6a02426550ab96ed26bb8aa3096bfb5adb69e6578f98c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0043"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0044",
+          "bytes": 4194304,
+          "sha256": "6183ad9165cfa975176ab5de98869d5fa54f0dae7c73308dd04bb3a991c8f49f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0044"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0045",
+          "bytes": 4194304,
+          "sha256": "6431599f113330cfddf8386a28cdf3374d181d769ce840a983cd37c7c1efa5b2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0045"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0046",
+          "bytes": 4194304,
+          "sha256": "5a120eff8cf88fa882cb445c8ab075b21e5de1f91ef33ddb704fc5ca2ec04059",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0046"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0047",
+          "bytes": 4194304,
+          "sha256": "56dcdd4e0f5aba6dba90d307e9b5982e714278404c2c8e627c6a1ee20b3d1498",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0047"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0048",
+          "bytes": 4194304,
+          "sha256": "e98f952a3c2a119226d46caa9a5dd5a84ef623142c0eaae6d7463455e2b303b4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0048"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0049",
+          "bytes": 4194304,
+          "sha256": "a4adc62df868ed908aea7481b7c447e521af636094bcd261e5004db5a992f19e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0049"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0050",
+          "bytes": 4194304,
+          "sha256": "d5d5c2f8385304a9eb7a2fbb334e4836b8cf4baa18905b0de78b11daa6f3af40",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0050"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0051",
+          "bytes": 4194304,
+          "sha256": "298ec7cc25833e652d89694d284dd77feb9f4442e9523acddb6efa5c1a6975d9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0051"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0052",
+          "bytes": 4194304,
+          "sha256": "e57ccfbd6646a2eeda5e5c468927385ca20ab9a7c03efcc91b693f9b7169bac0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0052"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0053",
+          "bytes": 4194304,
+          "sha256": "29202b3934eeba02d19851d1cbb64dd31ebb52b8478b2d2651fce96bf6737b15",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0053"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0054",
+          "bytes": 4194304,
+          "sha256": "a4b67c9b1e8b01a7ecb06b0b33f3eb4ff94a7f2ffbde10d9ae6a530aab5254d9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0054"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0055",
+          "bytes": 4194304,
+          "sha256": "bf6db167e00602329f30e30b1070bf6a8225ab4164bc62a46edb59e81e6833aa",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0055"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0056",
+          "bytes": 4194304,
+          "sha256": "6f2ed679b7a0e0fdd12ff2d9385b45b07a52b1ba14767f4042f79026b90eeaa1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0056"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0057",
+          "bytes": 4194304,
+          "sha256": "f876ffacbb3318bb322313051c4b1ab190af179acac9c548da1b985f2f011bbd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0057"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0058",
+          "bytes": 4194304,
+          "sha256": "25c3942454af96d86a109b9bfb09c39d6a4136f4d72ca8bef08afa8cda2d1619",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0058"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0059",
+          "bytes": 4194304,
+          "sha256": "0be3370a02ec79b5709a0abe6666fc6c6d258d9e5fdd16a3a17757477db1bf21",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0059"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0060",
+          "bytes": 4194304,
+          "sha256": "2d94d17a8ab279db8d187480f2efd0cd1597346e294bf5a48a85e6c7a98f73d4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0060"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0061",
+          "bytes": 4194304,
+          "sha256": "20c72710feb8adefcbae48c9c301514c1a01abd2afc3a1c098904e9e3a48002b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0061"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0062",
+          "bytes": 4194304,
+          "sha256": "664e626923ba7ffcfb4fcb21ab8dfc6e6ce6c9392063c016246d4ab2572e1d5f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0062"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0063",
+          "bytes": 4194304,
+          "sha256": "c6f896baa7d620fc97bffb3efeab7e94438104c321c00d62db185d67f1330a7c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0063"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0064",
+          "bytes": 4194304,
+          "sha256": "c37914e083f9ae71bbb1b6ba4e9bc71903b3b0d67c227bf9182496985894c08b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0064"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0065",
+          "bytes": 4194304,
+          "sha256": "5c1dbb07ad62d2c744763e4c27ef4ef9c39a3fae4a74fc9a5106ab578a9a4413",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0065"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0066",
+          "bytes": 4194304,
+          "sha256": "c8e98f0e5066ef7635b0a93166a644be469985f12b7005d9af472e5bc2cd2f9b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0066"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0067",
+          "bytes": 4194304,
+          "sha256": "894245a727c16b085544acb3a47f4cc04ff1132f5f696d18b17f82330db31ee0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0067"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0068",
+          "bytes": 4194304,
+          "sha256": "28e7c9fbd6bd279248986517b64a54daee16bf9bc25eaaf4626b65e11f17288a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0068"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0069",
+          "bytes": 4194304,
+          "sha256": "c3a174a0cf1fdf7dcc0c3b59cb272ddfc6cf584f5a28080c4f001373a2f06a9f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0069"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0070",
+          "bytes": 4194304,
+          "sha256": "b71493a69c29c3bf7fc58b1e74e18145199079e6810baa9425bdedb4dc4948e6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0070"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0071",
+          "bytes": 4194304,
+          "sha256": "ab706ce3bcbfdaf0ac4ba7808a27c00642c10c050e6f15a5988c4824c15844e9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0071"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0072",
+          "bytes": 4194304,
+          "sha256": "6fcbf8a44487ad2378c0ee5a1c6ad9194d30d0ea970eea1155b5abc81080443e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0072"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0073",
+          "bytes": 4194304,
+          "sha256": "4abc882c9df89f5ecbcb7934eba1a6e56470226a617cc80bd0bb5243315c41c5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0073"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0074",
+          "bytes": 4194304,
+          "sha256": "2e0af9c70406bd7396d88526fbcc5182acdb23b69bb8c25ca26f5d2fe1360a86",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0074"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0075",
+          "bytes": 4194304,
+          "sha256": "13019e81eea35c39aac3d6ed70d64580e2ce7ba75403bd919dcebc38482d63a5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0075"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0076",
+          "bytes": 4194304,
+          "sha256": "ed7389e64740d9c4e7030830baeea1445779a066f2406c768282da8bf9b5652c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0076"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0077",
+          "bytes": 4194304,
+          "sha256": "a188e4e3801fe89c1ca7e93a9d212adb092ef5f9ff33ac8dc4a0c0aa429f4335",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0077"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0078",
+          "bytes": 4194304,
+          "sha256": "84041f71f2b385d4f17dec089f81fdef24a7dec48262d2688f999e25fe3caa40",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0078"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0079",
+          "bytes": 4194304,
+          "sha256": "5ddbbfd07e9a08493a44e0a69f94732451ba4f8c3a8d9bdb7c50a04202686233",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0079"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0080",
+          "bytes": 4194304,
+          "sha256": "e1841429ed3d5c7be7434b0607a6d41895ecd453d31551cd1932bb347cbcde5d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0080"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0081",
+          "bytes": 4194304,
+          "sha256": "b61fa08f7a864a1d7684dcbd5c57f752a0cc96cafc872e7a79ee8e4a2cc84823",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0081"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0082",
+          "bytes": 4194304,
+          "sha256": "8e5c364ef12a5839c2f0caee0f9ba262748641253af3966f363c637a518d453f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0082"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0083",
+          "bytes": 4194304,
+          "sha256": "66f18212f28b89843ecf3817b3a1e307cb8e7940572f8a28685d19738bcdd452",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0083"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0084",
+          "bytes": 4194304,
+          "sha256": "5724cf9d4e16759c3eb12abc93e49eb7daa9724dbdc85a4c620ee3539c736cee",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0084"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0085",
+          "bytes": 4194304,
+          "sha256": "97242c9abd3b2dd2848873647d78f7b9df4264b840a08a89f6a87397663702be",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0085"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0086",
+          "bytes": 4194304,
+          "sha256": "f4a7babd4910793f1008093b4493a5880b8b28d2ba9f222fe367eca4185ed7c9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0086"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0087",
+          "bytes": 4194304,
+          "sha256": "b62da4bf96a00cebff8fed42d86ce75be7003e55802df816db92786d98b3ed91",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0087"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0088",
+          "bytes": 4194304,
+          "sha256": "e23778580c982b93bf47788901e8fe2c70177d7f688d6a701c5f955436687798",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0088"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0089",
+          "bytes": 4194304,
+          "sha256": "7f1d29314c4ed5049dea1ae1e0ec070e0049033ea2084ccb06f79b69c5bbdc8b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0089"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0090",
+          "bytes": 4194304,
+          "sha256": "33125e59fa154b9c81df38869079fd29b87bf0bd5fd3ddbbab0ebfa65a047ace",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0090"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0091",
+          "bytes": 4194304,
+          "sha256": "76a5aa022aa6f607df14900a92b3f2673219f11f7d6d6b845de33f19a34dfcd1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0091"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0092",
+          "bytes": 4194304,
+          "sha256": "f78d99542fc12ff8de3bde9bd51d6af3610a45a2931d81de26343368557b68a0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0092"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0093",
+          "bytes": 4194304,
+          "sha256": "60dcbafced0809908b0a00037b78f4001bc653850e4e2abfa9ae20887fb44f90",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0093"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0094",
+          "bytes": 4194304,
+          "sha256": "2a32f2acc27634458c22a1d19aeb6ea759d709791dac61e0e49e5dd073100761",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0094"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0095",
+          "bytes": 4194304,
+          "sha256": "faa815c41d18cec94326c7409bd5e538a2efae4f0a400b117940431d5f2fdec3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0095"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0096",
+          "bytes": 4194304,
+          "sha256": "3fb46ef29ecb7b56c3ba10b5d6485956d60ee94b66d325a194424676767d9fff",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0096"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0097",
+          "bytes": 4194304,
+          "sha256": "330bc541b908674c5b264fd694511214db9702c3696a7517caabe9c9270e07ea",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0097"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0098",
+          "bytes": 4194304,
+          "sha256": "e7f1f9862445231b69d244e3ee0b44183fb33a664f7a57158402c42731dce374",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0098"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0099",
+          "bytes": 4194304,
+          "sha256": "75ed1ddcecc13fe002a4fee8c5125fde8eda1d97cf42c09101fcfd08a9539eab",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0099"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0100",
+          "bytes": 4194304,
+          "sha256": "f688aa7654ccd92907f54008a74e4693784d55c483782684ddb3227e550e96a0",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0100"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0101",
+          "bytes": 4194304,
+          "sha256": "07dc96af41b29ce35b2db78c5fb81f4e44c350464cfde9aba767b33141672f05",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0101"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0102",
+          "bytes": 4194304,
+          "sha256": "1de552661b9567c477067206f0e58406813b64824331b0a5c083232df6eda630",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0102"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0103",
+          "bytes": 4194304,
+          "sha256": "c7a42afb3117674e3a776c503307421c1ed65c008afe3f7c92d3a04dba4ebf8c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0103"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0104",
+          "bytes": 4194304,
+          "sha256": "a098d36577e577f1df509017222efff500bc52350aa787fa686df3265d4c17ae",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0104"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0105",
+          "bytes": 4194304,
+          "sha256": "0d081445bfa8b876bdfcdb67eecf2b5d1ebf740cd840c2af234b6b7084c9cac4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0105"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0106",
+          "bytes": 4194304,
+          "sha256": "07d0e4b97e479c547b84826f8be5806ccabd0c46eb626c80ef8ce3160312d7a2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0106"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0107",
+          "bytes": 4194304,
+          "sha256": "9e28c585eeffc155e6c80ffacd9886c0ce26a19941f6b625536ff39563f28c6a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0107"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0108",
+          "bytes": 4194304,
+          "sha256": "887fc155b49b99fddc800e1dbc4314759dbd98d78082b3e45e455ce0baa3721a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0108"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0109",
+          "bytes": 4194304,
+          "sha256": "c6ff3ef621c7ce9a502773ee6245af9af40d9c4af2b8577ebf8b605d72a90cb5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0109"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0110",
+          "bytes": 4194304,
+          "sha256": "1224e7ee67431ed4e0ba77eb9099bff23bca59efe980aeef39be331d9dcf742d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0110"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0111",
+          "bytes": 4194304,
+          "sha256": "27a55390f68010d80d498532788a78cd243acf8ed50fbb574650babd3d5cc6f2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0111"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0112",
+          "bytes": 4194304,
+          "sha256": "950dce52fb60ba045b746a69e163fe56f66c692bc783c11f62b5faa674361da3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0112"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0113",
+          "bytes": 4194304,
+          "sha256": "f020a18699c9a3cb0bf3dc1eeecdeabf43ce051029b81501b5ee4be108314527",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0113"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0114",
+          "bytes": 4194304,
+          "sha256": "d57d925e022273ccbec5ddebd6f4907d51b358b3366c00c9d61ba24cd3ec5fd8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0114"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0115",
+          "bytes": 4194304,
+          "sha256": "a085ab2007b3b10e8e8f235f0cf3b643fdf6704459585d8eeca381d4ee862d8b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0115"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0116",
+          "bytes": 4194304,
+          "sha256": "6bfee3e24538753ff8f00392eb1ad7051c8895e1dfe48e3fca7b4ccde6206c05",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0116"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.part-0117",
+          "bytes": 272817,
+          "sha256": "71d3e06b7d8e97c946947f313433f587950f8449adf268b3d3ba07027a1a4aea",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.part-0117"
+        }
+      ]
     },
     {
       "name": "rt21-recovery-windows-x64.zip",
       "bytes": 199696376,
       "sha256": "219f0e70812eb5ddcccff769d50222e1345dbff4ba04fc425972bcd30d462fe1",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip"
+      "parts": [
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0001",
+          "bytes": 4194304,
+          "sha256": "305b995fcc49825c60ca0eb87bc2c25f35535f4475a4f76c464936b452045bfa",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0001"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0002",
+          "bytes": 4194304,
+          "sha256": "2b7dd00da6846a550a770a989f0fca6fd1537811d43752aa429ac1be90142cfa",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0002"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0003",
+          "bytes": 4194304,
+          "sha256": "418158a3cdddf93ff92ac72599332bb4043d3cb2f21e02e6353ea9f1fccb3210",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0003"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0004",
+          "bytes": 4194304,
+          "sha256": "d40dc087b5b33557f34188b144f0552e74969323b2754829e40571010dfdbbd4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0004"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0005",
+          "bytes": 4194304,
+          "sha256": "464141d212dc61742efe6e9e4db1b508d87935bb7848d6daa8222ba2436dbdfd",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0005"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0006",
+          "bytes": 4194304,
+          "sha256": "7e2936051e1bdfdd14c838b32438fe0cc64a4488867841879969a63d547fe5d5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0006"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0007",
+          "bytes": 4194304,
+          "sha256": "dbc54b172d4de4dced04268404a02c611a29663d787b6bdb754378f921674d17",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0007"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0008",
+          "bytes": 4194304,
+          "sha256": "b64c97c13e08b584e9e28b260d60dc4327719f85197d9301aaebf2426a7a7e29",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0008"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0009",
+          "bytes": 4194304,
+          "sha256": "9642ebedda4fe9660fd88a74e1502e816048fa0831c9756c62bff252f62f72ab",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0009"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0010",
+          "bytes": 4194304,
+          "sha256": "713df81e3d2fc66bb5db926c94c5989affecb687784578c08837c87f575825d8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0010"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0011",
+          "bytes": 4194304,
+          "sha256": "1a40f375c2d5691fd81b4c2ecf2d18cb893951296fbb42e663c5447d495614e4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0011"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0012",
+          "bytes": 4194304,
+          "sha256": "7359ef361dfd2c29e4016fa40af447dc420beb246da28e13501af5e17e59790d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0012"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0013",
+          "bytes": 4194304,
+          "sha256": "df3df580d97a782527fb8b5ce2a5726e296d4c80af2328b3c59b3bff888852f4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0013"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0014",
+          "bytes": 4194304,
+          "sha256": "1ae6cf31b5c1678913734880fbc8084d62099cf42a55a26663d64b4e1f416067",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0014"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0015",
+          "bytes": 4194304,
+          "sha256": "f261d49cb36b6a552da0da64005964c45a44d55d883472a01f810c87834afc3d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0015"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0016",
+          "bytes": 4194304,
+          "sha256": "a666a35013628584899d1064816a16a020267a0e40c6c5556d8dd31a741f2d01",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0016"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0017",
+          "bytes": 4194304,
+          "sha256": "f8639b6d1f6ba1348af41c01e0c613f3e75df76a8abc643fa174aabc11c168af",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0017"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0018",
+          "bytes": 4194304,
+          "sha256": "3569c73e7c1e3f2b96d5854de683987b20298f60419702601314a02e1fa758da",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0018"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0019",
+          "bytes": 4194304,
+          "sha256": "bbbb1719da416eadc8109df95e859e044aed8aade37fd603ca93bba7b3124b3e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0019"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0020",
+          "bytes": 4194304,
+          "sha256": "c82aabd649ccbb0450b5c60b3afb13a3aa93cd1e4b735fed3a49c07ab9c54daa",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0020"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0021",
+          "bytes": 4194304,
+          "sha256": "ea160df911f57db95c28ce2dc5065cdc009e5072f47c773e220989802c9c2553",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0021"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0022",
+          "bytes": 4194304,
+          "sha256": "986990d7ab1288fabec8e90f00dbbb51321540626b224fe3d527caa8d141ec28",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0022"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0023",
+          "bytes": 4194304,
+          "sha256": "924c9ecab99e2ac8f4547e8da9873e88c66b45d876d1d73c18affd23e69b0fd6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0023"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0024",
+          "bytes": 4194304,
+          "sha256": "8d5ce3cb9f0bd878f2bff76e2bf11e94f3ac47aa783f9ba686d076d3e202fce9",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0024"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0025",
+          "bytes": 4194304,
+          "sha256": "e51227c3feac1897374b9e64b30c1dbd240c266426d3630b0d018b8a84f8be82",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0025"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0026",
+          "bytes": 4194304,
+          "sha256": "888c4d36d07880e923b2aa93c3fbd3548d810186cbe2f0e4b4d2f0d6b91157f2",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0026"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0027",
+          "bytes": 4194304,
+          "sha256": "538d5e3e23808c17d11dfc160a18f2127a0709d6fa292e4ee258b52c4eed36c3",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0027"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0028",
+          "bytes": 4194304,
+          "sha256": "172f0fe381be2948c221dbff757a94e2184bd7359dbc84c31fcf51637f340418",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0028"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0029",
+          "bytes": 4194304,
+          "sha256": "fefe227292096c3d94ff4840a0c252fe0a3f8c4508b9a8c4f376b2efec3bab04",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0029"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0030",
+          "bytes": 4194304,
+          "sha256": "75580c80116289e5dafb5ce6f61a3c4248b445fe81f997cc2b89ca58356746ad",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0030"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0031",
+          "bytes": 4194304,
+          "sha256": "18ff647b5b8b83c120559a79a7251505b59e299424329b824baf0cba9b155c41",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0031"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0032",
+          "bytes": 4194304,
+          "sha256": "5a9295efcbf1f87ec3748767f754a7451af60c0ceb32450d649e30a209beead8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0032"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0033",
+          "bytes": 4194304,
+          "sha256": "2051924cf77893b5de1495ea726dc0e1f844e32f8f6c2875e555c34dacff8f1a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0033"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0034",
+          "bytes": 4194304,
+          "sha256": "509a971201f0d536b833436d0eb7fd7c08c3265c311616b14e800c0d7fb7aba8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0034"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0035",
+          "bytes": 4194304,
+          "sha256": "e17e8874b6c6f669f84a6d7830ed68ad478b2f2f841b569c62fdea945ec202dc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0035"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0036",
+          "bytes": 4194304,
+          "sha256": "00e3fbd63c07c6f1f4e435e7b93db5d0a1ef6721b16fdee3bfc733247d6dfeb5",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0036"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0037",
+          "bytes": 4194304,
+          "sha256": "9abc53fa8d620a9c05084638841308c899d12ab0fa8e57299885bc00d80217ca",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0037"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0038",
+          "bytes": 4194304,
+          "sha256": "11fcae4d16a0504e41b495e1f4f774b29f229535125e3e5829044b92a06dd90a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0038"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0039",
+          "bytes": 4194304,
+          "sha256": "074f278130834835e0660672c282fb42184751dc85e65bd01196c81b7c0f404b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0039"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0040",
+          "bytes": 4194304,
+          "sha256": "a6038140676bf36dcd27ad9a201af4834e1bd0f76883e30e283812050ab42b11",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0040"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0041",
+          "bytes": 4194304,
+          "sha256": "027d51aaed6937657374a63097276dbcdeadf8bf9447fc9f0c5c88a4bf47bc9f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0041"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0042",
+          "bytes": 4194304,
+          "sha256": "1340ea0ea492c7cfe8b50b1e543d4ace3c89e37f10be2cd1669e027b0047e76d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0042"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0043",
+          "bytes": 4194304,
+          "sha256": "4bd4146173a3d7fa584c516d458a22868f40ed2c69f975ddc36b8f1ee1afa5ea",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0043"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0044",
+          "bytes": 4194304,
+          "sha256": "99b450af05a2b7a5dd7035ae0ebd1898bde2092377c9bc4f0e8bf8ea738ffb7e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0044"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0045",
+          "bytes": 4194304,
+          "sha256": "e1813c605b59488bb3386e677f43fdead96c9dff6ad770b792f4ffb9d2d84533",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0045"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0046",
+          "bytes": 4194304,
+          "sha256": "6ce72312bcff0282b89801fb749524de2447df10c5baf370adbb4a1f1bbc634f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0046"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0047",
+          "bytes": 4194304,
+          "sha256": "56d2259204bacc355bf0c3d7181a5fda32bef8a941aa4d89dd61395cde92c878",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0047"
+        },
+        {
+          "name": "rt21-recovery-windows-x64.zip.part-0048",
+          "bytes": 2564088,
+          "sha256": "601986322b844c2f975c8d38dcdc1aaaee01b9be56c91da687ee2b9fb5888ffb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.part-0048"
+        }
+      ]
     },
     {
       "name": "rt21-recovery-windows-x64.zip.sha256",
       "bytes": 97,
       "sha256": "96010544d13850a9918cfb9e54d9859d7957cabf9bf27c9592e1660bc794f48f",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.sha256"
+      "parts": [
+        {
+          "name": "rt21-recovery-windows-x64.zip.sha256",
+          "bytes": 97,
+          "sha256": "96010544d13850a9918cfb9e54d9859d7957cabf9bf27c9592e1660bc794f48f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.sha256"
+        }
+      ]
     },
     {
       "name": "rt21-recovery-windows-x64.validation.json",
       "bytes": 9556,
       "sha256": "0f38244783c9de8bf7500495d74e8690b2e86d71bfa83896e627bf5ec48297fc",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.validation.json"
+      "parts": [
+        {
+          "name": "rt21-recovery-windows-x64.validation.json",
+          "bytes": 9556,
+          "sha256": "0f38244783c9de8bf7500495d74e8690b2e86d71bfa83896e627bf5ec48297fc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.validation.json"
+        }
+      ]
     },
     {
       "name": "VALIDATION.json",
       "bytes": 13866,
       "sha256": "b17eaad4274835e88d79cca818f20e52159c06716b871d91b1c6986dee866acc",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/VALIDATION.json"
+      "parts": [
+        {
+          "name": "VALIDATION.json",
+          "bytes": 13866,
+          "sha256": "b17eaad4274835e88d79cca818f20e52159c06716b871d91b1c6986dee866acc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/VALIDATION.json"
+        }
+      ]
     },
     {
       "name": "selection-exclusions.json",
       "bytes": 913037,
       "sha256": "1733399b46fd8119130cf797a941ecbd95abd231bfcb801903bb2b0e0d592446",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/selection-exclusions.json"
+      "parts": [
+        {
+          "name": "selection-exclusions.json",
+          "bytes": 913037,
+          "sha256": "1733399b46fd8119130cf797a941ecbd95abd231bfcb801903bb2b0e0d592446",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/selection-exclusions.json"
+        }
+      ]
     },
     {
       "name": "project-source.zip.manifest.json",
       "bytes": 72996,
       "sha256": "7a5f97e504d12a562401d92da587d0ca23604f449aeb03bd76f974733371d678",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-source.zip.manifest.json"
+      "parts": [
+        {
+          "name": "project-source.zip.manifest.json",
+          "bytes": 72996,
+          "sha256": "7a5f97e504d12a562401d92da587d0ca23604f449aeb03bd76f974733371d678",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-source.zip.manifest.json"
+        }
+      ]
     },
     {
       "name": "project-results.zip.manifest.json",
       "bytes": 8596192,
       "sha256": "df2ad0ba483889c58f07d75d16a5472e3a34d3cd2d5e65a9d8a89205a0202f39",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.manifest.json"
+      "parts": [
+        {
+          "name": "project-results.zip.manifest.json.part-0001",
+          "bytes": 4194304,
+          "sha256": "dcd8eae1f7ab6b8e351bcc66ce1486203de68295ce485c61af3ab67095493b55",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.manifest.json.part-0001"
+        },
+        {
+          "name": "project-results.zip.manifest.json.part-0002",
+          "bytes": 4194304,
+          "sha256": "eb38b047d5a5e0ca2cbdbfa2aabd3dcb8360273ef70500eb764acdeb89e156b6",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.manifest.json.part-0002"
+        },
+        {
+          "name": "project-results.zip.manifest.json.part-0003",
+          "bytes": 207584,
+          "sha256": "f53822bb1b36df293a9d1c32300d34c06637a137f882643dfeb3392d7b171026",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.manifest.json.part-0003"
+        }
+      ]
     },
     {
       "name": "project-animations.zip.manifest.json",
       "bytes": 4475,
       "sha256": "f2c07226a1ba133d4a7cbadb6dfb3f94615472f7da5c1c0cae48489592701380",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.manifest.json"
+      "parts": [
+        {
+          "name": "project-animations.zip.manifest.json",
+          "bytes": 4475,
+          "sha256": "f2c07226a1ba133d4a7cbadb6dfb3f94615472f7da5c1c0cae48489592701380",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.manifest.json"
+        }
+      ]
     },
     {
       "name": "project-runtimes-windows-x64.zip.manifest.json",
       "bytes": 5361808,
       "sha256": "8b9306ee256e881edf5446ca1f3dcaeaacd3bd5742d3770c7faa33e3defb42b9",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.manifest.json"
+      "parts": [
+        {
+          "name": "project-runtimes-windows-x64.zip.manifest.json.part-0001",
+          "bytes": 4194304,
+          "sha256": "b1291f5003003ce15e593b82944e04f1a2c8398c83565c2c222fcfe2f5e91695",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.manifest.json.part-0001"
+        },
+        {
+          "name": "project-runtimes-windows-x64.zip.manifest.json.part-0002",
+          "bytes": 1167504,
+          "sha256": "95b65bab979ab41090643e69362b4d71170c5b3ac4fdb8621836d934409b1aac",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.manifest.json.part-0002"
+        }
+      ]
     },
     {
       "name": "comparison_animation-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 6587012,
       "sha256": "70423b1ebc45ee980d50f6777606c2c1b35adc43d7593f031884d9a4fd958c5f",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 6587012,
+          "sha256": "70423b1ebc45ee980d50f6777606c2c1b35adc43d7593f031884d9a4fd958c5f",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 6804457,
       "sha256": "b36ed362a2f11e9f0fa6cf4f88143dc655ae4e8c7ec1e391dbd5db78f32b3050",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 6804457,
+          "sha256": "b36ed362a2f11e9f0fa6cf4f88143dc655ae4e8c7ec1e391dbd5db78f32b3050",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 6894799,
       "sha256": "39c40a3e7e989b34cd26c8693bf80b64cdf599c6ec55fd3527d891d70e8f083c",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 6894799,
+          "sha256": "39c40a3e7e989b34cd26c8693bf80b64cdf599c6ec55fd3527d891d70e8f083c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 7022664,
       "sha256": "00006cf953b0ab824d7cf091cd225a816ee2ede15676d53ca2094e3e09a90265",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 7022664,
+          "sha256": "00006cf953b0ab824d7cf091cd225a816ee2ede15676d53ca2094e3e09a90265",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 6730240,
       "sha256": "da7c3bf334abf10b882e2e70e8a785cd6170c820c0e6f45b495676edf587a0fb",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 6730240,
+          "sha256": "da7c3bf334abf10b882e2e70e8a785cd6170c820c0e6f45b495676edf587a0fb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 6884580,
       "sha256": "fd3f3f941d5d83be66f8901db47aa5cf12f179b367eba756db01b70f85afc96d",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 6884580,
+          "sha256": "fd3f3f941d5d83be66f8901db47aa5cf12f179b367eba756db01b70f85afc96d",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 6799856,
       "sha256": "b5ad7c1358154c6c95020e459bafde6a278972052544064a03322bd6d9161b65",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 6799856,
+          "sha256": "b5ad7c1358154c6c95020e459bafde6a278972052544064a03322bd6d9161b65",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 7016076,
       "sha256": "4d027f6cfc8cdedb06a151d995153e670f3a42552c53374d425e252a5792b79b",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 7016076,
+          "sha256": "4d027f6cfc8cdedb06a151d995153e670f3a42552c53374d425e252a5792b79b",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 7100464,
       "sha256": "1a1072fb15c81fca4c0708b75504373e74f421a1b3a191840f997a9ba6179f0a",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 7100464,
+          "sha256": "1a1072fb15c81fca4c0708b75504373e74f421a1b3a191840f997a9ba6179f0a",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4",
       "bytes": 7057399,
       "sha256": "74b14880cd439a76e61ef4e9bc3659f6e427491f14f0bf89bac42aced382e799",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4"
+      "parts": [
+        {
+          "name": "comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4",
+          "bytes": 7057399,
+          "sha256": "74b14880cd439a76e61ef4e9bc3659f6e427491f14f0bf89bac42aced382e799",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4"
+        }
+      ]
     },
     {
       "name": "dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4",
       "bytes": 9238707,
       "sha256": "078044832f5ca1c794c8bccc752829a4b7c1224e34e949fee7d08c716eb8713c",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4"
+      "parts": [
+        {
+          "name": "dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4",
+          "bytes": 9238707,
+          "sha256": "078044832f5ca1c794c8bccc752829a4b7c1224e34e949fee7d08c716eb8713c",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4"
+        }
+      ]
     },
     {
       "name": "dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4",
       "bytes": 9102121,
       "sha256": "efe3883437f3a82ba1e44aef823e7b077fa61b5e7a3881d23194be88b15995b4",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4"
+      "parts": [
+        {
+          "name": "dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4",
+          "bytes": 9102121,
+          "sha256": "efe3883437f3a82ba1e44aef823e7b077fa61b5e7a3881d23194be88b15995b4",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4"
+        }
+      ]
     },
     {
       "name": "dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4",
       "bytes": 8814157,
       "sha256": "a934f0260737432ba279d3b4b0fddd344293ba44a10b6b4bfb4d4eea22623d47",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4"
+      "parts": [
+        {
+          "name": "dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4",
+          "bytes": 8814157,
+          "sha256": "a934f0260737432ba279d3b4b0fddd344293ba44a10b6b4bfb4d4eea22623d47",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4"
+        }
+      ]
     },
     {
       "name": "dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4",
       "bytes": 8913122,
       "sha256": "454dbcbabe173dd9a86590b4ae8295bc8879534883a828a17da20adf2d4fa6cb",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4"
+      "parts": [
+        {
+          "name": "dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4",
+          "bytes": 8913122,
+          "sha256": "454dbcbabe173dd9a86590b4ae8295bc8879534883a828a17da20adf2d4fa6cb",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4"
+        }
+      ]
     },
     {
       "name": "dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4",
       "bytes": 8780126,
       "sha256": "62d35c7bc6fdc96fe611a637db8396b6d1f58461da68188342eed68db1815ccc",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4"
+      "parts": [
+        {
+          "name": "dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4",
+          "bytes": 8780126,
+          "sha256": "62d35c7bc6fdc96fe611a637db8396b6d1f58461da68188342eed68db1815ccc",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4"
+        }
+      ]
     },
     {
       "name": "diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4",
       "bytes": 6664836,
       "sha256": "a0ee2d15e52a4cb3ec60417b300646ebb68eec279eb9ea18bddb788a2aefa40e",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4"
+      "parts": [
+        {
+          "name": "diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4",
+          "bytes": 6664836,
+          "sha256": "a0ee2d15e52a4cb3ec60417b300646ebb68eec279eb9ea18bddb788a2aefa40e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4"
+        }
+      ]
     },
     {
       "name": "diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4",
       "bytes": 8230198,
       "sha256": "b1552537ce22b85843a742cbaa9c105b37117fe59bd3b1e4d785ea79d03a1d7e",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4"
+      "parts": [
+        {
+          "name": "diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4",
+          "bytes": 8230198,
+          "sha256": "b1552537ce22b85843a742cbaa9c105b37117fe59bd3b1e4d785ea79d03a1d7e",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4"
+        }
+      ]
     },
     {
       "name": "maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4",
       "bytes": 8591425,
       "sha256": "09395ddfc768f11577bf620432e36e6308c0ed256f7785797ddef7af941c33c8",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4"
+      "parts": [
+        {
+          "name": "maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4",
+          "bytes": 8591425,
+          "sha256": "09395ddfc768f11577bf620432e36e6308c0ed256f7785797ddef7af941c33c8",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4"
+        }
+      ]
     },
     {
       "name": "native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4",
       "bytes": 9295521,
       "sha256": "30db985702b10d275a4d03fb02711e15bf883bb0ddc434ef57f04a6ed23137e1",
-      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4"
+      "parts": [
+        {
+          "name": "native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4",
+          "bytes": 9295521,
+          "sha256": "30db985702b10d275a4d03fb02711e15bf883bb0ddc434ef57f04a6ed23137e1",
+          "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4"
+        }
+      ]
     }
-  ]
+  ],
+  "transport": "Large assets are byte-exact parts. fetch.py verifies and reconstructs the original ZIPs."
 }

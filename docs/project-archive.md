@@ -13,15 +13,14 @@ are relocated into `local/runs` to protect archived reference data.
 The [asset manifest](../reproduction/project/assets.json) pins every download's
 SHA-256 and size, and records the source commit carried by `project-source.zip`.
 
-Download `project-source.zip`, `project-results.zip`, `project-animations.zip`, `project-runtimes-windows-x64.zip` and `SHA256SUMS.txt`. Check their hashes, then extract the four project archives into the same fresh directory. The optional `rt21-recovery-windows-x64.zip` restores separately.
+Download `fetch.py` and `assets.json` from the release into one folder. With
+Python 3.12 or later, run the following command there. The downloader joins
+numbered release parts into the original four ZIPs, verifies every part and each
+whole archive, then extracts into a fresh directory. Keep at least 6 GiB free.
+Add `--historical` to also download the optional RT 2.1 kit; restore it separately.
 
 ```powershell
-Get-FileHash .\project-*.zip -Algorithm SHA256
-# Compare with SHA256SUMS.txt before extraction.
-Expand-Archive .\project-source.zip C:\rt-replay
-Expand-Archive .\project-results.zip C:\rt-replay
-Expand-Archive .\project-animations.zip C:\rt-replay
-Expand-Archive .\project-runtimes-windows-x64.zip C:\rt-replay
+python .\fetch.py --destination C:\rt-replay --extract
 Set-Location C:\rt-replay
 .\Replay.cmd verify
 .\Replay.cmd setup
@@ -29,6 +28,12 @@ Set-Location C:\rt-replay
 .\Replay.cmd probe --profile phase
 .\Replay.cmd probe --profile reciprocal
 ```
+
+The parts preserve the exact checksums of the tested recovery archives. Completed
+downloads are reused on restart. Seven additional transport tests cover joining,
+corruption rejection and unsafe names; the original fourteen recovery tests also
+pass. The source ZIP freezes commit `be1f6ab`; the branch adds the download manifest,
+transport helper and publication records without changing the scientific code.
 
 Open `workspace/index.html` for the full report navigation. For Blender, install/use Blender 5.2.3 and follow the [recovery launcher instructions](../reproduction/project/README.md). The exact two add-ons are included; recovered workers use isolated external interpreters.
 

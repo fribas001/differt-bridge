@@ -1,9 +1,25 @@
 # Project recovery and reproduction assets
 
-Download the source, results, animations and Windows runtime archives from the
-same release. Verify their SHA-256 values from `SHA256SUMS.txt`, then extract all
-four into the same **fresh, short, writable** directory (for example `C:\rt-replay`).
-Keep 6 GiB free for extraction and setup. No existing environment is overwritten.
+Download `fetch.py` and `assets.json` from the same project release, or use this
+directory in the release branch checkout. With Python 3.12 or later:
+
+```powershell
+python .\fetch.py --destination C:\rt-replay --extract
+Set-Location C:\rt-replay
+```
+
+The downloader verifies each transfer part and reconstructs the four original
+source, results, animations and Windows runtime ZIPs. It then verifies their
+whole-file SHA-256 values before extraction. Interrupted downloads resume from
+verified parts. Large files are split only for reliable transfer; the joined ZIPs
+are byte-identical to the recovery-tested archives. Add `--historical` to also
+download the separate RT 2.1 kit, which must be extracted in its own directory.
+
+Use a **fresh, short, writable** destination and keep 6 GiB free for downloads,
+extraction and setup. No existing environment is overwritten. Python is needed
+only for this initial downloader; the runtime archive includes Python 3.12.10.
+Alternatively, concatenate the numbered parts in order, verify the resulting
+ZIPs against `SHA256SUMS.txt`, and extract the four main ZIPs into one directory.
 
 ```powershell
 .\Replay.cmd verify

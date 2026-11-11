@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "date": "2026-11-11",
+  "purpose": "Transport of previously verified recovery archives; no scientific changes",
+  "release": "project-2026-11-11",
+  "physical_asset_count": 490,
+  "chunk_bytes": 4194304,
+  "whole_archive_hashes_preserved": true,
+  "focused_tests": {
+    "passed": 21,
+    "new_download_tests": 7,
+    "retained_recovery_dispatch_tests": 14,
+    "scope": "Byte-exact joining, corruption and unsafe-name rejection, recovery guards and bootstrap command construction",
+    "temporary_directory": "Explicit workspace directory; default sandbox temp was not writable"
+  },
+  "project_structure_checks": "passed",
+  "scientific_simulations_run": false,
+  "publication_status": "Not asserted by this test receipt; verify release asset digests separately"
+}
