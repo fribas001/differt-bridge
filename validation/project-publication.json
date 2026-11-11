@@ -1,0 +1,37 @@
+{
+  "schema": 2,
+  "date_utc": "2026-11-11T16:32:05.132393+00:00",
+  "repository": "fribas001/differt-bridge",
+  "release": "project-2026-11-11",
+  "url": "https://github.com/fribas001/differt-bridge/releases/tag/project-2026-11-11",
+  "release_id": 441761394,
+  "status": "published_and_remote_hashes_verified",
+  "release_target_commit": "54d03aa148776318f43c6de62f538364c61e3bef",
+  "archive_source_commit": "be1f6abcae946ff92244752f74e596b0df9dc50e",
+  "asset_count": 490,
+  "transport_bytes": 2068758240,
+  "all_remote_sha256_and_sizes_verified": true,
+  "public_download_checks": [
+    {
+      "name": "assets.json",
+      "bytes": 170781,
+      "sha256": "6112fbc1f34172cbe4a5850fe99838e04451d9322b1eb9509d75ae6c95bb8522",
+      "public_download_verified": true
+    },
+    {
+      "name": "fetch.py",
+      "bytes": 5759,
+      "sha256": "7804d222b49bdb1e78869d298daee74c716167eeaaaaabb0461d04da78924fd7",
+      "public_download_verified": true
+    },
+    {
+      "name": "project-results.zip.part-0001",
+      "bytes_checked": 65536,
+      "sha256_of_checked_prefix": "50d0a03b4dc7fae04b1e586910e9c0a2ea9828223d012425b078a5f5c3554a23",
+      "public_prefix_download_verified": true,
+      "note": "The slow full download was stopped after verifying its prefix. Whole-asset SHA-256 was separately verified against GitHub metadata."
+    }
+  ],
+  "original_files_deleted": false,
+  "simulations_run": false
+}

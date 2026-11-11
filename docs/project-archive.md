@@ -2,6 +2,11 @@
 
 The [project release](https://github.com/fribas001/differt-bridge/releases/tag/project-2026-11-11) groups source, pinned Windows runtimes, historical reports, scientific inputs/checkpoints, Blender scenes and all 19 comparison videos. Large files are release assets so a normal Git clone stays small.
 
+The [publication receipt](../validation/project-publication.json) records the
+published release, verified GitHub hashes and sizes for all 490 transport assets,
+and independent public downloads of the manifest, downloader and a 64 KiB
+prefix of a data part. The prefix supplements the whole-asset GitHub checksums.
+
 The [recovery validation](../validation/project-archive.json) records 41,375
 preserved result files, 30,172 matching restored scientific files, six import-only
 profile checks and three Blender dispatch checks. Fourteen static tests passed.
