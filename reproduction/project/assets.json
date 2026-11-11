@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "release": "project-2026-11-11",
+  "repository": "fribas001/differt-bridge",
+  "source_commit": "be1f6abcae946ff92244752f74e596b0df9dc50e",
+  "required": [
+    "project-source.zip",
+    "project-results.zip",
+    "project-animations.zip",
+    "project-runtimes-windows-x64.zip"
+  ],
+  "optional_historical": [
+    "rt21-recovery-windows-x64.zip"
+  ],
+  "assets": [
+    {
+      "name": "project-source.zip",
+      "bytes": 2705084,
+      "sha256": "5962d7570cf72c5d963e93fc5f5ec8e1e42a9b8a9706e4b43a9eecece8d8ef3e",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-source.zip"
+    },
+    {
+      "name": "project-results.zip",
+      "bytes": 1072297493,
+      "sha256": "c8420666c80a990eb45ee45655b0ce01c1a982768ded3fac91e89e1f2eafbef6",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip"
+    },
+    {
+      "name": "project-animations.zip",
+      "bytes": 145567193,
+      "sha256": "7f9745fe027373c9868de23b51c487cfd87b81b98dc76e1a8fff0c8296481b6d",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip"
+    },
+    {
+      "name": "project-runtimes-windows-x64.zip",
+      "bytes": 486812081,
+      "sha256": "32c8c3ba3e923fa41ad634616ec5d6fd84970b712617cbf7ceb8bcb34e14688c",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip"
+    },
+    {
+      "name": "rt21-recovery-windows-x64.zip",
+      "bytes": 199696376,
+      "sha256": "219f0e70812eb5ddcccff769d50222e1345dbff4ba04fc425972bcd30d462fe1",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip"
+    },
+    {
+      "name": "rt21-recovery-windows-x64.zip.sha256",
+      "bytes": 97,
+      "sha256": "96010544d13850a9918cfb9e54d9859d7957cabf9bf27c9592e1660bc794f48f",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.zip.sha256"
+    },
+    {
+      "name": "rt21-recovery-windows-x64.validation.json",
+      "bytes": 9556,
+      "sha256": "0f38244783c9de8bf7500495d74e8690b2e86d71bfa83896e627bf5ec48297fc",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/rt21-recovery-windows-x64.validation.json"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 13866,
+      "sha256": "b17eaad4274835e88d79cca818f20e52159c06716b871d91b1c6986dee866acc",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/VALIDATION.json"
+    },
+    {
+      "name": "selection-exclusions.json",
+      "bytes": 913037,
+      "sha256": "1733399b46fd8119130cf797a941ecbd95abd231bfcb801903bb2b0e0d592446",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/selection-exclusions.json"
+    },
+    {
+      "name": "project-source.zip.manifest.json",
+      "bytes": 72996,
+      "sha256": "7a5f97e504d12a562401d92da587d0ca23604f449aeb03bd76f974733371d678",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-source.zip.manifest.json"
+    },
+    {
+      "name": "project-results.zip.manifest.json",
+      "bytes": 8596192,
+      "sha256": "df2ad0ba483889c58f07d75d16a5472e3a34d3cd2d5e65a9d8a89205a0202f39",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-results.zip.manifest.json"
+    },
+    {
+      "name": "project-animations.zip.manifest.json",
+      "bytes": 4475,
+      "sha256": "f2c07226a1ba133d4a7cbadb6dfb3f94615472f7da5c1c0cae48489592701380",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-animations.zip.manifest.json"
+    },
+    {
+      "name": "project-runtimes-windows-x64.zip.manifest.json",
+      "bytes": 5361808,
+      "sha256": "8b9306ee256e881edf5446ca1f3dcaeaacd3bd5742d3770c7faa33e3defb42b9",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/project-runtimes-windows-x64.zip.manifest.json"
+    },
+    {
+      "name": "comparison_animation-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6587012,
+      "sha256": "70423b1ebc45ee980d50f6777606c2c1b35adc43d7593f031884d9a4fd958c5f",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6804457,
+      "sha256": "b36ed362a2f11e9f0fa6cf4f88143dc655ae4e8c7ec1e391dbd5db78f32b3050",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6894799,
+      "sha256": "39c40a3e7e989b34cd26c8693bf80b64cdf599c6ec55fd3527d891d70e8f083c",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7022664,
+      "sha256": "00006cf953b0ab824d7cf091cd225a816ee2ede15676d53ca2094e3e09a90265",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6730240,
+      "sha256": "da7c3bf334abf10b882e2e70e8a785cd6170c820c0e6f45b495676edf587a0fb",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6884580,
+      "sha256": "fd3f3f941d5d83be66f8901db47aa5cf12f179b367eba756db01b70f85afc96d",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6799856,
+      "sha256": "b5ad7c1358154c6c95020e459bafde6a278972052544064a03322bd6d9161b65",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7016076,
+      "sha256": "4d027f6cfc8cdedb06a151d995153e670f3a42552c53374d425e252a5792b79b",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7100464,
+      "sha256": "1a1072fb15c81fca4c0708b75504373e74f421a1b3a191840f997a9ba6179f0a",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7057399,
+      "sha256": "74b14880cd439a76e61ef4e9bc3659f6e427491f14f0bf89bac42aced382e799",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4"
+    },
+    {
+      "name": "dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4",
+      "bytes": 9238707,
+      "sha256": "078044832f5ca1c794c8bccc752829a4b7c1224e34e949fee7d08c716eb8713c",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4"
+    },
+    {
+      "name": "dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4",
+      "bytes": 9102121,
+      "sha256": "efe3883437f3a82ba1e44aef823e7b077fa61b5e7a3881d23194be88b15995b4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4"
+    },
+    {
+      "name": "dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4",
+      "bytes": 8814157,
+      "sha256": "a934f0260737432ba279d3b4b0fddd344293ba44a10b6b4bfb4d4eea22623d47",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4"
+    },
+    {
+      "name": "dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4",
+      "bytes": 8913122,
+      "sha256": "454dbcbabe173dd9a86590b4ae8295bc8879534883a828a17da20adf2d4fa6cb",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4"
+    },
+    {
+      "name": "dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4",
+      "bytes": 8780126,
+      "sha256": "62d35c7bc6fdc96fe611a637db8396b6d1f58461da68188342eed68db1815ccc",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4"
+    },
+    {
+      "name": "diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4",
+      "bytes": 6664836,
+      "sha256": "a0ee2d15e52a4cb3ec60417b300646ebb68eec279eb9ea18bddb788a2aefa40e",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4"
+    },
+    {
+      "name": "diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4",
+      "bytes": 8230198,
+      "sha256": "b1552537ce22b85843a742cbaa9c105b37117fe59bd3b1e4d785ea79d03a1d7e",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4"
+    },
+    {
+      "name": "maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4",
+      "bytes": 8591425,
+      "sha256": "09395ddfc768f11577bf620432e36e6308c0ed256f7785797ddef7af941c33c8",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4"
+    },
+    {
+      "name": "native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4",
+      "bytes": 9295521,
+      "sha256": "30db985702b10d275a4d03fb02711e15bf883bb0ddc434ef57f04a6ed23137e1",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4"
+    }
+  ]
+}

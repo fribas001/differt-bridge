@@ -10,6 +10,9 @@ are relocated into `local/runs` to protect archived reference data.
 
 ## Recover on another computer
 
+The [asset manifest](../reproduction/project/assets.json) pins every download's
+SHA-256 and size, and records the source commit carried by `project-source.zip`.
+
 Download `project-source.zip`, `project-results.zip`, `project-animations.zip`, `project-runtimes-windows-x64.zip` and `SHA256SUMS.txt`. Check their hashes, then extract the four project archives into the same fresh directory. The optional `rt21-recovery-windows-x64.zip` restores separately.
 
 ```powershell
