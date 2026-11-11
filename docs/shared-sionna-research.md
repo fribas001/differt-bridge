@@ -1,5 +1,10 @@
 # Reciprocal and phase-alignment workflows on RT 2.2
 
+> **RT 2.1 retirement update:** the former `-Legacy` routes below are historical.
+> Current launchers reject them; recover the old runtime through the verified
+> offline kit. See [retirement and recovery](rt21-retirement.md). The migration
+> measurements below remain the original evidence.
+
 This is the research extension of the [native migration](shared-sionna-runtime.md).
 It uses the pinned Windows x64 CPU environment and its verified LLVM bootstrap.
 The adapters live in this project and change methods only in the worker process.
@@ -82,8 +87,8 @@ Maxwell solver updates its checkpoint receipt when reusing modes.
 
 The lower-level `run_dielectric.py` also accepts the shared interpreter with
 `--profiles sionna-reciprocal,differt-reciprocal --precision float32`. Omit
-`--llvm-library` for shared RT. Direct calls to the three historical Python
-companion entry points without `--reuse-rays` retain their original RT 2.1 route.
+`--llvm-library` for shared RT. The three Python companion entry points now also select shared RT 2.2
+when they need fresh rays. Their frozen RT 2.1 versions are in the recovery kit.
 Use the PowerShell entry points above for the migrated workflow.
 
 ## What was adapted
@@ -175,26 +180,19 @@ PHY/SYS and arbitrary 3D Maxwell equivalence are not certified by these tests.
 Use the native profile for ordinary coverage and the prior guarded domains for
 Maxwell companions. No missing dependency was installed in shared RT.
 
-Close the shared Blender session and run:
-
-```powershell
-.\Launch_Phase_Alignment.ps1 -Legacy
-.\Launch_Reciprocal_Diffraction.ps1 -Legacy
-.\Compare_Maxwell_Wedge.ps1 -Legacy -Output .\work\my-legacy-maxwell
-.\Compare_Native3D_Wedge.ps1 -Legacy -Output .\work\my-legacy-pec
-.\Compare_Dielectric3D_Wedge.ps1 -Legacy -Output .\work\my-legacy-dielectric
-```
-
-CLI rollback uses `work/sionna-runtime/Scripts/python.exe` and its original LLVM
-setting. No shared-package rollback is necessary. The original launchers were
-also copied to `work/migrate-research22/launchers-before` before editing.
+The former `-Legacy` routes are retired. Restore historical RT 2.1 into a separate
+directory using the [verified offline recovery kit](rt21-retirement.md), then
+use its explicit `run` command for historical scripts. Keep the current launchers
+for Blender. No shared-package rollback is necessary. Original launcher copies
+are preserved in the recovery kit and the workspace audit directories.
 
 `work/sionna-runtime` is 445,876,118 bytes (425.22 MiB). It remains the historical
-replay/KP-experiment and reproduction fallback; deletion is not approved.
+replay/KP-experiment fallback on disk, now also preserved in the recovery kit;
+the on-disk copy is a removal candidate pending separate deletion approval.
 `work/runtime` is 645,085,810 bytes (615.20 MiB) and remains required for DiffeRT
-and Maxwell. Neither is a safe deletion candidate for this workflow today.
-Historical animation commands and the unfinished offline reproduction package
-retain their original provenance and were not regenerated or relabelled here.
+and Maxwell; keep it. Historical animation inputs retain their original
+provenance. The broader four-runtime reproduction draft remains separate from
+the completed RT 2.1 recovery kit.
 
 ## Changed entry points and files
 

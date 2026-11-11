@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "release": "project-2026-11-11",
+  "animations": [
+    {
+      "id": "comparison_animation",
+      "title": "Initial paths, coverage, motion and phase overview",
+      "path": "outputs/differt-bridge/examples/comparison_animation/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation/index.html",
+      "asset": "comparison_animation-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6587012,
+      "sha256": "70423b1ebc45ee980d50f6777606c2c1b35adc43d7593f031884d9a4fd958c5f",
+      "poster": "docs/media/comparison_animation.png"
+    },
+    {
+      "id": "comparison_animation_aligned",
+      "title": "Polarization-direction alignment",
+      "path": "outputs/differt-bridge/examples/comparison_animation_aligned/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_aligned/index.html",
+      "asset": "comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_aligned-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6804457,
+      "sha256": "b36ed362a2f11e9f0fa6cf4f88143dc655ae4e8c7ec1e391dbd5db78f32b3050",
+      "poster": "docs/media/comparison_animation_aligned.png"
+    },
+    {
+      "id": "comparison_animation_arithmetic",
+      "title": "Arithmetic implementation alignment",
+      "path": "outputs/differt-bridge/examples/comparison_animation_arithmetic/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_arithmetic/index.html",
+      "asset": "comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_arithmetic-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6894799,
+      "sha256": "39c40a3e7e989b34cd26c8693bf80b64cdf599c6ec55fd3527d891d70e8f083c",
+      "poster": "docs/media/comparison_animation_arithmetic.png"
+    },
+    {
+      "id": "comparison_animation_combined_field",
+      "title": "Combined-field calculation alignment",
+      "path": "outputs/differt-bridge/examples/comparison_animation_combined_field/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_combined_field/index.html",
+      "asset": "comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_combined_field-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7022664,
+      "sha256": "00006cf953b0ab824d7cf091cd225a816ee2ede15676d53ca2094e3e09a90265",
+      "poster": "docs/media/comparison_animation_combined_field.png"
+    },
+    {
+      "id": "comparison_animation_common_inputs",
+      "title": "Common geometry and material inputs",
+      "path": "outputs/differt-bridge/examples/comparison_animation_common_inputs/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_common_inputs/index.html",
+      "asset": "comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_common_inputs-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6730240,
+      "sha256": "da7c3bf334abf10b882e2e70e8a785cd6170c820c0e6f45b495676edf587a0fb",
+      "poster": "docs/media/comparison_animation_common_inputs.png"
+    },
+    {
+      "id": "comparison_animation_float32",
+      "title": "Floating-point precision alignment",
+      "path": "outputs/differt-bridge/examples/comparison_animation_float32/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_float32/index.html",
+      "asset": "comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_float32-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6884580,
+      "sha256": "fd3f3f941d5d83be66f8901db47aa5cf12f179b367eba756db01b70f85afc96d",
+      "poster": "docs/media/comparison_animation_float32.png"
+    },
+    {
+      "id": "comparison_animation_patched",
+      "title": "DiffeRT precision patch",
+      "path": "outputs/differt-bridge/examples/comparison_animation_patched/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_patched/index.html",
+      "asset": "comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_patched-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 6799856,
+      "sha256": "b5ad7c1358154c6c95020e459bafde6a278972052544064a03322bd6d9161b65",
+      "poster": "docs/media/comparison_animation_patched.png"
+    },
+    {
+      "id": "comparison_animation_phase_export",
+      "title": "Phase-export rounding",
+      "path": "outputs/differt-bridge/examples/comparison_animation_phase_export/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_phase_export/index.html",
+      "asset": "comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_phase_export-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7016076,
+      "sha256": "4d027f6cfc8cdedb06a151d995153e670f3a42552c53374d425e252a5792b79b",
+      "poster": "docs/media/comparison_animation_phase_export.png"
+    },
+    {
+      "id": "comparison_animation_reflection_geometry",
+      "title": "Native reflection-point reconstruction",
+      "path": "outputs/differt-bridge/examples/comparison_animation_reflection_geometry/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_reflection_geometry/index.html",
+      "asset": "comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_reflection_geometry-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7100464,
+      "sha256": "1a1072fb15c81fca4c0708b75504373e74f421a1b3a191840f997a9ba6179f0a",
+      "poster": "docs/media/comparison_animation_reflection_geometry.png"
+    },
+    {
+      "id": "comparison_animation_segment_length",
+      "title": "Final specular phase and corner-path comparison",
+      "path": "outputs/differt-bridge/examples/comparison_animation_segment_length/Sionna_vs_DiffeRT_Overview.mp4",
+      "report": "outputs/differt-bridge/examples/comparison_animation_segment_length/index.html",
+      "asset": "comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/comparison_animation_segment_length-Sionna_vs_DiffeRT_Overview.mp4",
+      "bytes": 7057399,
+      "sha256": "74b14880cd439a76e61ef4e9bc3659f6e427491f14f0bf89bac42aced382e799",
+      "poster": "docs/media/comparison_animation_segment_length.png"
+    },
+    {
+      "id": "dielectric3d_diffraction",
+      "title": "Native 3D dielectric diffraction",
+      "path": "outputs/differt-bridge/examples/dielectric3d_diffraction/Sionna_vs_DiffeRT_Dielectric3D.mp4",
+      "report": "outputs/differt-bridge/examples/dielectric3d_diffraction/index.html",
+      "asset": "dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_diffraction-Sionna_vs_DiffeRT_Dielectric3D.mp4",
+      "bytes": 9238707,
+      "sha256": "078044832f5ca1c794c8bccc752829a4b7c1224e34e949fee7d08c716eb8713c",
+      "poster": "docs/media/dielectric3d_diffraction.png"
+    },
+    {
+      "id": "dielectric3d_polarization",
+      "title": "Polarization error and reference refinement",
+      "path": "outputs/differt-bridge/examples/dielectric3d_polarization/Sionna_vs_DiffeRT_Polarization.mp4",
+      "report": "outputs/differt-bridge/examples/dielectric3d_polarization/index.html",
+      "asset": "dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_polarization-Sionna_vs_DiffeRT_Polarization.mp4",
+      "bytes": 9102121,
+      "sha256": "efe3883437f3a82ba1e44aef823e7b077fa61b5e7a3881d23194be88b15995b4",
+      "poster": "docs/media/dielectric3d_polarization.png"
+    },
+    {
+      "id": "dielectric3d_refinement",
+      "title": "3D dielectric shadow-field refinement",
+      "path": "outputs/differt-bridge/examples/dielectric3d_refinement/Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4",
+      "report": "outputs/differt-bridge/examples/dielectric3d_refinement/index.html",
+      "asset": "dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_refinement-Sionna_vs_DiffeRT_Dielectric3D_Refined.mp4",
+      "bytes": 8814157,
+      "sha256": "a934f0260737432ba279d3b4b0fddd344293ba44a10b6b4bfb4d4eea22623d47",
+      "poster": "docs/media/dielectric3d_refinement.png"
+    },
+    {
+      "id": "dielectric3d_residual",
+      "title": "Latest polarization residual and Maxwell reference",
+      "path": "outputs/differt-bridge/examples/dielectric3d_residual/Sionna_vs_DiffeRT_Residual.mp4",
+      "report": "outputs/differt-bridge/examples/dielectric3d_residual/index.html",
+      "asset": "dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_residual-Sionna_vs_DiffeRT_Residual.mp4",
+      "bytes": 8913122,
+      "sha256": "454dbcbabe173dd9a86590b4ae8295bc8879534883a828a17da20adf2d4fa6cb",
+      "poster": "docs/media/dielectric3d_residual.png"
+    },
+    {
+      "id": "dielectric3d_weak",
+      "title": "Weak-polarization convergence",
+      "path": "outputs/differt-bridge/examples/dielectric3d_weak/Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4",
+      "report": "outputs/differt-bridge/examples/dielectric3d_weak/index.html",
+      "asset": "dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/dielectric3d_weak-Sionna_vs_DiffeRT_Dielectric3D_Weak.mp4",
+      "bytes": 8780126,
+      "sha256": "62d35c7bc6fdc96fe611a637db8396b6d1f58461da68188342eed68db1815ccc",
+      "poster": "docs/media/dielectric3d_weak.png"
+    },
+    {
+      "id": "diffraction_batch",
+      "title": "Diffraction features and stable native batches",
+      "path": "outputs/differt-bridge/examples/diffraction_batch/Sionna_vs_DiffeRT_Diffraction.mp4",
+      "report": "outputs/differt-bridge/examples/diffraction_batch/index.html",
+      "asset": "diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_batch-Sionna_vs_DiffeRT_Diffraction.mp4",
+      "bytes": 6664836,
+      "sha256": "a0ee2d15e52a4cb3ec60417b300646ebb68eec279eb9ea18bddb788a2aefa40e",
+      "poster": "docs/media/diffraction_batch.png"
+    },
+    {
+      "id": "diffraction_model_errors",
+      "title": "Native diffraction errors against Maxwell",
+      "path": "outputs/differt-bridge/examples/diffraction_model_errors/Sionna_vs_DiffeRT_Maxwell.mp4",
+      "report": "outputs/differt-bridge/examples/diffraction_model_errors/index.html",
+      "asset": "diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/diffraction_model_errors-Sionna_vs_DiffeRT_Maxwell.mp4",
+      "bytes": 8230198,
+      "sha256": "b1552537ce22b85843a742cbaa9c105b37117fe59bd3b1e4d785ea79d03a1d7e",
+      "poster": "docs/media/diffraction_model_errors.png"
+    },
+    {
+      "id": "maxwell_refinement",
+      "title": "Optional 2D full-wave companion",
+      "path": "outputs/differt-bridge/examples/maxwell_refinement/Sionna_vs_DiffeRT_2D_Refinement.mp4",
+      "report": "outputs/differt-bridge/examples/maxwell_refinement/index.html",
+      "asset": "maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/maxwell_refinement-Sionna_vs_DiffeRT_2D_Refinement.mp4",
+      "bytes": 8591425,
+      "sha256": "09395ddfc768f11577bf620432e36e6308c0ed256f7785797ddef7af941c33c8",
+      "poster": "docs/media/maxwell_refinement.png"
+    },
+    {
+      "id": "native3d_diffraction",
+      "title": "Native 3D diffraction and PEC reference",
+      "path": "outputs/differt-bridge/examples/native3d_diffraction/Sionna_vs_DiffeRT_Native3D.mp4",
+      "report": "outputs/differt-bridge/examples/native3d_diffraction/index.html",
+      "asset": "native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4",
+      "url": "https://github.com/fribas001/differt-bridge/releases/download/project-2026-11-11/native3d_diffraction-Sionna_vs_DiffeRT_Native3D.mp4",
+      "bytes": 9295521,
+      "sha256": "30db985702b10d275a4d03fb02711e15bf883bb0ddc434ef57f04a6ed23137e1",
+      "poster": "docs/media/native3d_diffraction.png"
+    }
+  ]
+}

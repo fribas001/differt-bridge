@@ -20,7 +20,7 @@ def is_shared(python):
 def require_native(profile='native', environment=None):
     if profile != 'native':
         raise ValueError('This entry point supports only the native project profile. '
-                         'Use work/sionna-runtime for the source-guarded 2.1 research profiles.')
+                         'Restore the isolated RT 2.1 recovery kit for historical diagnostics.')
     env = os.environ if environment is None else environment
     if env.get('RADIO_RT22_PROFILE','native') not in ('','native'):
         raise ValueError('Native diagnostics require RADIO_RT22_PROFILE=native')

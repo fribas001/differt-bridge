@@ -15,7 +15,7 @@ WORKSPACE/
   ...other launchers from this folder...
   work/github-update/differt-bridge/   # this checkout
   work/runtime/                      # retained DiffeRT/Maxwell environment
-  work/sionna-runtime/                # retained RT 2.1 rollback environment
+  work/sionna-runtime/                # retired; not required by current launchers
   work/...                           # existing manifests and reference data
   outputs/differt-bridge/...          # existing scenes and historical launchers
 ```
@@ -33,3 +33,6 @@ Read [shared runtime instructions](../../docs/shared-sionna-runtime.md) and
 [research profiles, validation and rollback](../../docs/shared-sionna-research.md)
 before running. The `Check_*` and `Compare_*` commands perform calculations;
 copying these files or reading the saved validation receipts does not run them.
+
+RT 2.1 legacy switches now stop before execution. See the
+[retirement and recovery guide](../../docs/rt21-retirement.md) for the offline kit.

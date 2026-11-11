@@ -1,5 +1,10 @@
 # Shared Sionna RT 2.2 migration
 
+> **RT 2.1 retirement update:** the former `-Legacy` routes below are historical.
+> Current launchers reject them; recover the old runtime through the verified
+> offline kit. See [retirement and recovery](rt21-retirement.md). The migration
+> measurements below remain the original evidence.
+
 Validated workstation profile: Windows x64, Python 3.12.10, CPU
 `llvm_ad_mono_polarized`, Sionna RT 2.2.0, Mitsuba 3.9.1, Dr.Jit 1.5.0,
 NumPy 2.5.4, SciPy 1.18.1 and h5py 3.16.0. This is a venv, not Conda.
@@ -95,7 +100,7 @@ numerical replay results, limits and exact research commands.
 | Reciprocal dielectric paths and boundary corrections | Shared RT 2.2, explicit process-local `reciprocal` profile |
 | DiffeRT and precision/arithmetic profiles | Existing `work/runtime` retained |
 | Maxwell BIE/FEM and reference refinement | Existing `work/runtime` retained; NumPy 2.5.2 / SciPy 1.18.0 |
-| Original RT 2.1 runs and KP experiments | Existing patched `work/sionna-runtime`; guards unchanged |
+| Original RT 2.1 runs and KP experiments | Offline RT 2.1 recovery kit; legacy workspace launchers retired |
 | Full Sionna PHY/SYS, TensorFlow or CUDA | Not supplied or validated by this shared CPU profile |
 
 The RT 2.2 research installer checks exact source and payload hashes, then attaches
@@ -106,8 +111,9 @@ the research acceptance evidence covers path fields, not a corrected coverage mo
 
 The three `Compare_*_Wedge.ps1` launchers now generate fresh reciprocal rays using
 shared RT 2.2 and existing DiffeRT, then pass those exports to unchanged Maxwell
-companion programs. `-Legacy` restores their former route. Historical animation
-regeneration and the unfinished reproduction bundle retain their original stacks.
+companion programs. `-Legacy` is retired; deliberate historical replay uses the
+RT 2.1 recovery kit. Render-only animation commands retain their recorded inputs
+and the DiffeRT runtime.
 
 DiffeRT 0.12.0, JAX/JAXlib 0.12.0.1 and Warp 1.18.0 are not supplied by the
 shared RT environment. pytest 9.2.0 is also absent there; development tests use
@@ -156,26 +162,18 @@ Blender session/batch and health-check scripts, `test_shared_sionna.py`,
 installation/documentation links. Physics kernels and installed add-ons were
 not edited.
 
-Rollback without deleting or reinstalling anything:
-
-```powershell
-.\Launch_Workflow.ps1 -Legacy
-.\Launch_Diffraction.ps1 -Legacy
-.\Launch_Reciprocal_Diffraction.ps1 -Legacy
-.\Launch_Phase_Alignment.ps1 -Legacy
-.\Check_Workflow.ps1 -Legacy -RunComparison
-```
-
-Close the shared Blender session before switching profiles. For research CLI
-runs, pass `work/sionna-runtime/Scripts/python.exe` and the original LLVM path;
-the dispatch helper leaves legacy commands unchanged. No shared package
-rollback is needed because no shared package was edited.
+For deliberate historical rollback, follow the
+[offline RT 2.1 recovery instructions](rt21-retirement.md) in a separate directory.
+The former `-Legacy` switches now stop before starting a worker. Keep the current
+launchers for Blender and use the recovery kit's explicit `run` command for a
+historical script. No shared package rollback is needed because no shared package
+was edited.
 
 The old Sionna environment occupies 445,876,118 bytes (425.22 MiB), and the
-DiffeRT environment occupies 645,085,810 bytes (615.20 MiB). Neither is currently
-safe to remove: Sionna 2.1 remains the historical replay and KP-experiment fallback;
-DiffeRT remains necessary for DiffeRT and Maxwell. Any later deletion requires
-separate approval after those requirements are addressed.
+DiffeRT environment occupies 645,085,810 bytes (615.20 MiB). RT 2.1 is now a
+removal candidate after verified offline restoration; its original environment
+remains intact pending separate deletion approval. DiffeRT remains necessary for
+DiffeRT and Maxwell and must be kept.
 
 The in-progress `reproduction/` package draft and downloaded wheelhouses were
 preserved. They still target the original scientific environments; they are

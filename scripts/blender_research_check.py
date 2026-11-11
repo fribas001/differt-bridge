@@ -4,6 +4,7 @@ from pathlib import Path
 import bpy
 
 root,out,profile,runtime=sys.argv[sys.argv.index('--')+1:]
+if runtime!='shared':raise RuntimeError('Legacy Blender checks are retired; use the isolated RT 2.1 recovery kit.')
 root=Path(root).resolve();out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True)
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from shared_sionna import DEFAULT_PYTHON,attach_bridge

@@ -1,15 +1,14 @@
 param([string]$Manifest, [string]$Output, [switch]$Legacy)
 $ErrorActionPreference = 'Stop'
+if ($Legacy) { throw 'RT 2.1 launchers are retired. Use the shared RT 2.2 workflow or restore the isolated recovery package; see RT21_RETIREMENT.txt.' }
 $taskRoot = $PSScriptRoot
 if (-not $Manifest) { $Manifest = Join-Path $taskRoot 'work/native3d/workflow_cases.json' }
-if (-not $Output) { $Output = Join-Path $taskRoot ('work/native3d-comparison' + $(if ($Legacy) { '' } else { '-rt22' })) }
+if (-not $Output) { $Output = Join-Path $taskRoot 'work/native3d-comparison-rt22' }
 $runtimeArgs = @()
-if (-not $Legacy) {
     if (Test-Path -LiteralPath $Output) { throw "Choose a fresh output directory: $Output" }
     $rays = Join-Path $Output 'rays'
     & (Join-Path $taskRoot 'Run_Reciprocal_Rays.ps1') -Manifest $Manifest -Output $rays
     $runtimeArgs = @('--reuse-rays',$rays)
-}
 $taskPreviousThreads = $env:OPENBLAS_NUM_THREADS
 try {
     $env:OPENBLAS_NUM_THREADS = '1'

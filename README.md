@@ -9,6 +9,8 @@ This first public release is a **prerelease**. The extension is derived from Sio
 - [Install and configure both engines](docs/install.md)
 - [Shared Sionna RT 2.2 workflow and historical-runtime rollback](docs/shared-sionna-runtime.md)
 - [Reciprocal and phase-alignment migration measurements](docs/shared-sionna-research.md)
+- [RT 2.1 retirement and offline recovery](docs/rt21-retirement.md)
+- [Complete project archive, results and animation gallery](docs/project-archive.md)
 - [Documentation index](docs/index.md)
 - [Validation, release checks and limitations](docs/validation.md)
 - [Research studies: diffraction, reciprocity and Maxwell references](research/README.md)
@@ -58,4 +60,7 @@ See [third-party attribution](THIRD_PARTY_SOFTWARE.md), [upstream provenance](UP
 
 The [research catalog](research/README.md) links all eleven investigations, their scope and established scripts. The [latest reference refinement](docs/dielectric3d-residual.md) reports the remaining polarization discrepancy and the separate research candidate, including uncertainty and regressions. Shared companion fields are distinct from native ray-tracer outputs.
 
-Some advanced studies still require earlier local evidence and workstation profiles. Consult [reproducibility status](docs/reproducibility.md) before assuming a clone can recreate a full campaign. The [Molecular Nodes structure review](docs/molecularnodes-review.md) explains the contributor, testing and node-validation practices adopted for this project.
+The [project release archives](docs/project-archive.md) preserve the earlier evidence,
+runtime profiles, reports, scenes and comparison animations outside Git history.
+Consult [reproducibility status](docs/reproducibility.md) for the distinction between
+verified restoration and fresh numerical replay. The [Molecular Nodes structure review](docs/molecularnodes-review.md) explains the contributor, testing and node-validation practices adopted for this project.

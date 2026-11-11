@@ -3,24 +3,7 @@ param([string]$Blender = 'C:/Program Files/Blender Foundation/Blender 5.2/blende
       [ValidateSet('native','reciprocal')][string]$DielectricProfile = 'native',
       [switch]$Legacy)
 $ErrorActionPreference = 'Stop'
+if ($Legacy) { throw 'RT 2.1 launchers are retired. Use the shared RT 2.2 workflow or restore the isolated recovery package; see RT21_RETIREMENT.txt.' }
 $scenePath = Join-Path $PSScriptRoot 'outputs/differt-bridge/examples/diffraction_batch/Diffraction_Workbench.blend'
 if (-not (Test-Path -LiteralPath $scenePath)) { throw "Workbench missing: $scenePath" }
-if (-not $Legacy) {
-    & (Join-Path $PSScriptRoot 'Launch_Shared_RT.ps1') -Blender $Blender -Scene $scenePath -Profile $DielectricProfile
-    return
-}
-Write-Host 'Historical Sionna 2.1 research runtime selected; shared packages are untouched.'
-$names = @('RADIO_SEGMENT_PROFILE','SIONNA_GEOMETRY_PROFILE','DIFFERT_ARITHMETIC_PROFILE','DIFFERT_FIELD_PRECISION','DIFFERT_DIFFRACTION_GEOMETRY','RADIO_DIELECTRIC_PROFILE')
-$previous = @{}
-foreach ($name in $names) { $previous[$name] = [Environment]::GetEnvironmentVariable($name,'Process') }
-try {
-    $env:RADIO_SEGMENT_PROFILE = 'native'
-    $env:SIONNA_GEOMETRY_PROFILE = 'native'
-    $env:DIFFERT_ARITHMETIC_PROFILE = 'native'
-    $env:DIFFERT_FIELD_PRECISION = 'float32'
-    $env:DIFFERT_DIFFRACTION_GEOMETRY = 'validated'
-    $env:RADIO_DIELECTRIC_PROFILE = $DielectricProfile
-    & $Blender $scenePath
-} finally {
-    foreach ($name in $names) { [Environment]::SetEnvironmentVariable($name,$previous[$name],'Process') }
-}
+& (Join-Path $PSScriptRoot 'Launch_Shared_RT.ps1') -Blender $Blender -Scene $scenePath -Profile $DielectricProfile

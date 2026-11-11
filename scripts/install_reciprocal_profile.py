@@ -7,6 +7,7 @@ FILES=('radio_dielectric_bootstrap.py','reciprocal_corrections.py','reciprocal_g
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def install(root):
+    raise RuntimeError('Historical installation retired; use the RT 2.1 recovery package. Shared RT 2.2 uses process-local profiles.')
     root=root.resolve();source=Path(__file__).resolve().parent
     target=root/'outputs/differt-bridge/validation/reciprocal_profile.json'
     prior=json.loads(target.read_text()) if target.exists() else {'added_files':{}}

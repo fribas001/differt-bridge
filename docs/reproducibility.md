@@ -10,8 +10,8 @@ The latest studies are on `research/dielectric-diffraction`; a default clone's
 | Extension | Source, manifest, node asset, deterministic build | Blender 5.2 and an external runtime |
 | Portable checks | One developer command, small fixtures, clean profile tests | Development dependencies and Node.js |
 | Native diffraction fixtures | Generated inputs and paired runner | Separate configured engine environments |
-| Latest full-wave study | Solvers, controls, analysis and report generators | Earlier reference data, workspace launchers and verified research profiles |
-| Published report/video bytes | Historical release assets where linked | Latest media and evidence are still separate local artifacts |
+| Latest full-wave study | Solvers, controls, analysis and report generators; release evidence and pinned runtime assets | Extract the matching assets; run the study explicitly into new output folders |
+| Published report/video bytes | [Project release archive and gallery](project-archive.md) | Download the results and animation assets; verify hashes |
 
 ## Fresh clone checks
 
@@ -40,17 +40,17 @@ and numerical controls still apply.
 
 ## What this organization does not establish
 
-The core DiffeRT packages are version-pinned in `requirements-external.txt`.
-There is not yet a complete, hashed dependency lock for both engines and all
-research/plotting dependencies. Some reference resource guards use Windows
-APIs. The local research environment includes profiles beyond the clean
-release runtime, and some dependencies were inherited from its base Python.
+The Windows project recovery assets now preserve DiffeRT's complete dependency
+wheel closure and audited overlays, and the exact RT 2.2 package/native payload.
+Their setup creates isolated venvs without inheriting base-Python packages.
+The historical RT 2.1 kit remains a separate optional asset. Some reference
+resource guards use Windows APIs; these assets do not certify Linux/GPU replay.
 
-Complete reproduction of the latest Maxwell campaign from a fresh clone on
-another machine has not been demonstrated. It needs a self-contained evidence
-bundle, complete runtime/profile setup, all preceding inputs and a clean
-environment run. The new structure makes these gaps visible; it does not turn
-historical workstation evidence into a portable certification.
+Complete fresh recomputation of every Maxwell campaign on another physical
+computer has not been demonstrated. The project archives preserve the existing
+evidence and preceding inputs, with an isolated runtime setup and import/dispatch
+checks. No further simulations were run during packaging, as requested. Historical
+workstation evidence remains distinct from a new numerical validation run.
 
 Compare scientific results using declared numerical tolerances. Byte-identical
 results across operating systems, compiler/BLAS builds or CPU/GPU execution

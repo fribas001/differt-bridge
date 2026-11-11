@@ -1,6 +1,7 @@
 """Run both configured ray tracers and add a separate canonical 2D full-wave field."""
 import argparse,hashlib,json,subprocess,sys
 from pathlib import Path
+from shared_sionna import DEFAULT_PYTHON
 from canonical_maxwell_refinement import validate,refine_cases
 from line_source_comparison import channel
 
@@ -10,7 +11,7 @@ def main():
     for c in cases:validate(c)
     output=args.output.resolve();output.mkdir(parents=True,exist_ok=True);rays=args.reuse_rays.resolve() if args.reuse_rays else output/'rays'
     if not args.reuse_rays:
-        command=[sys.executable,'-B',str(Path(__file__).with_name('run_dielectric.py')),'--differt-python',str(root/'work/runtime/Scripts/python.exe'),'--sionna-python',str(root/'work/sionna-runtime/Scripts/python.exe'),'--llvm-library','C:/Program Files/LLVM/bin/LLVM-C.dll','--output',str(rays),'--profiles','sionna-reciprocal,differt-reciprocal','--precision','float32','--manifest',str(args.manifest.resolve())]
+        command=[sys.executable,'-B',str(Path(__file__).with_name('run_dielectric.py')),'--differt-python',str(root/'work/runtime/Scripts/python.exe'),'--sionna-python',str(DEFAULT_PYTHON),'--output',str(rays),'--profiles','sionna-reciprocal,differt-reciprocal','--precision','float32','--manifest',str(args.manifest.resolve())]
         subprocess.run(command,check=True)
     receipt=json.loads((rays/'receipt.json').read_text());assert receipt['status']=='passed'
     assert {'sionna-reciprocal','differt-reciprocal'}<={r['profile'] for r in receipt['processes']},'Both reciprocal engine outputs are required'

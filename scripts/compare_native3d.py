@@ -1,6 +1,7 @@
 """Retain actual Sionna/DiffeRT CIR exports and add guarded 3D PEC Hertz-UTD."""
 import argparse,hashlib,json,subprocess,sys
 from pathlib import Path
+from shared_sionna import DEFAULT_PYTHON
 from hertz_pec3d import validate,refine
 
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
@@ -10,7 +11,7 @@ def main():
     for c in cases:validate(c)
     out=a.output.resolve();out.mkdir(parents=True,exist_ok=True);rays=a.reuse_rays.resolve() if a.reuse_rays else out/'rays'
     if not a.reuse_rays:
-        command=[sys.executable,'-B',str(Path(__file__).with_name('run_dielectric.py')),'--differt-python',str(root/'work/runtime/Scripts/python.exe'),'--sionna-python',str(root/'work/sionna-runtime/Scripts/python.exe'),'--llvm-library','C:/Program Files/LLVM/bin/LLVM-C.dll','--output',str(rays),'--profiles','sionna-reciprocal,differt-reciprocal','--precision','float32','--manifest',str(a.manifest.resolve())]
+        command=[sys.executable,'-B',str(Path(__file__).with_name('run_dielectric.py')),'--differt-python',str(root/'work/runtime/Scripts/python.exe'),'--sionna-python',str(DEFAULT_PYTHON),'--output',str(rays),'--profiles','sionna-reciprocal,differt-reciprocal','--precision','float32','--manifest',str(a.manifest.resolve())]
         subprocess.run(command,check=True)
     receipt=read(rays/'receipt.json');assert receipt['status']=='passed'
     available={c['name']:c for c in read(rays/'cases.json')['cases']}

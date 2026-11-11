@@ -8,16 +8,15 @@ param(
     [ValidateSet(16,24,32,48)][int]$Panels = 32
 )
 $ErrorActionPreference = 'Stop'
+if ($Legacy) { throw 'RT 2.1 launchers are retired. Use the shared RT 2.2 workflow or restore the isolated recovery package; see RT21_RETIREMENT.txt.' }
 $taskRoot = $PSScriptRoot
 if (-not $Manifest) { $Manifest = Join-Path $taskRoot 'work/d3shadow/concrete_cases.json' }
-if (-not $Output) { $Output = Join-Path $taskRoot ("work/dielectric3d_comparison/" + $(if ($Legacy) { $Accuracy } else { "rt22-$Accuracy" })) }
+if (-not $Output) { $Output = Join-Path $taskRoot "work/dielectric3d_comparison/rt22-$Accuracy" }
 $runtimeArgs = @()
-if (-not $Legacy) {
     if (Test-Path -LiteralPath $Output) { throw "Choose a fresh output directory: $Output" }
     $rays = Join-Path $Output 'rays'
     & (Join-Path $taskRoot 'Run_Reciprocal_Rays.ps1') -Manifest $Manifest -Output $rays
     $runtimeArgs = @('--reuse-rays',$rays)
-}
 $taskArgs = @('-u','-B',(Join-Path $taskRoot 'work/github-update/differt-bridge/scripts/compare_dielectric3d.py'),$taskRoot,'--manifest',$Manifest,'--output',$Output,'--panels',"$Panels",'--accuracy',$Accuracy)
 $taskArgs += $runtimeArgs
 if ($CheckpointFolder) { $taskArgs += @('--checkpoint-folder',$CheckpointFolder) }

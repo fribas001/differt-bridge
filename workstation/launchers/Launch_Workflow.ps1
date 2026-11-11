@@ -6,11 +6,7 @@ param(
     [string]$Scene
 )
 $ErrorActionPreference = 'Stop'
-if ($Legacy) {
-    if ($Scene) { throw '-Scene is supported by the shared workflow; historical launcher selects its validated scene.' }
-    & (Join-Path $PSScriptRoot 'outputs/differt-bridge/examples/comparison_animation_segment_length/Launch_Shared_Segments.ps1') -Blender $Blender
-    return
-}
+if ($Legacy) { throw 'RT 2.1 launchers are retired. Use the shared RT 2.2 workflow or restore the isolated recovery package; see RT21_RETIREMENT.txt.' }
 if (-not $Scene) {
     $file = if ($Profile -eq 'phase') { 'Shared_Segment_Length_Workbench.blend' } else { 'Native_Float32_Workbench.blend' }
     $Scene = Join-Path $PSScriptRoot "outputs/differt-bridge/examples/segment_length_aligned/$file"

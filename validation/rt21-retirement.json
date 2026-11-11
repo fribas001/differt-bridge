@@ -1,0 +1,290 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "status": "ready_for_separately_approved_environment_removal",
+  "archive": {
+    "archive": "rt21-recovery-windows-x64.zip",
+    "sha256": "219f0e70812eb5ddcccff769d50222e1345dbff4ba04fc425972bcd30d462fe1",
+    "bytes": 199696376,
+    "immutable_files": 2105,
+    "manifest_sha256": "a1b3c6223b755f28332ecc92ea6febfd2c184747e766eaf1703ac26e0ed4efbc",
+    "crc_verified": true,
+    "extracted": true
+  },
+  "restore": {
+    "offline": true,
+    "status": "passed",
+    "scientific_files_equal": 22519,
+    "allowed_relocations": [
+      "drjit/_bridge_llvm/manifest.json"
+    ],
+    "dependency_packages": 41,
+    "runtime_overlays": 19
+  },
+  "profiles": {
+    "native": {
+      "passed": true,
+      "versions": {
+        "sionna-rt": "2.1.0",
+        "drjit": "1.5.0",
+        "mitsuba": "3.9.1",
+        "numpy": "2.5.2",
+        "scipy": "1.18.1",
+        "h5py": "3.16.0"
+      },
+      "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+      "variant": "llvm_ad_mono_polarized",
+      "geometry": "native",
+      "segments": "native",
+      "dielectric": "native",
+      "simulations_run": false,
+      "llvm_adapter": {
+        "status": "enabled",
+        "target": "x86_64-pc-windows-msvc-elf"
+      }
+    },
+    "phase": {
+      "passed": true,
+      "versions": {
+        "sionna-rt": "2.1.0",
+        "drjit": "1.5.0",
+        "mitsuba": "3.9.1",
+        "numpy": "2.5.2",
+        "scipy": "1.18.1",
+        "h5py": "3.16.0"
+      },
+      "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+      "variant": "llvm_ad_mono_polarized",
+      "geometry": "unshifted_float64",
+      "segments": "shared_1mm",
+      "dielectric": "native",
+      "simulations_run": false,
+      "llvm_adapter": {
+        "status": "enabled",
+        "target": "x86_64-pc-windows-msvc-elf"
+      }
+    },
+    "reciprocal": {
+      "passed": true,
+      "versions": {
+        "sionna-rt": "2.1.0",
+        "drjit": "1.5.0",
+        "mitsuba": "3.9.1",
+        "numpy": "2.5.2",
+        "scipy": "1.18.1",
+        "h5py": "3.16.0"
+      },
+      "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+      "variant": "llvm_ad_mono_polarized",
+      "geometry": "native",
+      "segments": "native",
+      "dielectric": "reciprocal",
+      "simulations_run": false,
+      "llvm_adapter": {
+        "status": "enabled",
+        "target": "x86_64-pc-windows-msvc-elf"
+      }
+    }
+  },
+  "blender": {
+    "passed": true,
+    "checks": [
+      {
+        "profile": "native",
+        "scene_sha256": "00be7b1da731649fca7d379649826e296ef5577a31e95aac973e66ea4cb57c57",
+        "shared_runtime_selected": true,
+        "differt_runtime_retained": true,
+        "dispatch_checked_without_execution": true
+      },
+      {
+        "profile": "phase",
+        "scene_sha256": "4eb4f41ed39613e13a51e1289d30ebfec259ce8967e5915d10b425e1e8310a45",
+        "shared_runtime_selected": true,
+        "differt_runtime_retained": true,
+        "dispatch_checked_without_execution": true
+      },
+      {
+        "profile": "reciprocal",
+        "scene_sha256": "ba314a2b8724cc3c024939cede0ac0aa4523ce7299ed1a1c7bd3d9a9c30aecf7",
+        "shared_runtime_selected": true,
+        "differt_runtime_retained": true,
+        "dispatch_checked_without_execution": true
+      }
+    ],
+    "simulations_run": false,
+    "scenes_saved": false
+  },
+  "retired_entry_points": {
+    "passed": true,
+    "guards": [
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_arithmetic\\Launch_Arithmetic.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_arithmetic\\Launch_Native_Float32.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_arithmetic\\Launch_Native_Float64.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_combined_field\\Launch_Combined_Field.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_combined_field\\Launch_Native_Float32.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_combined_field\\Launch_Native_Float64.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_float32\\Launch_Float32.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_float32\\Launch_Float64.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_phase_export\\Launch_Native_Float32.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_phase_export\\Launch_Native_Float64.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_phase_export\\Launch_Phase_Export.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_reflection_geometry\\Launch_Native_Float32.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_reflection_geometry\\Launch_Native_Float64.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_reflection_geometry\\Launch_Prior_Phase_Export.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_reflection_geometry\\Launch_Reflection_Geometry.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_segment_length\\Launch_Native_Float32.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_segment_length\\Launch_Native_Float64.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_segment_length\\Launch_Prior_Reflection_Geometry.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "outputs\\differt-bridge\\examples\\comparison_animation_segment_length\\Launch_Shared_Segments.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "Test_Diffraction_Batches.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "Test_Diffraction_Fixes.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "Test_Diffraction_Physics.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "Test_Diffraction_Runtime.ps1"
+      },
+      {
+        "guard_passed": true,
+        "path": "Test_Diffraction.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Launch_Workflow.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Launch_Diffraction.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Launch_Phase_Alignment.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Launch_Reciprocal_Diffraction.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Check_Workflow.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Compare_Maxwell_Wedge.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Compare_Native3D_Wedge.ps1"
+      },
+      {
+        "legacy_guard_passed": true,
+        "path": "Compare_Dielectric3D_Wedge.ps1"
+      }
+    ],
+    "simulations_run": false
+  },
+  "preservation": {
+    "passed": true,
+    "protected_files": 12260,
+    "environment_bytes": {
+      "work/runtime": 645085810,
+      "work/sionna-runtime": 445876118
+    },
+    "excluded": "The reproduction draft is being completed by explicit user request; runtime/reference hashes remain protected."
+  },
+  "simulations_run": false,
+  "static_tests_passed": 10,
+  "original_environment_deleted": false,
+  "retained_original_environment": "work/sionna-runtime",
+  "retain_current_environments": [
+    "work/runtime",
+    "shared-envs/sionna-rt-2.2-py312"
+  ],
+  "limitations": [
+    "Restoration/import verification only; no fresh ray tracing, coverage or Maxwell solve.",
+    "Windows x64 CPU; fresh-host numerical bitwise equivalence is not certified.",
+    "The broader four-runtime DiffeRT/Maxwell offline draft remains separate.",
+    "Open historical Blender scenes through the current launchers; saved old interpreter paths are preserved."
+  ],
+  "temporary_verification_copies": {
+    "status": "retained_policy_blocked",
+    "deleted": false,
+    "directories": [
+      {
+        "path": "work/retire-rt21/package",
+        "bytes": 299567799
+      },
+      {
+        "path": "work/rt21-restore-check",
+        "bytes": 730858496
+      }
+    ],
+    "total_bytes": 1030426295,
+    "reason": "Automatic approval review required sandbox approval, which is disabled in this session."
+  }
+}

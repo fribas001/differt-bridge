@@ -1,6 +1,7 @@
 """Run both native workflows and a separate guarded solid-wedge Maxwell field."""
 import argparse,hashlib,json,subprocess,sys
 from pathlib import Path
+from shared_sionna import DEFAULT_PYTHON
 from dielectric3d_refinement import validate,refine
 from dielectric3d_converged import refine_converged
 
@@ -14,7 +15,7 @@ def main():
     if a.accuracy=='standard' and a.coarse_checkpoint_folder:raise ValueError('A coarse checkpoint applies only to converged mode.')
     out=a.output.resolve();out.mkdir(parents=True,exist_ok=True);rays=a.reuse_rays.resolve() if a.reuse_rays else out/'rays'
     if not a.reuse_rays:
-        command=[sys.executable,'-B',str(Path(__file__).with_name('run_dielectric.py')),'--differt-python',str(root/'work/runtime/Scripts/python.exe'),'--sionna-python',str(root/'work/sionna-runtime/Scripts/python.exe'),'--llvm-library','C:/Program Files/LLVM/bin/LLVM-C.dll','--output',str(rays),'--profiles','sionna-reciprocal,differt-reciprocal','--precision','float32','--manifest',str(a.manifest.resolve())]
+        command=[sys.executable,'-B',str(Path(__file__).with_name('run_dielectric.py')),'--differt-python',str(root/'work/runtime/Scripts/python.exe'),'--sionna-python',str(DEFAULT_PYTHON),'--output',str(rays),'--profiles','sionna-reciprocal,differt-reciprocal','--precision','float32','--manifest',str(a.manifest.resolve())]
         subprocess.run(command,check=True)
     receipt=read(rays/'receipt.json');assert receipt['status']=='passed';available={c['name']:c for c in read(rays/'cases.json')['cases']}
     def physics(c):return {k:v for k,v in c.items() if k!='maxwell_domain'}
