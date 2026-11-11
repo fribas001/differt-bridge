@@ -15,7 +15,7 @@ verified parts. Large files are split only for reliable transfer; the joined ZIP
 are byte-identical to the recovery-tested archives. Add `--historical` to also
 download the separate RT 2.1 kit, which must be extracted in its own directory.
 
-Use a **fresh, short, writable** destination and keep 6 GiB free for downloads,
+Use a **fresh, short, writable** destination and keep 10 GiB free for downloads,
 extraction and setup. No existing environment is overwritten. Python is needed
 only for this initial downloader; the runtime archive includes Python 3.12.10.
 Alternatively, concatenate the numbered parts in order, verify the resulting

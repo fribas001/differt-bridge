@@ -16,7 +16,7 @@ SHA-256 and size, and records the source commit carried by `project-source.zip`.
 Download `fetch.py` and `assets.json` from the release into one folder. With
 Python 3.12 or later, run the following command there. The downloader joins
 numbered release parts into the original four ZIPs, verifies every part and each
-whole archive, then extracts into a fresh directory. Keep at least 6 GiB free.
+whole archive, then extracts into a fresh directory. Keep at least 10 GiB free.
 Add `--historical` to also download the optional RT 2.1 kit; restore it separately.
 
 ```powershell
