@@ -25,8 +25,8 @@ def main():
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     paths = sorted((ROOT / 'notebooks').glob('[0-9][0-9]_*.ipynb'))
-    if len(paths) != 4:
-        raise RuntimeError(f'Expected four research notebooks, found {len(paths)}')
+    if len(paths) != 5:
+        raise RuntimeError(f'Expected five research notebooks, found {len(paths)}')
     receipts = []
     # Temporary kernelspec avoids installing anything into a user's Jupyter config.
     from jupyter_client.kernelspec import KernelSpecManager
@@ -59,6 +59,7 @@ def main():
     result = {'scope': 'Offline historical analysis; no native solvers invoked',
               'python': sys.version.split()[0], 'notebooks': receipts,
               'data_manifest_sha256': hashlib.sha256((ROOT / 'notebooks/data/manifest.json').read_bytes()).hexdigest(),
+              'visual_manifest_sha256': hashlib.sha256((ROOT / 'notebooks/assets/manifest.json').read_bytes()).hexdigest(),
               'packages': {name: importlib.metadata.version(name) for name in
                            ('nbformat', 'nbclient', 'nbconvert', 'ipykernel', 'matplotlib', 'pandas', 'numpy')}}
     (output / 'execution.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')

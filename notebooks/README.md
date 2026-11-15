@@ -1,8 +1,9 @@
 # Research notebooks
 
-Four notebooks replay preserved numerical results with tables, figures and executable
-checks. All default cells run without Blender, DiffeRT, Sionna, GPU access or downloads.
-The 244 KB data supplement is included in the repository with source/output checksums.
+Five notebooks combine preserved numerical results with model images, tables and
+executable checks. All default cells run without Blender, DiffeRT, Sionna, GPU access
+or downloads. The 244 KB numerical supplement and the separate checksummed visual
+assets are included in the repository.
 
 | Notebook | Contents |
 | --- | --- |
@@ -10,6 +11,7 @@ The 244 KB data supplement is included in the repository with source/output chec
 | [01 — Native comparison](01_native_comparison.ipynb) | 23.8 GHz controls and failed diagnostics; 60 GHz raw/corrected totals; optional new wedge fixtures |
 | [02 — Multiple diffraction](02_multiple_diffraction.ipynb) | Order-dependent loss, exhaustive/hybrid controls, ray budgets and native path-family differences |
 | [03 — Full-wave validation](03_fullwave_validation.ipynb) | Slab mesh/PML checks, fixed-edge 2D comparisons and failed transparent-material consistency |
+| [04 — Blender models](04_blender_models.ipynb) | Gallery of preserved geometry, matched-camera path renders, and optional rendering inside Blender |
 
 ## Install and run
 
@@ -48,6 +50,15 @@ remain explicit in the runner's receipt.
 Follow [engine installation](../docs/install.md) for native environments. Do not install
 both engines into the notebook environment. Experimental Sionna profiles remain available
 only through the existing runner's explicit option, outside the default notebook workflow.
+
+## Optional Blender notebook rendering
+
+The [Blender notebook guide](../docs/blender-notebooks.md) explains how to use
+Jan-Hendrik Müller's Jupyter extension with notebook 04. Set `RENDER_LIVE = True`
+inside the extension's Blender kernel to render any of the 22 synthetic model cases.
+The notebook can combine two retained path renders with identical camera settings.
+Cached PNGs remain the default; the third-party add-on is not installed automatically.
+See [asset provenance](assets/README.md) for original geometry and figure sources.
 
 ## Scope and provenance
 

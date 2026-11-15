@@ -1,0 +1,31 @@
+{
+  "case": "multiple/blocked_coupled",
+  "scene": "DiffeRT Notebook - multiple - blocked_coupled.001",
+  "blender": "5.2.0 LTS",
+  "engine": "CYCLES",
+  "device": "CPU",
+  "samples": 24,
+  "geometry_sha256": "ef6b7175874610a7ba311b6cb4803b9407e706149150f749ae9fa4ee4727ff72",
+  "renderer_sha256": "0fea467e7cf99f74f95ef4b623fee62f9aeed681dd2066afed09e18690ef0346",
+  "image_sha256": "116b3397b458538f322880a6d51bbf1fcfc4675821c179faa75b3b9307bfc8b1",
+  "path_label": "DiffeRT: strongest native path (two diffraction events)",
+  "detail_crop": false,
+  "camera": {
+    "location": [
+      0.7800000309944153,
+      -1.6785093545913696,
+      1.0200001001358032
+    ],
+    "rotation": [
+      1.0674281120300293,
+      -2.6381041351442036e-08,
+      0.43467026948928833
+    ],
+    "ortho_scale": 1.407888412475586,
+    "resolution": [
+      1000,
+      650
+    ]
+  },
+  "scope": "Presentation render of preserved geometry; no electromagnetic calculation."
+}

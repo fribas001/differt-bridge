@@ -1,6 +1,6 @@
 # Research, notebooks and preserved evidence
 
-Start with the [four notebooks](../notebooks/README.md) for runnable analysis. Their
+Start with the [research notebooks](../notebooks/README.md) for runnable analysis and model images. Their
 small data bundle supplements the original DiffeRT archive with vegetation and RIS
 controls. The notebooks run offline after dependencies are installed. They do not
 rerun historical scientific campaigns or install solver patches.
@@ -49,8 +49,9 @@ comparison videos. Large archives are split into transport parts. Use its docume
 
 Restoration/import/dispatch checks preserve access to evidence; they do not prove
 complete recomputation on another machine. Earlier studies still need full input
-inventories and fresh numerical receipts. The new notebook data manifest covers
-all inputs for these four analysis notebooks, not those entire historical campaigns.
+inventories and fresh numerical receipts. The notebook data manifest covers the
+numerical replay inputs; a separate [visual manifest](../notebooks/assets/README.md)
+covers model images and selected synthetic geometry. Neither covers entire historical campaigns.
 
 ## Complementary desktop studies now available as analysis inputs
 

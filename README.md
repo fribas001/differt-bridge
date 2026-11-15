@@ -7,7 +7,8 @@ This first public release is a **prerelease**. The extension is derived from Sio
 ## Start here
 
 - [Install and configure both engines](docs/install.md)
-- [Start with the four Jupyter research notebooks](notebooks/README.md)
+- [Start with the Jupyter research and model notebooks](notebooks/README.md)
+- [Render comparison models using Blender and Jan-Hendrik Müller's Jupyter extension](docs/blender-notebooks.md)
 - [Research catalog, project archive and complementary studies](docs/research.md)
 - [Validation, release checks and limitations](docs/validation.md)
 - [Diffraction findings and experimental corrections](docs/diffraction.md)

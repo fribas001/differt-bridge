@@ -49,10 +49,12 @@ coefficients and failed diagnostics remain distinct.
 
 ## Replay versus recomputation
 
-The full local field dumps, native raw result files, geometry, earlier helpers and runtime
+The full local field dumps, native raw result files, complete geometry, earlier helpers and runtime
 installations are not included here. Recorded hashes for omitted upstream files identify
 their provenance; they do not imply the files are downloaded or available from this bundle.
-All four notebooks need only this bundle and the checked-in catalog/fixture generator.
+The numerical analyses need this bundle and the checked-in catalog/fixture generator.
+Model images and selected synthetic geometry are separately recorded in the
+[visual asset manifest](../assets/README.md). The notebooks verify the assets they display.
 Fresh scientific recomputation of the original campaigns still needs their workspace
 inputs and runtime setup. The optional generated-fixture run is a separate experiment.
 

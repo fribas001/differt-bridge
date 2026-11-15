@@ -72,11 +72,13 @@ def test_fullwave_errors_recompute_and_failed_physical_limit_survives():
 
 def test_notebooks_default_to_offline_replay():
     paths = list((ROOT / 'notebooks').glob('[0-9][0-9]_*.ipynb'))
-    assert len(paths) == 4
+    assert len(paths) == 5
     for path in paths:
         notebook = json.loads(path.read_text(encoding='utf-8'))
         assert not notebook['metadata']['differt_bridge']['simulations_default']
         code = '\n'.join(''.join(c['source']) for c in notebook['cells'] if c['cell_type'] == 'code')
         if 'subprocess.run' in code:
             assert 'RUN_NATIVE = False' in code and 'if RUN_NATIVE:' in code
+        if 'render_model(' in code:
+            assert 'RENDER_LIVE = False' in code and 'if RENDER_LIVE:' in code
         assert all(not c.get('outputs') for c in notebook['cells'])

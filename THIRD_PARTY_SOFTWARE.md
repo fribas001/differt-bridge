@@ -1,5 +1,11 @@
 # DiffeRT-Bridge dependencies
 
+The optional notebook rendering workflow links to
+[jupyter-blender](https://github.com/kolibril13/jupyter-blender), by Jan-Hendrik Müller
+and contributors, under AGPL-3.0-or-later. The inspected extension is version 0.1.11
+at commit `838a36aa96836a6cce3c36133162c415d7a4baef`. No source or binary from this
+optional extension is bundled with DiffeRT-Bridge; see [setup and scope](docs/blender-notebooks.md).
+
 The extension contains the modified GPL-3.0-or-later SionnaRT-Bridge frontend and its Geometry Nodes assets. It does not bundle scientific runtimes. See `UPSTREAM.json` for the original source revision.
 
 - DiffeRT 0.12.0 and differt-core 0.12.0: MIT, https://github.com/jeertmans/DiffeRT

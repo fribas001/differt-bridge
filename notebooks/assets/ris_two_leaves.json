@@ -1,0 +1,31 @@
+{
+  "case": "ris/two_leaves",
+  "scene": "DiffeRT Notebook - ris - two_leaves",
+  "blender": "5.2.0 LTS",
+  "engine": "CYCLES",
+  "device": "CPU",
+  "samples": 24,
+  "geometry_sha256": "ef6b7175874610a7ba311b6cb4803b9407e706149150f749ae9fa4ee4727ff72",
+  "renderer_sha256": "0fea467e7cf99f74f95ef4b623fee62f9aeed681dd2066afed09e18690ef0346",
+  "image_sha256": "ef42b00d68ff1a9132c3ba30a62f4551f2c0d49baba02044b1c15e8828c8a718",
+  "path_label": null,
+  "detail_crop": false,
+  "camera": {
+    "location": [
+      1.2999999523162842,
+      -2.799999952316284,
+      1.7000000476837158
+    ],
+    "rotation": [
+      1.0674283504486084,
+      1.412387895527445e-08,
+      0.4346702992916107
+    ],
+    "ortho_scale": 2.2675223350524902,
+    "resolution": [
+      1000,
+      650
+    ]
+  },
+  "scope": "Presentation render of preserved geometry; no electromagnetic calculation."
+}
