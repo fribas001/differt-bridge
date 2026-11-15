@@ -12,3 +12,4 @@ runs/
 *.mp4
 *.zip
 gh-config/
+.ipynb_checkpoints/

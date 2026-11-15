@@ -1,5 +1,12 @@
 # Changes
 
+## Unreleased
+
+- Link the research branch, eleven-study catalog and complete project archive from the default README.
+- Add four executable Jupyter walkthroughs with a compact checksummed historical-data supplement.
+- Recompute native-control, multiple-diffraction and full-wave summary checks while retaining missing paths, failed diagnostics and model limitations.
+- Add isolated notebook execution, HTML export and Windows/Linux notebook CI; extension source and the 0.6.3 package contents are unchanged.
+
 ## 0.6.3 — first public prerelease
 
 - Separate Blender namespace, runtime preferences and result collections for DiffeRT beside SionnaRT-Bridge.

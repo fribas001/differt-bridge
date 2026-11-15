@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "solver_jobs": 48,
+  "polarized_results": 96,
+  "direct_replay_fields": 20,
+  "largest_found_transmission_error_db": 5.1341418883004436e-05,
+  "largest_direct_replay_error_db": 5.1341418883004436e-05,
+  "main_repeatability_max_range_db": 0.0,
+  "all_files_complete": true,
+  "geometry_hashes_match": true,
+  "negative_controls_passed": 3,
+  "measurement_validation": false,
+  "meaning": "Numerical implementation and accounting checks pass. Native discovery failures, formulation differences, and unavailable edge physics are reported rather than treated as passing physical validation."
+}

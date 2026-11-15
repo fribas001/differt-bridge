@@ -7,6 +7,8 @@ This first public release is a **prerelease**. The extension is derived from Sio
 ## Start here
 
 - [Install and configure both engines](docs/install.md)
+- [Start with the four Jupyter research notebooks](notebooks/README.md)
+- [Research catalog, project archive and complementary studies](docs/research.md)
 - [Validation, release checks and limitations](docs/validation.md)
 - [Diffraction findings and experimental corrections](docs/diffraction.md)
 - [Release downloads: extension, reports and animation](https://github.com/fribas001/differt-bridge/releases/tag/v0.6.3)
@@ -50,3 +52,18 @@ python scripts/build_extension.py
 The deterministic ZIP and SHA-256 file are written to `dist/`. Scientific runtimes, compiler binaries, caches, generated frames and workstation backups are not bundled. Reproduce a generated diffraction fixture with `scripts/run_diffraction.py`; experimental Sionna field changes require an explicit flag and run only in that child process.
 
 See [third-party attribution](THIRD_PARTY_SOFTWARE.md), [upstream provenance](UPSTREAM.json), [authors](AUTHORS.md), and [license](LICENSE).
+
+## Explore the research
+
+The [notebook suite](notebooks/README.md) replays checksummed historical results on a
+CPU without Blender or either ray tracer: native controls, multiple diffraction,
+vegetation comparisons and independent full-wave controls. It retains failed
+diagnostics and distinguishes corrected totals from native outputs. An optional
+section invokes the existing generated-fixture runner in separate engine environments.
+
+The [research index](docs/research.md) also links the eleven investigations on
+`research/dielectric-diffraction` and the
+[November 11 project archive](https://github.com/fribas001/differt-bridge/releases/tag/project-2026-11-11),
+including reports, scenes, runtime recovery assets and nineteen comparison videos.
+Saved-result analysis, archive restoration and fresh scientific recomputation have
+different validation scopes; the index records the remaining reproduction gaps.

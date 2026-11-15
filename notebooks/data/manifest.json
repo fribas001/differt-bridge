@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "kind": "historical-analysis-inputs",
+  "prepared": "2026-11-15",
+  "scope": "Saved numerical summaries for offline analysis, not a complete solver replay archive.",
+  "license": "GPL-3.0-or-later; project-generated numerical summaries",
+  "simulations_run": false,
+  "files": [
+    {
+      "path": "focused_60ghz/results_table.csv",
+      "study": "focused_60ghz",
+      "source_relative": "focused_solver_comparison_20261017/results_table.csv",
+      "source_sha256": "db4ce60eb3425bdd2563e0379833309c24d323f90859801c33f626f5b31eddcd",
+      "sha256": "db4ce60eb3425bdd2563e0379833309c24d323f90859801c33f626f5b31eddcd",
+      "bytes": 21862,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "focused_60ghz/analysis.json",
+      "study": "focused_60ghz",
+      "source_relative": "focused_solver_comparison_20261017/analysis.json",
+      "source_sha256": "c55f6d07c97007e764838c360f33d74cc8bfdeb58370dfd897b4c8629a3f89a2",
+      "sha256": "c55f6d07c97007e764838c360f33d74cc8bfdeb58370dfd897b4c8629a3f89a2",
+      "bytes": 80921,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "focused_60ghz/verification.json",
+      "study": "focused_60ghz",
+      "source_relative": "focused_solver_comparison_20261017/verification.json",
+      "source_sha256": "fde30b5e1e2b9a82c5e16fec24dd3c8463b211bb616c8c5531b503d81d9a815e",
+      "sha256": "fde30b5e1e2b9a82c5e16fec24dd3c8463b211bb616c8c5531b503d81d9a815e",
+      "bytes": 624,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "multiple_diffraction_60ghz/results_table.csv",
+      "study": "multiple_diffraction_60ghz",
+      "source_relative": "multidiffraction_20261017/results_table.csv",
+      "source_sha256": "dd57886947005d562119b1f26b6b8d57946ab4db9ddc27dd160eae5aab8843c0",
+      "sha256": "dd57886947005d562119b1f26b6b8d57946ab4db9ddc27dd160eae5aab8843c0",
+      "bytes": 4601,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "multiple_diffraction_60ghz/analysis.json",
+      "study": "multiple_diffraction_60ghz",
+      "source_relative": "multidiffraction_20261017/analysis.json",
+      "source_sha256": "f840e1436d16e827572e10ac9e2032f461cd10a08780c19d8a36547017517bd7",
+      "sha256": "f840e1436d16e827572e10ac9e2032f461cd10a08780c19d8a36547017517bd7",
+      "bytes": 73804,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "multiple_diffraction_60ghz/verification.json",
+      "study": "multiple_diffraction_60ghz",
+      "source_relative": "multidiffraction_20261017/verification.json",
+      "source_sha256": "a065d17855859c3284d66c8a13581e55d89f3eee27bf2c700bb8325f589be38f",
+      "sha256": "a065d17855859c3284d66c8a13581e55d89f3eee27bf2c700bb8325f589be38f",
+      "bytes": 2259,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "edge_fullwave_60ghz/analysis.json",
+      "study": "edge_fullwave_60ghz",
+      "source_relative": "edge_fullwave_20261017/analysis.json",
+      "source_sha256": "015e4a0cd0e27e4d6d31ada9a85accfebd90577d6e02a711ff2f9d80f973e33b",
+      "sha256": "015e4a0cd0e27e4d6d31ada9a85accfebd90577d6e02a711ff2f9d80f973e33b",
+      "bytes": 30041,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "edge_fullwave_60ghz/contract.json",
+      "study": "edge_fullwave_60ghz",
+      "source_relative": "edge_fullwave_20261017/contract.json",
+      "source_sha256": "2b29f528e4e3f01f61da5932e986157ba1a7aaef630dabd59f95b018f9045877",
+      "sha256": "2b29f528e4e3f01f61da5932e986157ba1a7aaef630dabd59f95b018f9045877",
+      "bytes": 3050,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "edge_fullwave_60ghz/verification.json",
+      "study": "edge_fullwave_60ghz",
+      "source_relative": "edge_fullwave_20261017/verification.json",
+      "source_sha256": "a25335d91eec24258e1aefe4d9b50298f402dcc7359ac372f635312c901d0f55",
+      "sha256": "a25335d91eec24258e1aefe4d9b50298f402dcc7359ac372f635312c901d0f55",
+      "bytes": 6995,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "edge_fullwave_60ghz/zero_contrast.json",
+      "study": "edge_fullwave_60ghz",
+      "source_relative": "edge_fullwave_20261017/zero_contrast.json",
+      "source_sha256": "236f251834e282ebada38438a5687639ee590990b5db7a87899c1cdbb36a0ece",
+      "sha256": "236f251834e282ebada38438a5687639ee590990b5db7a87899c1cdbb36a0ece",
+      "bytes": 12749,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "ris_controls_23_8ghz/rt_comparison.csv",
+      "study": "ris_controls_23_8ghz",
+      "source_relative": "RIS_Independent_Validation_238GHz_2026-10-13/rt_comparison.csv",
+      "source_sha256": "4da1b1de38986c6e3662d0fa916e92eabe006b52b588624422b236a8258fce36",
+      "sha256": "4da1b1de38986c6e3662d0fa916e92eabe006b52b588624422b236a8258fce36",
+      "bytes": 3043,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "ris_controls_23_8ghz/fullwave_comparison.csv",
+      "study": "ris_controls_23_8ghz",
+      "source_relative": "RIS_Independent_Validation_238GHz_2026-10-13/fullwave_comparison.csv",
+      "source_sha256": "24b5b3b7483b10874078c71256f8248191e6b7953cbbde5eae27237f338dedb5",
+      "sha256": "24b5b3b7483b10874078c71256f8248191e6b7953cbbde5eae27237f338dedb5",
+      "bytes": 2647,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    },
+    {
+      "path": "ris_controls_23_8ghz/verification.json",
+      "study": "ris_controls_23_8ghz",
+      "source_relative": "RIS_Independent_Validation_238GHz_2026-10-13/verification.json",
+      "source_sha256": "1e1317e4f4e7af2a0888cbf2ca78b45a1f547c77fd78e03670e34567743a3e6a",
+      "sha256": "1e1317e4f4e7af2a0888cbf2ca78b45a1f547c77fd78e03670e34567743a3e6a",
+      "bytes": 1605,
+      "path_strings_redacted": 0,
+      "transform": "byte-for-byte copy"
+    }
+  ]
+}

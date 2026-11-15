@@ -1,0 +1,2687 @@
+{
+  "status": "complete",
+  "frequency_hz": 60000000000.0,
+  "main_max_depth": 4,
+  "primary_metric": "Incoherent sum of unique path powers, normalized to paired free space; coherent field-sum metric also saved. Lower excess loss means higher received power.",
+  "duplicate_policy": "Choose lowest-power representation of each geometrically identical path; retain an upper power bound. Coherent sum uses the same representative and is not a bound.",
+  "results": [
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 6.387234041976628e-29,
+      "power_upper": 6.387234041976628e-29,
+      "power_coherent": 6.387234041976628e-29,
+      "excess_incoherent_db": 212.34915455661104,
+      "excess_coherent_db": 212.34915455661104,
+      "coherent_loss_lower_bound_db": 212.34915455661104,
+      "coherent_loss_upper_bound_db": 212.34915455661104,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 3,
+      "power_incoherent": 6.466006635588708e-29,
+      "power_upper": 6.466006635588708e-29,
+      "power_coherent": 5.418955921376345e-29,
+      "excess_incoherent_db": 212.29592139633073,
+      "excess_coherent_db": 213.06312667185009,
+      "coherent_loss_lower_bound_db": 213.06312667185009,
+      "coherent_loss_upper_bound_db": 213.06312667185009,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1,
+        "TTD": 1,
+        "TTDR": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 24,
+      "power_incoherent": 1.9194929115933834e-11,
+      "power_upper": 1.919506727703976e-11,
+      "power_coherent": 1.3871933973411731e-11,
+      "excess_incoherent_db": 37.570417729230606,
+      "excess_coherent_db": 38.980912725786,
+      "coherent_loss_lower_bound_db": 38.978054565324626,
+      "coherent_loss_upper_bound_db": 38.98377182705718,
+      "duplicate_complex_radius": 1.2257792422423214e-09,
+      "duplicate_power_bound_db": 3.1259500680146445e-05,
+      "event_sequences": {
+        "TT": 1,
+        "DD": 6,
+        "TTD": 1,
+        "DDR": 1,
+        "TTDD": 4,
+        "TTDR": 1,
+        "DRRD": 5,
+        "DDRR": 2,
+        "DDTT": 2,
+        "DTRD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 135,
+      "power_incoherent": 1.9709799948855956e-11,
+      "power_upper": 1.975045974317187e-11,
+      "power_coherent": 1.971583016828722e-11,
+      "excess_incoherent_db": 37.455460693073384,
+      "excess_coherent_db": 37.45413217097428,
+      "coherent_loss_lower_bound_db": 36.66489139251362,
+      "coherent_loss_upper_bound_db": 38.32232033319409,
+      "duplicate_complex_radius": 4.2236036563263883e-07,
+      "duplicate_power_bound_db": 0.008949931244218338,
+      "event_sequences": {
+        "TT": 1,
+        "DD": 6,
+        "TTD": 1,
+        "DDD": 25,
+        "DDR": 1,
+        "TTDD": 4,
+        "TTDR": 1,
+        "DRRD": 5,
+        "DRDD": 26,
+        "DDRD": 37,
+        "DDDR": 19,
+        "DTDD": 2,
+        "DDTD": 2,
+        "DDRR": 2,
+        "DDTT": 2,
+        "DTRD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 451,
+      "power_incoherent": 1.9710291103555467e-11,
+      "power_upper": 1.9751450488809917e-11,
+      "power_coherent": 1.968393661384815e-11,
+      "excess_incoherent_db": 37.455352471214894,
+      "excess_coherent_db": 37.46116327742888,
+      "coherent_loss_lower_bound_db": 36.457075079991654,
+      "coherent_loss_upper_bound_db": 38.59668284946016,
+      "duplicate_complex_radius": 5.436977426924978e-07,
+      "duplicate_power_bound_db": 0.009059559794047033,
+      "event_sequences": {
+        "TT": 1,
+        "DD": 6,
+        "TTD": 1,
+        "DDD": 25,
+        "DDR": 1,
+        "TTDD": 4,
+        "TTDR": 1,
+        "DRRD": 5,
+        "DRDD": 26,
+        "DDDD": 316,
+        "DDRD": 37,
+        "DDDR": 19,
+        "DTDD": 2,
+        "DDTD": 2,
+        "DDRR": 2,
+        "DDTT": 2,
+        "DTRD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "Sionna RT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 8,
+      "power_incoherent": 1.0194666714369301e-08,
+      "power_upper": 1.0194666714369301e-08,
+      "power_coherent": 7.92785996873021e-09,
+      "excess_incoherent_db": 10.318553415507212,
+      "excess_coherent_db": 11.410724033536688,
+      "coherent_loss_lower_bound_db": 11.410724033536688,
+      "coherent_loss_upper_bound_db": 11.410724033536688,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 2,
+        "DT": 4,
+        "TT": 1,
+        "RD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 6.387241917595731e-29,
+      "power_upper": 6.387241917595731e-29,
+      "power_coherent": 6.387241917595731e-29,
+      "excess_incoherent_db": 212.34915008446225,
+      "excess_coherent_db": 212.34915008446225,
+      "coherent_loss_lower_bound_db": 212.34915008446225,
+      "coherent_loss_upper_bound_db": 212.34915008446225,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 6.393966223641684e-29,
+      "power_upper": 6.393966223641684e-29,
+      "power_coherent": 6.393966223641684e-29,
+      "excess_incoherent_db": 212.34457947828048,
+      "excess_coherent_db": 212.34457947828048,
+      "coherent_loss_lower_bound_db": 212.34457947828048,
+      "coherent_loss_upper_bound_db": 212.34457947828048,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 3,
+      "power_incoherent": 6.437345089728854e-29,
+      "power_upper": 6.437345089728854e-29,
+      "power_coherent": 5.788890185118952e-29,
+      "excess_incoherent_db": 212.3152149441571,
+      "excess_coherent_db": 212.77632974487372,
+      "coherent_loss_lower_bound_db": 212.77632974487372,
+      "coherent_loss_upper_bound_db": 212.77632974487372,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1,
+        "TTD": 1,
+        "TTDR": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 24,
+      "power_incoherent": 2.440342122804044e-11,
+      "power_upper": 2.4403500235387435e-11,
+      "power_coherent": 2.2445313131754193e-11,
+      "excess_incoherent_db": 36.52777569242311,
+      "excess_coherent_db": 36.8910261702554,
+      "coherent_loss_lower_bound_db": 36.88987341778991,
+      "coherent_loss_upper_bound_db": 36.89217907572936,
+      "duplicate_complex_radius": 6.288012642394302e-10,
+      "duplicate_power_bound_db": 1.4060487243373223e-05,
+      "event_sequences": {
+        "TT": 1,
+        "DD": 6,
+        "TTD": 1,
+        "DDR": 1,
+        "TTDD": 4,
+        "TTDR": 1,
+        "DRRD": 5,
+        "DDRR": 2,
+        "DDTT": 2,
+        "DTRD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 135,
+      "power_incoherent": 2.528038745069085e-11,
+      "power_upper": 2.5297228420737022e-11,
+      "power_coherent": 2.8100296357572276e-11,
+      "excess_incoherent_db": 36.37444559875192,
+      "excess_coherent_db": 35.915173854115004,
+      "coherent_loss_lower_bound_db": 35.51450314382261,
+      "coherent_loss_upper_bound_db": 36.33522465673491,
+      "duplicate_complex_radius": 2.5025571918535405e-07,
+      "duplicate_power_bound_db": 0.0028921650438587915,
+      "event_sequences": {
+        "TT": 1,
+        "DD": 6,
+        "TTD": 1,
+        "DDD": 25,
+        "DDR": 1,
+        "TTDD": 4,
+        "TTDR": 1,
+        "DRRD": 5,
+        "DRDD": 26,
+        "DDRD": 37,
+        "DDDR": 19,
+        "DTDD": 2,
+        "DDTD": 2,
+        "DDRR": 2,
+        "DDTT": 2,
+        "DTRD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 451,
+      "power_incoherent": 2.5280867516899664e-11,
+      "power_upper": 2.5297985170090018e-11,
+      "power_coherent": 2.8297115968351163e-11,
+      "excess_incoherent_db": 36.37436312844711,
+      "excess_coherent_db": 35.88486110947473,
+      "coherent_loss_lower_bound_db": 35.34391750741774,
+      "coherent_loss_upper_bound_db": 36.46174449049563,
+      "duplicate_complex_radius": 3.418239924847383e-07,
+      "duplicate_power_bound_db": 0.0029396090312847874,
+      "event_sequences": {
+        "TT": 1,
+        "DD": 6,
+        "TTD": 1,
+        "DDD": 25,
+        "DDR": 1,
+        "TTDD": 4,
+        "TTDR": 1,
+        "DRRD": 5,
+        "DRDD": 26,
+        "DDDD": 316,
+        "DDRD": 37,
+        "DDDR": 19,
+        "DTDD": 2,
+        "DDTD": 2,
+        "DDRR": 2,
+        "DDTT": 2,
+        "DTRD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "Sionna RT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 8,
+      "power_incoherent": 6.086071561084519e-09,
+      "power_upper": 6.086071561084519e-09,
+      "power_coherent": 4.766922051271445e-09,
+      "excess_incoherent_db": 12.558913193121914,
+      "excess_coherent_db": 13.619903234741814,
+      "coherent_loss_lower_bound_db": 13.619903234741814,
+      "coherent_loss_upper_bound_db": 13.619903234741814,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 2,
+        "DT": 4,
+        "TT": 1,
+        "RD": 1
+      }
+    },
+    {
+      "case": "mixed_left",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 6.39396223966729e-29,
+      "power_upper": 6.39396223966729e-29,
+      "power_coherent": 6.39396223966729e-29,
+      "excess_incoherent_db": 212.34458306710562,
+      "excess_coherent_db": 212.34458306710562,
+      "coherent_loss_lower_bound_db": 212.34458306710562,
+      "coherent_loss_upper_bound_db": 212.34458306710562,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 3.7486386386927e-50,
+      "power_upper": 3.7486386386927e-50,
+      "power_coherent": 3.7486386386927e-50,
+      "excess_incoherent_db": 424.66682940651856,
+      "excess_coherent_db": 424.66682940651856,
+      "coherent_loss_lower_bound_db": 424.66682940651856,
+      "coherent_loss_upper_bound_db": 424.66682940651856,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 2,
+      "power_incoherent": 3.6237652154134266e-09,
+      "power_upper": 3.6237652154134266e-09,
+      "power_coherent": 3.6237652154134266e-09,
+      "excess_incoherent_db": 14.813964660907322,
+      "excess_coherent_db": 14.813964660907322,
+      "coherent_loss_lower_bound_db": 14.813964660907322,
+      "coherent_loss_upper_bound_db": 14.813964660907322,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1,
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 22,
+      "power_incoherent": 3.6465375349973745e-09,
+      "power_upper": 3.6465375349973745e-09,
+      "power_coherent": 4.508356725329424e-09,
+      "excess_incoherent_db": 14.786758297106184,
+      "excess_coherent_db": 13.865382455280464,
+      "coherent_loss_lower_bound_db": 13.865382455280425,
+      "coherent_loss_upper_bound_db": 13.865382455280503,
+      "duplicate_complex_radius": 2.9152050279603515e-19,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1,
+        "DD": 3,
+        "DDR": 3,
+        "TTTT": 1,
+        "TTDD": 4,
+        "DRRD": 2,
+        "DRDR": 2,
+        "DTTD": 2,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 102,
+      "power_incoherent": 3.6465767654431082e-09,
+      "power_upper": 3.6465802388442648e-09,
+      "power_coherent": 4.4912454614144414e-09,
+      "excess_incoherent_db": 14.786711574772205,
+      "excess_coherent_db": 13.88189726626305,
+      "coherent_loss_lower_bound_db": 13.859194641881906,
+      "coherent_loss_upper_bound_db": 13.904659384852033,
+      "duplicate_complex_radius": 1.7539323631547774e-07,
+      "duplicate_power_bound_db": 4.13669678222798e-06,
+      "event_sequences": {
+        "DR": 1,
+        "DD": 3,
+        "DDR": 3,
+        "DDD": 10,
+        "TTTT": 1,
+        "TTDD": 4,
+        "DRRD": 2,
+        "DRDR": 2,
+        "DRDD": 26,
+        "DDDR": 9,
+        "DDRD": 27,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 337,
+      "power_incoherent": 3.6465773123524473e-09,
+      "power_upper": 3.6465812323171843e-09,
+      "power_coherent": 4.493108677792835e-09,
+      "excess_incoherent_db": 14.786710923422444,
+      "excess_coherent_db": 13.880095946789686,
+      "coherent_loss_lower_bound_db": 13.841140361104925,
+      "coherent_loss_upper_bound_db": 13.919227032855684,
+      "duplicate_complex_radius": 3.013027853882365e-07,
+      "duplicate_power_bound_db": 4.668537079179099e-06,
+      "event_sequences": {
+        "DR": 1,
+        "DD": 3,
+        "DDR": 3,
+        "DDD": 10,
+        "TTTT": 1,
+        "TTDD": 4,
+        "DRRD": 2,
+        "DRDR": 2,
+        "DRDD": 26,
+        "DDDR": 9,
+        "DDDD": 235,
+        "DDRD": 27,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "Sionna RT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 7,
+      "power_incoherent": 5.823352165545429e-08,
+      "power_upper": 5.823352165545429e-08,
+      "power_coherent": 6.160008351176503e-08,
+      "excess_incoherent_db": 2.7538363021317775,
+      "excess_coherent_db": 2.509753840075227,
+      "coherent_loss_lower_bound_db": 2.509753840075227,
+      "coherent_loss_upper_bound_db": 2.509753840075227,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 4,
+        "DR": 1,
+        "RD": 1,
+        "RDR": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 7.019652680091265e-09,
+      "power_upper": 7.019652680091265e-09,
+      "power_coherent": 7.019652680091265e-09,
+      "excess_incoherent_db": 11.942410604049876,
+      "excess_coherent_db": 11.942410604049876,
+      "coherent_loss_lower_bound_db": 11.942410604049876,
+      "coherent_loss_upper_bound_db": 11.942410604049876,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 3.7486383684659337e-50,
+      "power_upper": 3.7486383684659337e-50,
+      "power_coherent": 3.7486383684659337e-50,
+      "excess_incoherent_db": 424.6668297195869,
+      "excess_coherent_db": 424.6668297195869,
+      "coherent_loss_lower_bound_db": 424.6668297195869,
+      "coherent_loss_upper_bound_db": 424.6668297195869,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 2,
+      "power_incoherent": 9.31978375430464e-10,
+      "power_upper": 9.31978375430464e-10,
+      "power_coherent": 9.31978375430464e-10,
+      "excess_incoherent_db": 20.711506823729223,
+      "excess_coherent_db": 20.711506823729223,
+      "coherent_loss_lower_bound_db": 20.711506823729223,
+      "coherent_loss_upper_bound_db": 20.711506823729223,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1,
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 22,
+      "power_incoherent": 9.572615340560024e-10,
+      "power_upper": 9.572615340560024e-10,
+      "power_coherent": 8.473852060560648e-10,
+      "excess_incoherent_db": 20.59525910096251,
+      "excess_coherent_db": 21.124756402991377,
+      "coherent_loss_lower_bound_db": 21.124756402991338,
+      "coherent_loss_upper_bound_db": 21.124756402991412,
+      "duplicate_complex_radius": 1.2613707805902607e-19,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1,
+        "DD": 3,
+        "DDR": 3,
+        "TTTT": 1,
+        "TTDD": 4,
+        "DRRD": 2,
+        "DRDR": 2,
+        "DTTD": 2,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 102,
+      "power_incoherent": 9.57282693697766e-10,
+      "power_upper": 9.572837809713327e-10,
+      "power_coherent": 8.360741977677869e-10,
+      "excess_incoherent_db": 20.595163104061275,
+      "excess_coherent_db": 21.183116971653323,
+      "coherent_loss_lower_bound_db": 21.153496351334212,
+      "coherent_loss_upper_bound_db": 21.21283894995962,
+      "duplicate_complex_radius": 9.877407669043006e-08,
+      "duplicate_power_bound_db": 4.932677100626907e-06,
+      "event_sequences": {
+        "DR": 1,
+        "DD": 3,
+        "DDR": 3,
+        "DDD": 10,
+        "TTTT": 1,
+        "TTDD": 4,
+        "DRRD": 2,
+        "DRDR": 2,
+        "DRDD": 26,
+        "DDDR": 9,
+        "DDRD": 27,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 337,
+      "power_incoherent": 9.57283366695281e-10,
+      "power_upper": 9.572847471147916e-10,
+      "power_coherent": 8.368803849376196e-10,
+      "excess_incoherent_db": 20.5951600508461,
+      "excess_coherent_db": 21.178931291181648,
+      "coherent_loss_lower_bound_db": 21.121478875960374,
+      "coherent_loss_upper_bound_db": 21.236766254496473,
+      "duplicate_complex_radius": 1.9198300276441604e-07,
+      "duplicate_power_bound_db": 6.262598565474389e-06,
+      "event_sequences": {
+        "DR": 1,
+        "DD": 3,
+        "DDR": 3,
+        "DDD": 10,
+        "TTTT": 1,
+        "TTDD": 4,
+        "DRRD": 2,
+        "DRDR": 2,
+        "DRDD": 26,
+        "DDDR": 9,
+        "DDDD": 235,
+        "DDRD": 27,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "Sionna RT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 7,
+      "power_incoherent": 2.8472000521710077e-08,
+      "power_upper": 2.8472000521710077e-08,
+      "power_coherent": 2.7202288273147367e-08,
+      "excess_incoherent_db": 5.861387019954899,
+      "excess_coherent_db": 6.059512462604808,
+      "coherent_loss_lower_bound_db": 6.059512462604808,
+      "coherent_loss_upper_bound_db": 6.059512462604808,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 4,
+        "DR": 1,
+        "RD": 1,
+        "RDR": 1
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 2.5670326939147577e-09,
+      "power_upper": 2.5670326939147577e-09,
+      "power_coherent": 2.5670326939147577e-09,
+      "excess_incoherent_db": 16.311252850364077,
+      "excess_coherent_db": 16.311252850364077,
+      "coherent_loss_lower_bound_db": 16.311252850364077,
+      "coherent_loss_upper_bound_db": 16.311252850364077,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 6.396505647426446e-29,
+      "power_upper": 6.396505647426446e-29,
+      "power_coherent": 6.396505647426446e-29,
+      "excess_incoherent_db": 212.34393963936472,
+      "excess_coherent_db": 212.34393963936472,
+      "coherent_loss_lower_bound_db": 212.34393963936472,
+      "coherent_loss_upper_bound_db": 212.34393963936472,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 3,
+      "power_incoherent": 1.8909943702200806e-09,
+      "power_upper": 1.8909943702200806e-09,
+      "power_coherent": 1.8909943706349696e-09,
+      "excess_incoherent_db": 17.636465157088836,
+      "excess_coherent_db": 17.63646515613598,
+      "coherent_loss_lower_bound_db": 17.63646515613598,
+      "coherent_loss_upper_bound_db": 17.63646515613598,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DTT": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 23,
+      "power_incoherent": 1.917179739771769e-09,
+      "power_upper": 1.917179739775035e-09,
+      "power_coherent": 2.2393567590941355e-09,
+      "excess_incoherent_db": 17.57673920755292,
+      "excess_coherent_db": 16.902134636594653,
+      "coherent_loss_lower_bound_db": 16.902134633678337,
+      "coherent_loss_upper_bound_db": 16.90213463951096,
+      "duplicate_complex_radius": 1.588844095028092e-14,
+      "duplicate_power_bound_db": 7.397355995923966e-12,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DD": 5,
+        "DDR": 3,
+        "DTT": 1,
+        "TTDD": 2,
+        "DRRD": 4,
+        "DRDR": 2,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 90,
+      "power_incoherent": 1.917313718617786e-09,
+      "power_upper": 1.917317301298803e-09,
+      "power_coherent": 2.2356740458578667e-09,
+      "excess_incoherent_db": 17.576435718843538,
+      "excess_coherent_db": 16.90928266514556,
+      "coherent_loss_lower_bound_db": 16.88286892760984,
+      "coherent_loss_upper_bound_db": 16.935776971768785,
+      "duplicate_complex_radius": 1.4400590620241435e-07,
+      "duplicate_power_bound_db": 8.11519329015557e-06,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DD": 5,
+        "DDR": 3,
+        "DDD": 16,
+        "DTT": 1,
+        "TTDD": 2,
+        "DRRD": 4,
+        "DRDR": 2,
+        "DRDD": 17,
+        "DDTT": 4,
+        "DDDR": 9,
+        "DDRD": 21,
+        "DTDD": 2,
+        "DDTD": 2
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 282,
+      "power_incoherent": 1.917314226500585e-09,
+      "power_upper": 1.917318403728496e-09,
+      "power_coherent": 2.23533236105295e-09,
+      "excess_incoherent_db": 17.576434568428425,
+      "excess_coherent_db": 16.90994646122237,
+      "coherent_loss_lower_bound_db": 16.862183369152078,
+      "coherent_loss_upper_bound_db": 16.957973652083556,
+      "duplicate_complex_radius": 2.6070166478414266e-07,
+      "duplicate_power_bound_db": 9.461907860616832e-06,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DD": 5,
+        "DDR": 3,
+        "DDD": 16,
+        "DTT": 1,
+        "TTDD": 2,
+        "DRRD": 4,
+        "DRDR": 2,
+        "DRDD": 17,
+        "DDTT": 4,
+        "DDDR": 9,
+        "DDDD": 192,
+        "DDRD": 21,
+        "DTDD": 2,
+        "DDTD": 2
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "Sionna RT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 9,
+      "power_incoherent": 2.7731494821442498e-08,
+      "power_upper": 2.7731494821442498e-08,
+      "power_coherent": 4.917950706869764e-08,
+      "excess_incoherent_db": 5.973635988498583,
+      "excess_coherent_db": 3.48552707555492,
+      "coherent_loss_lower_bound_db": 3.48552707555492,
+      "coherent_loss_upper_bound_db": 3.48552707555492,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 5,
+        "DR": 1,
+        "TT": 1,
+        "RD": 1,
+        "DRRR": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 2,
+      "power_incoherent": 4.250835068806485e-09,
+      "power_upper": 4.250835068806485e-09,
+      "power_coherent": 4.2508350693030345e-09,
+      "excess_incoherent_db": 14.118626242099046,
+      "excess_coherent_db": 14.118626241591736,
+      "coherent_loss_lower_bound_db": 14.118626241591736,
+      "coherent_loss_upper_bound_db": 14.118626241591736,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1,
+        "TT": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 6.401018726056256e-29,
+      "power_upper": 6.401018726056256e-29,
+      "power_coherent": 6.401018726056256e-29,
+      "excess_incoherent_db": 212.34087653876907,
+      "excess_coherent_db": 212.34087653876907,
+      "coherent_loss_lower_bound_db": 212.34087653876907,
+      "coherent_loss_upper_bound_db": 212.34087653876907,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 3,
+      "power_incoherent": 2.644505230017461e-10,
+      "power_upper": 2.644505230017461e-10,
+      "power_coherent": 2.6445052323951405e-10,
+      "excess_incoherent_db": 26.179923213379688,
+      "excess_coherent_db": 26.179923209474936,
+      "coherent_loss_lower_bound_db": 26.179923209474936,
+      "coherent_loss_upper_bound_db": 26.179923209474936,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DTT": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 23,
+      "power_incoherent": 2.9321428139935504e-10,
+      "power_upper": 2.9321428139935504e-10,
+      "power_coherent": 1.2754156830855171e-10,
+      "excess_incoherent_db": 25.73151632208486,
+      "excess_coherent_db": 29.346849986300786,
+      "coherent_loss_lower_bound_db": 29.34684998630071,
+      "coherent_loss_upper_bound_db": 29.34684998630086,
+      "duplicate_complex_radius": 9.810797767730858e-20,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DD": 5,
+        "DDR": 3,
+        "DTT": 1,
+        "TTDD": 2,
+        "DRRD": 4,
+        "DRDR": 2,
+        "DDTT": 4
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 90,
+      "power_incoherent": 2.933492804519369e-10,
+      "power_upper": 2.933503614152726e-10,
+      "power_coherent": 1.3486127693498194e-10,
+      "excess_incoherent_db": 25.729517243095074,
+      "excess_coherent_db": 29.104494841140948,
+      "coherent_loss_lower_bound_db": 29.046173227931803,
+      "coherent_loss_upper_bound_db": 29.1632107049095,
+      "duplicate_complex_radius": 7.823799481386101e-08,
+      "duplicate_power_bound_db": 1.6003296349133342e-05,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DD": 5,
+        "DDR": 3,
+        "DDD": 16,
+        "DTT": 1,
+        "TTDD": 2,
+        "DRRD": 4,
+        "DRDR": 2,
+        "DRDD": 17,
+        "DDTT": 4,
+        "DDDR": 9,
+        "DDRD": 21,
+        "DTDD": 2,
+        "DDTD": 2
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 282,
+      "power_incoherent": 2.933498585240975e-10,
+      "power_upper": 2.933512454089223e-10,
+      "power_coherent": 1.3501872688772666e-10,
+      "excess_incoherent_db": 25.729508684925044,
+      "excess_coherent_db": 29.09942742951783,
+      "coherent_loss_lower_bound_db": 28.980332935471015,
+      "coherent_loss_upper_bound_db": 29.220177586703898,
+      "duplicate_complex_radius": 1.6041875643957097e-07,
+      "duplicate_power_bound_db": 2.0532309294028234e-05,
+      "event_sequences": {
+        "TT": 1,
+        "DR": 1,
+        "DD": 5,
+        "DDR": 3,
+        "DDD": 16,
+        "DTT": 1,
+        "TTDD": 2,
+        "DRRD": 4,
+        "DRDR": 2,
+        "DRDD": 17,
+        "DDTT": 4,
+        "DDDR": 9,
+        "DDDD": 192,
+        "DDRD": 21,
+        "DTDD": 2,
+        "DDTD": 2
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "Sionna RT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 9,
+      "power_incoherent": 1.489525851501007e-08,
+      "power_upper": 1.489525851501007e-08,
+      "power_coherent": 2.8499975434595535e-08,
+      "excess_incoherent_db": 8.672888339767665,
+      "excess_coherent_db": 5.854923933305307,
+      "coherent_loss_lower_bound_db": 5.854923933305307,
+      "coherent_loss_upper_bound_db": 5.854923933305307,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 5,
+        "DR": 1,
+        "TT": 1,
+        "RD": 1,
+        "DRRR": 1
+      }
+    },
+    {
+      "case": "mixed_right",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 2,
+      "power_incoherent": 1.0463995684207056e-09,
+      "power_upper": 1.0463995684207056e-09,
+      "power_coherent": 1.0463995689278988e-09,
+      "excess_incoherent_db": 20.20639327142473,
+      "excess_coherent_db": 20.20639326931969,
+      "coherent_loss_lower_bound_db": 20.20639326931969,
+      "coherent_loss_upper_bound_db": 20.20639326931969,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "DR": 1,
+        "TT": 1
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 3.532756187297197e-50,
+      "power_upper": 3.532756187297197e-50,
+      "power_coherent": 3.532756187297197e-50,
+      "excess_incoherent_db": 424.90006753871853,
+      "excess_coherent_db": 424.90006753871853,
+      "coherent_loss_lower_bound_db": 424.90006753871853,
+      "coherent_loss_upper_bound_db": 424.90006753871853,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 5,
+      "power_incoherent": 1.325682721645616e-29,
+      "power_upper": 1.325682721645616e-29,
+      "power_coherent": 2.0996315687812803e-29,
+      "excess_incoherent_db": 219.15680823645255,
+      "excess_coherent_db": 217.1597732563201,
+      "coherent_loss_lower_bound_db": 217.1597732563201,
+      "coherent_loss_upper_bound_db": 217.1597732563201,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TTD": 2,
+        "DTT": 2,
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 25,
+      "power_incoherent": 1.1257377472723018e-09,
+      "power_upper": 1.1258618289745814e-09,
+      "power_coherent": 1.3776015714621472e-09,
+      "excess_incoherent_db": 19.866831908413374,
+      "excess_coherent_db": 18.98996790044807,
+      "coherent_loss_lower_bound_db": 18.90823732427595,
+      "coherent_loss_upper_bound_db": 19.072474838058984,
+      "duplicate_complex_radius": 3.508948021003356e-07,
+      "duplicate_power_bound_db": 0.00047866413929250766,
+      "event_sequences": {
+        "DD": 3,
+        "TTD": 2,
+        "DRD": 3,
+        "DTT": 2,
+        "TTDD": 6,
+        "TTTT": 1,
+        "DDTT": 6,
+        "DTTD": 2
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 77,
+      "power_incoherent": 1.1263841802202292e-09,
+      "power_upper": 1.1268488314248565e-09,
+      "power_coherent": 1.2795323240687617e-09,
+      "excess_incoherent_db": 19.86433877279325,
+      "excess_coherent_db": 19.310691578779146,
+      "coherent_loss_lower_bound_db": 19.050167394048053,
+      "coherent_loss_upper_bound_db": 19.579272180689806,
+      "duplicate_complex_radius": 1.0891526522119756e-06,
+      "duplicate_power_bound_db": 0.0017911636834442132,
+      "event_sequences": {
+        "DD": 3,
+        "TTD": 2,
+        "DRD": 3,
+        "DDD": 14,
+        "DTT": 2,
+        "TTDD": 6,
+        "TTTT": 1,
+        "DRDD": 13,
+        "DDTT": 6,
+        "DDRD": 17,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "V",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 183,
+      "power_incoherent": 1.1263855543010496e-09,
+      "power_upper": 1.1268504199471832e-09,
+      "power_coherent": 1.281152745474954e-09,
+      "excess_incoherent_db": 19.864333474819745,
+      "excess_coherent_db": 19.30519507960106,
+      "coherent_loss_lower_bound_db": 19.03344907054851,
+      "coherent_loss_upper_bound_db": 19.58571825192895,
+      "duplicate_complex_radius": 1.1375243072400245e-06,
+      "duplicate_power_bound_db": 0.0017919879685391335,
+      "event_sequences": {
+        "DD": 3,
+        "TTD": 2,
+        "DRD": 3,
+        "DDD": 14,
+        "DTT": 2,
+        "TTDD": 6,
+        "TTTT": 1,
+        "DRDD": 13,
+        "DDTT": 6,
+        "DDDD": 106,
+        "DDRD": 17,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "Sionna RT",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 6,
+      "power_incoherent": 9.757830113684114e-09,
+      "power_upper": 9.757830113684114e-09,
+      "power_coherent": 1.788306417937135e-08,
+      "excess_incoherent_db": 10.48767370841867,
+      "excess_coherent_db": 7.856786883427328,
+      "coherent_loss_lower_bound_db": 7.856786883427328,
+      "coherent_loss_upper_bound_db": 7.856786883427328,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 6
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "V",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 0,
+      "power_incoherent": 0,
+      "power_upper": 0,
+      "power_coherent": 0.0,
+      "excess_incoherent_db": null,
+      "excess_coherent_db": null,
+      "coherent_loss_lower_bound_db": null,
+      "coherent_loss_upper_bound_db": null,
+      "duplicate_complex_radius": 0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {}
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 0,
+      "total_depth": 4,
+      "paths": 1,
+      "power_incoherent": 3.5883874847491653e-50,
+      "power_upper": 3.5883874847491653e-50,
+      "power_coherent": 3.5883874847491653e-50,
+      "excess_incoherent_db": 424.83221086250893,
+      "excess_coherent_db": 424.83221086250893,
+      "coherent_loss_lower_bound_db": 424.83221086250893,
+      "coherent_loss_upper_bound_db": 424.83221086250893,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 5,
+      "power_incoherent": 1.6357065878589158e-29,
+      "power_upper": 1.6357065878589158e-29,
+      "power_coherent": 2.31006215024651e-29,
+      "excess_incoherent_db": 218.24415016746312,
+      "excess_coherent_db": 216.74496755193545,
+      "coherent_loss_lower_bound_db": 216.74496755193545,
+      "coherent_loss_upper_bound_db": 216.74496755193545,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "TTD": 2,
+        "DTT": 2,
+        "TTTT": 1
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 2,
+      "total_depth": 4,
+      "paths": 25,
+      "power_incoherent": 1.4371102838285672e-09,
+      "power_upper": 1.4371102925655094e-09,
+      "power_coherent": 1.7079252553732148e-09,
+      "excess_incoherent_db": 18.80630322397282,
+      "excess_coherent_db": 18.056515590014623,
+      "coherent_loss_lower_bound_db": 18.052603985591375,
+      "coherent_loss_upper_bound_db": 18.06042895678389,
+      "duplicate_complex_radius": 1.8615420277065526e-08,
+      "duplicate_power_bound_db": 2.6403024621226695e-08,
+      "event_sequences": {
+        "DD": 3,
+        "TTD": 2,
+        "DRD": 3,
+        "DTT": 2,
+        "TTDD": 6,
+        "TTTT": 1,
+        "DDTT": 6,
+        "DTTD": 2
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 3,
+      "total_depth": 4,
+      "paths": 77,
+      "power_incoherent": 1.4376897806252376e-09,
+      "power_upper": 1.438252316395508e-09,
+      "power_coherent": 1.7916895748733443e-09,
+      "excess_incoherent_db": 18.804552338632337,
+      "excess_coherent_db": 17.84857652853258,
+      "coherent_loss_lower_bound_db": 17.551981791390737,
+      "coherent_loss_upper_bound_db": 18.155658154290613,
+      "duplicate_complex_radius": 1.4703356407224709e-06,
+      "duplicate_power_bound_db": 0.0016989645533577046,
+      "event_sequences": {
+        "DD": 3,
+        "TTD": 2,
+        "DRD": 3,
+        "DDD": 14,
+        "DTT": 2,
+        "TTDD": 6,
+        "TTTT": 1,
+        "DRDD": 13,
+        "DDTT": 6,
+        "DDRD": 17,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "DiffeRT",
+      "polarization": "H",
+      "max_diffractions": 4,
+      "total_depth": 4,
+      "paths": 183,
+      "power_incoherent": 1.4376910881777595e-09,
+      "power_upper": 1.4382537957603057e-09,
+      "power_coherent": 1.7928984559785904e-09,
+      "excess_incoherent_db": 18.80454838880537,
+      "excess_coherent_db": 17.84564726353102,
+      "coherent_loss_lower_bound_db": 17.54086216300677,
+      "coherent_loss_upper_bound_db": 18.161517322491843,
+      "duplicate_complex_radius": 1.5121649950504574e-06,
+      "duplicate_power_bound_db": 0.0016994818121048255,
+      "event_sequences": {
+        "DD": 3,
+        "TTD": 2,
+        "DRD": 3,
+        "DDD": 14,
+        "DTT": 2,
+        "TTDD": 6,
+        "TTTT": 1,
+        "DRDD": 13,
+        "DDTT": 6,
+        "DDDD": 106,
+        "DDRD": 17,
+        "DTTD": 2,
+        "DTDD": 4,
+        "DDTD": 4
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "Sionna RT",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 6,
+      "power_incoherent": 6.777756545509974e-09,
+      "power_upper": 6.777756545509974e-09,
+      "power_coherent": 8.046744186981926e-09,
+      "excess_incoherent_db": 12.07034658420492,
+      "excess_coherent_db": 11.325004285600883,
+      "coherent_loss_lower_bound_db": 11.325004285600883,
+      "coherent_loss_upper_bound_db": 11.325004285600883,
+      "duplicate_complex_radius": 0.0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {
+        "D": 6
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "solver": "Sionna RT, wood edges",
+      "polarization": "H",
+      "max_diffractions": 1,
+      "total_depth": 4,
+      "paths": 0,
+      "power_incoherent": 0,
+      "power_upper": 0,
+      "power_coherent": 0.0,
+      "excess_incoherent_db": null,
+      "excess_coherent_db": null,
+      "coherent_loss_lower_bound_db": null,
+      "coherent_loss_upper_bound_db": null,
+      "duplicate_complex_radius": 0,
+      "duplicate_power_bound_db": 0.0,
+      "event_sequences": {}
+    }
+  ],
+  "checks": [
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "admission",
+      "raw": 36654,
+      "rejected": 31760,
+      "unique": 451,
+      "duplicate_entries": 4443,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 27671,
+        "nonstationary_edge": 3901,
+        "nonstraight_transmission": 47,
+        "unrecorded_surface_crossing": 141
+      }
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 34,
+      "hybrid_paths": 34,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 451,
+      "paths_16m": 451,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        6,
+        8,
+        8,
+        8,
+        8,
+        7,
+        6,
+        8,
+        8,
+        8
+      ],
+      "loss_range_db": 0.7054304951662598
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        6
+      ],
+      "min_loss_db": 11.023983910673472,
+      "max_loss_db": 11.023983910673472,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        7,
+        6
+      ],
+      "min_loss_db": 10.318553415507212,
+      "max_loss_db": 11.023983910673472,
+      "loss_range_db": 0.7054304951662598
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        8,
+        8
+      ],
+      "min_loss_db": 10.318553415507212,
+      "max_loss_db": 10.318553415507212,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        8,
+        8
+      ],
+      "min_loss_db": 10.318553415507212,
+      "max_loss_db": 10.318553415507214,
+      "loss_range_db": 1.7763568394002505e-15
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "admission",
+      "raw": 36654,
+      "rejected": 31760,
+      "unique": 451,
+      "duplicate_entries": 4443,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 27671,
+        "nonstationary_edge": 3901,
+        "nonstraight_transmission": 47,
+        "unrecorded_surface_crossing": 141
+      }
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 34,
+      "hybrid_paths": 34,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 451,
+      "paths_16m": 451,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        6,
+        8,
+        8,
+        8,
+        8,
+        7,
+        6,
+        8,
+        8,
+        8
+      ],
+      "loss_range_db": 1.4264119653391951
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        6
+      ],
+      "min_loss_db": 13.985325158461109,
+      "max_loss_db": 13.985325158461109,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        7,
+        6
+      ],
+      "min_loss_db": 12.558913193121914,
+      "max_loss_db": 13.985325158461109,
+      "loss_range_db": 1.4264119653391951
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        8,
+        8
+      ],
+      "min_loss_db": 12.558913193121914,
+      "max_loss_db": 12.558913193121914,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        8,
+        8
+      ],
+      "min_loss_db": 12.558913193121914,
+      "max_loss_db": 12.558913193121914,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "admission",
+      "raw": 28438,
+      "rejected": 25225,
+      "unique": 337,
+      "duplicate_entries": 2876,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 22419,
+        "nonstationary_edge": 2624,
+        "nonstraight_transmission": 34,
+        "unrecorded_surface_crossing": 148
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 17,
+      "hybrid_paths": 17,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 337,
+      "paths_16m": 337,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        6,
+        7,
+        7,
+        7,
+        6,
+        5,
+        5,
+        7,
+        7,
+        6
+      ],
+      "loss_range_db": 0.557867927879923
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        6
+      ],
+      "min_loss_db": 2.753847931302734,
+      "max_loss_db": 2.753847931302734,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        5,
+        5
+      ],
+      "min_loss_db": 2.753847947042434,
+      "max_loss_db": 3.3117042300117006,
+      "loss_range_db": 0.5578562829692664
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        7,
+        7,
+        7
+      ],
+      "min_loss_db": 2.7538363021317775,
+      "max_loss_db": 2.7538363021317775,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        7,
+        7,
+        6
+      ],
+      "min_loss_db": 2.7538363021317775,
+      "max_loss_db": 2.753847931302734,
+      "loss_range_db": 1.162917095642868e-05
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "admission",
+      "raw": 28438,
+      "rejected": 25225,
+      "unique": 337,
+      "duplicate_entries": 2876,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 22419,
+        "nonstationary_edge": 2624,
+        "nonstraight_transmission": 34,
+        "unrecorded_surface_crossing": 148
+      }
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 17,
+      "hybrid_paths": 17,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 337,
+      "paths_16m": 337,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        6,
+        7,
+        7,
+        7,
+        6,
+        5,
+        5,
+        7,
+        7,
+        6
+      ],
+      "loss_range_db": 0.41034930074408926
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        6
+      ],
+      "min_loss_db": 5.861387059806783,
+      "max_loss_db": 5.861387059806783,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        5,
+        5
+      ],
+      "min_loss_db": 5.861387049530313,
+      "max_loss_db": 6.271736320698988,
+      "loss_range_db": 0.41034927116867514
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        7,
+        7,
+        7
+      ],
+      "min_loss_db": 5.861387019954899,
+      "max_loss_db": 5.861387019954899,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        7,
+        7,
+        6
+      ],
+      "min_loss_db": 5.861387019954899,
+      "max_loss_db": 5.861387059806783,
+      "loss_range_db": 3.985188445909671e-08
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "admission",
+      "raw": 25342,
+      "rejected": 22330,
+      "unique": 282,
+      "duplicate_entries": 2730,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 19813,
+        "nonstationary_edge": 2355,
+        "nonstraight_transmission": 33,
+        "unrecorded_surface_crossing": 129
+      }
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 27,
+      "hybrid_paths": 27,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 282,
+      "paths_16m": 282,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        8,
+        9,
+        9,
+        9,
+        8,
+        7,
+        8,
+        9,
+        9,
+        9
+      ],
+      "loss_range_db": 0.723014352959872
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        8
+      ],
+      "min_loss_db": 5.9739615528499925,
+      "max_loss_db": 5.9739615528499925,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        7,
+        8
+      ],
+      "min_loss_db": 5.9739615528499925,
+      "max_loss_db": 6.696650341458455,
+      "loss_range_db": 0.7226887886084628
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        9,
+        9,
+        9
+      ],
+      "min_loss_db": 5.973635988498583,
+      "max_loss_db": 5.973635988498583,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        9,
+        9,
+        9
+      ],
+      "min_loss_db": 5.973635988498583,
+      "max_loss_db": 5.973635988498583,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "admission",
+      "raw": 25342,
+      "rejected": 22330,
+      "unique": 282,
+      "duplicate_entries": 2730,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 19813,
+        "nonstationary_edge": 2355,
+        "nonstraight_transmission": 33,
+        "unrecorded_surface_crossing": 129
+      }
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 27,
+      "hybrid_paths": 27,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 282,
+      "paths_16m": 282,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        8,
+        9,
+        9,
+        9,
+        8,
+        7,
+        8,
+        9,
+        9,
+        9
+      ],
+      "loss_range_db": 0.316432416494397
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        8
+      ],
+      "min_loss_db": 8.672973769065765,
+      "max_loss_db": 8.672973769065765,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        8,
+        7,
+        8
+      ],
+      "min_loss_db": 8.672973769590813,
+      "max_loss_db": 8.989320755737024,
+      "loss_range_db": 0.31634698614621115
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        9,
+        9,
+        9
+      ],
+      "min_loss_db": 8.672888339767665,
+      "max_loss_db": 8.672888339767665,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        9,
+        9,
+        9
+      ],
+      "min_loss_db": 8.672888339242627,
+      "max_loss_db": 8.672888339767665,
+      "loss_range_db": 5.25037791021532e-10
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "admission",
+      "raw": 14010,
+      "rejected": 11974,
+      "unique": 183,
+      "duplicate_entries": 1853,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 9534,
+        "nonstationary_edge": 2398,
+        "nonstraight_transmission": 20,
+        "unrecorded_surface_crossing": 22
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 24,
+      "hybrid_paths": 24,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 183,
+      "paths_16m": 183,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        6
+      ],
+      "min_loss_db": 10.48767370841867,
+      "max_loss_db": 10.48767370841867,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        6,
+        6
+      ],
+      "min_loss_db": 10.48767370841867,
+      "max_loss_db": 10.48767370841867,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        6,
+        6
+      ],
+      "min_loss_db": 10.48767370841867,
+      "max_loss_db": 10.48767370841867,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        6,
+        6
+      ],
+      "min_loss_db": 10.48767370841867,
+      "max_loss_db": 10.48767370841867,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "admission",
+      "raw": 14010,
+      "rejected": 11974,
+      "unique": 183,
+      "duplicate_entries": 1853,
+      "reasons": {
+        "solid_interior_without_two_transmissions": 9534,
+        "nonstationary_edge": 2398,
+        "nonstraight_transmission": 20,
+        "unrecorded_surface_crossing": 22
+      }
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "hybrid_vs_exhaustive_depth3",
+      "exhaustive_paths": 24,
+      "hybrid_paths": 24,
+      "missing_in_hybrid": 0,
+      "extra_in_hybrid": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "differt_visibility_4m_vs_16m",
+      "paths_4m": 183,
+      "paths_16m": 183,
+      "missing_at_16m": 0,
+      "additional_at_16m": 0,
+      "power_delta_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "sionna_rays_seeds",
+      "runs": 10,
+      "path_counts": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 1000000,
+      "seeds": [
+        19101
+      ],
+      "paths": [
+        6
+      ],
+      "min_loss_db": 12.07034658420492,
+      "max_loss_db": 12.07034658420492,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 4000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        6,
+        6
+      ],
+      "min_loss_db": 12.07034658420492,
+      "max_loss_db": 12.07034658420492,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 16000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        6,
+        6
+      ],
+      "min_loss_db": 12.07034658420492,
+      "max_loss_db": 12.07034658420492,
+      "loss_range_db": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "sionna_by_ray_count",
+      "rays": 64000000,
+      "seeds": [
+        19101,
+        19102,
+        19103
+      ],
+      "paths": [
+        6,
+        6,
+        6
+      ],
+      "min_loss_db": 12.07034658420492,
+      "max_loss_db": 12.07034658420492,
+      "loss_range_db": 0.0
+    }
+  ],
+  "audit_sensitivity": [
+    {
+      "case": "mixed_left",
+      "position_tolerance_m": 1e-06,
+      "stationarity_tolerance": 0.0001,
+      "unique_paths": 441,
+      "excess_loss_db": 37.45535250905442,
+      "delta_from_default_db": 3.783952706726268e-08
+    },
+    {
+      "case": "mixed_left",
+      "position_tolerance_m": 5e-06,
+      "stationarity_tolerance": 0.001,
+      "unique_paths": 487,
+      "excess_loss_db": 37.45535242684543,
+      "delta_from_default_db": -4.43694645468895e-08
+    },
+    {
+      "case": "mixed_centre",
+      "position_tolerance_m": 1e-06,
+      "stationarity_tolerance": 0.0001,
+      "unique_paths": 314,
+      "excess_loss_db": 14.786710937263303,
+      "delta_from_default_db": 1.3840859125480165e-08
+    },
+    {
+      "case": "mixed_centre",
+      "position_tolerance_m": 5e-06,
+      "stationarity_tolerance": 0.001,
+      "unique_paths": 407,
+      "excess_loss_db": 14.786709629023832,
+      "delta_from_default_db": -1.2943986114066774e-06
+    },
+    {
+      "case": "mixed_right",
+      "position_tolerance_m": 1e-06,
+      "stationarity_tolerance": 0.0001,
+      "unique_paths": 281,
+      "excess_loss_db": 17.576434568438962,
+      "delta_from_default_db": 1.0537348771322286e-11
+    },
+    {
+      "case": "mixed_right",
+      "position_tolerance_m": 5e-06,
+      "stationarity_tolerance": 0.001,
+      "unique_paths": 322,
+      "excess_loss_db": 17.5764338931246,
+      "delta_from_default_db": -6.753038235274289e-07
+    },
+    {
+      "case": "blocked_coupled",
+      "position_tolerance_m": 1e-06,
+      "stationarity_tolerance": 0.0001,
+      "unique_paths": 181,
+      "excess_loss_db": 19.86433347599373,
+      "delta_from_default_db": 1.1739835770185891e-09
+    },
+    {
+      "case": "blocked_coupled",
+      "position_tolerance_m": 5e-06,
+      "stationarity_tolerance": 0.001,
+      "unique_paths": 191,
+      "excess_loss_db": 19.864333469698874,
+      "delta_from_default_db": -5.120870838482006e-09
+    }
+  ],
+  "same_geometry_coefficient_comparison": [
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "sequence": "TT",
+      "objects": [
+        [
+          "wood_1"
+        ],
+        [
+          "wood_1"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": 5.3549561313529135e-06,
+      "max_vertex_error_m": 3.74671071767807e-06
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "sequence": "TT",
+      "objects": [
+        [
+          "wood_1"
+        ],
+        [
+          "wood_1"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": -2.7060177893036876e-06,
+      "max_vertex_error_m": 3.74671071767807e-06
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "sequence": "DR",
+      "objects": [
+        [
+          "wood_1"
+        ],
+        [
+          "leaf_reflector"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": 2.8715557266781273,
+      "max_vertex_error_m": 3.822892904281616e-05
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "sequence": "DR",
+      "objects": [
+        [
+          "wood_1"
+        ],
+        [
+          "leaf_reflector"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": 4.400255643185825,
+      "max_vertex_error_m": 3.822892904281616e-05
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "sequence": "DR",
+      "objects": [
+        [
+          "wood_1"
+        ],
+        [
+          "leaf_reflector"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": 3.517840189056823,
+      "max_vertex_error_m": 3.248453140258789e-05
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "sequence": "TT",
+      "objects": [
+        [
+          "wood_2"
+        ],
+        [
+          "wood_2"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": 1.5875928788120845e-05,
+      "max_vertex_error_m": 2.166256308555603e-06
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "sequence": "DR",
+      "objects": [
+        [
+          "wood_1"
+        ],
+        [
+          "leaf_reflector"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": 5.973531216021989,
+      "max_vertex_error_m": 3.248453140258789e-05
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "sequence": "TT",
+      "objects": [
+        [
+          "wood_2"
+        ],
+        [
+          "wood_2"
+        ]
+      ],
+      "sionna_minus_differt_path_power_db": 1.2218967962984383e-05,
+      "max_vertex_error_m": 2.166256308555603e-06
+    }
+  ],
+  "input_inventory": [
+    {
+      "case": "mixed_left",
+      "differt": "differt_mixed_left_RTD_d4_hybrid16m_final.json",
+      "differt_sha256": "fcfaba02333852c8e7a3eb82ce0575048b6ec683558eb4cf4a76d6a62caa1961",
+      "sionna": "sionna_mixed_left_RTD_d4_n64000000_s19101.json",
+      "sionna_sha256": "6a376229a2750988d8d0bdfe335516d30dddbe406e987e6a7232fd18ca9c71c9"
+    },
+    {
+      "case": "mixed_centre",
+      "differt": "differt_mixed_centre_RTD_d4_hybrid16m_final.json",
+      "differt_sha256": "dc25d154951bab7ca353882989f15b6476d09501e78d46cea63628b62cf395f4",
+      "sionna": "sionna_mixed_centre_RTD_d4_n64000000_s19101.json",
+      "sionna_sha256": "9ab712fa350f08c52d51b051d0f14fdfdc58b2413007d13b9a8f38b349b41f02"
+    },
+    {
+      "case": "mixed_right",
+      "differt": "differt_mixed_right_RTD_d4_hybrid16m_final.json",
+      "differt_sha256": "b94a023fdce53a7a483a77faae3e27722624ca5afa77e45464061f3e1f5818f7",
+      "sionna": "sionna_mixed_right_RTD_d4_n64000000_s19101.json",
+      "sionna_sha256": "84197d4078009e64e7857f364b66f8af5befbf6090cd3871954f112a08cc877e"
+    },
+    {
+      "case": "blocked_coupled",
+      "differt": "differt_blocked_coupled_RTD_d4_hybrid16m_final.json",
+      "differt_sha256": "610513ce4d275cf28969d5f3e22e96e0000412efab9f286bc0878f22de321f2b",
+      "sionna": "sionna_blocked_coupled_RTD_d4_n64000000_s19101.json",
+      "sionna_sha256": "491e28b50788b945007feeae296333363158fdad338073a82a7aba7f71060e09"
+    }
+  ],
+  "case_names": [
+    "mixed_left",
+    "mixed_centre",
+    "mixed_right",
+    "blocked_coupled"
+  ]
+}

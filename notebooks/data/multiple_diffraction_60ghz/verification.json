@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "native_final_runs_completed": 8,
+  "main_links": 4,
+  "polarizations": [
+    "V",
+    "H"
+  ],
+  "hybrid_matches_exhaustive_through_depth3": true,
+  "hybrid_visibility_repeatability": true,
+  "sionna_64m_three_seed_power_range_below_2e_5_db": true,
+  "audit_threshold_total_power_effect_below_2e_6_db": true,
+  "short_segment_checks": [
+    {
+      "case": "mixed_left",
+      "polarization": "V",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 3,
+      "short_path_power_fraction": 3.5490186576356234e-11
+    },
+    {
+      "case": "mixed_left",
+      "polarization": "H",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 3,
+      "short_path_power_fraction": 2.3111636917398218e-12
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "V",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 1,
+      "short_path_power_fraction": 4.794436804053246e-13
+    },
+    {
+      "case": "mixed_centre",
+      "polarization": "H",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 1,
+      "short_path_power_fraction": 4.799093707155299e-16
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "V",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 0,
+      "short_path_power_fraction": 0.0
+    },
+    {
+      "case": "mixed_right",
+      "polarization": "H",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 0,
+      "short_path_power_fraction": 0.0
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "V",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 2,
+      "short_path_power_fraction": 2.5366553553201094e-23
+    },
+    {
+      "case": "blocked_coupled",
+      "polarization": "H",
+      "check": "sionna_10mm_segment_cutoff_confound",
+      "short_differt_paths": 2,
+      "short_path_power_fraction": 3.6260343487271642e-22
+    }
+  ],
+  "unvalidated": "Absolute vegetation loss, physical accuracy of diffraction coefficients, and completeness beyond the stated path-search budget."
+}
