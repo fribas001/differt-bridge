@@ -1,0 +1,115 @@
+{
+  "frequency_hz": 60000000000.0,
+  "polarization": "Ez",
+  "incidence_degrees": 10.0,
+  "geometry": {
+    "leaf": {
+      "x_mm": [
+        -0.1,
+        0.1
+      ],
+      "y_mm": [
+        -10,
+        10
+      ],
+      "er": 5.084015357620869,
+      "sigma": 20.662477407673066,
+      "rt_thickness_m": 0.0002
+    },
+    "branch": {
+      "x_mm": [
+        -10,
+        10
+      ],
+      "y_mm": [
+        -10,
+        10
+      ],
+      "er": 5.415702479338843,
+      "sigma": 7.593978892000037,
+      "rt_thickness_m": 0.01
+    }
+  },
+  "probes_mm": [
+    [
+      4.0,
+      11.0
+    ],
+    [
+      4.0,
+      14.0
+    ],
+    [
+      4.0,
+      18.0
+    ],
+    [
+      4.0,
+      24.0
+    ],
+    [
+      12.0,
+      11.0
+    ],
+    [
+      12.0,
+      14.0
+    ],
+    [
+      12.0,
+      18.0
+    ],
+    [
+      12.0,
+      24.0
+    ],
+    [
+      24.0,
+      11.0
+    ],
+    [
+      24.0,
+      14.0
+    ],
+    [
+      24.0,
+      18.0
+    ],
+    [
+      24.0,
+      24.0
+    ]
+  ],
+  "mesh_steps_mm": [
+    0.2,
+    0.1
+  ],
+  "leaf_normal_steps_mm": [
+    0.05,
+    0.025
+  ],
+  "gates": {
+    "mesh_loss_db": 0.25,
+    "mesh_complex_absolute": 0.03,
+    "boundary_loss_db": 0.1,
+    "boundary_complex_absolute": 0.01,
+    "empty_amplitude_spread_db": 0.05,
+    "empty_phase_residual_deg": 1.0,
+    "z_invariance_relative": 0.0001
+  },
+  "observable": "Coherent total Ez divided by paired empty-domain Ez at each point; positive excess loss is -20 log10(abs(ratio)).",
+  "scope": "Two-dimensional cross-sections, infinite z extrusion and plane-wave illumination. Finite 20 mm leaf strip with physical 0.2 mm thickness; 20 mm square branch. No roughness/scattering model, no ground. These are reduced coupons, not the previous finite 3D point-source scenes.",
+  "comparison": "Same deterministic illuminated/visible first-order edges for both formulations. DiffeRT native plane-wave diffraction matrix versus independent Sionna-equation evaluation in plane-wave limit, previously checked against native Sionna for spherical incidence. Common coherent GO field with physical-slab vacuum phase correction. No native path-discovery comparison.",
+  "limitations": [
+    "Assumed nominal material parameters, no experimental validation.",
+    "First-order edge model omits internal edge waves, corner coupling, higher diffraction orders and refraction bending.",
+    "Leaf full-wave finite volume is approximated by a collapsed slab screen in ray models.",
+    "Wood transmission uses half-thickness per crossed face and repeats interfaces; not a continuous-volume solution.",
+    "Receiver points near surface intentionally probe limitations of asymptotic diffraction."
+  ],
+  "sources": [
+    "https://docs.openems.de/en/latest/concepts/excitations.html",
+    "https://nvlabs.github.io/sionna/rt/tutorials/Diffraction.html",
+    "https://differt.eertmans.be/latest/reference/_autosummary/differt.em.GeometricFieldSolver.html"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "numerical_gates_passed": true,
+  "fullwave_runs": 12,
+  "paired_grid_equality": true,
+  "all_runs_reached_energy_criterion": true,
+  "final_empty_and_z_gates_passed": true,
+  "native_sionna_matrix_check": true,
+  "native_sionna_matrix_count": 44,
+  "native_sionna_max_relative_error": 2.5940449031468477e-05,
+  "transparent_material_consistency": false,
+  "transparent_material_note": "Both retained coefficient constructions fail the air-material limit. This is a physical model limitation, separate from numerical acceptance.",
+  "run_records": [
+    {
+      "tag": "branch_air_h0.1_p0",
+      "result_sha256": "903db12327ec160075b14a127acbb04fc939154329b7a205dc1de3c8e11873fe",
+      "field_sha256": "375349a074c7441613a5c66a73abb7f7d02b9410a541d86ea74b7e5fcf33392d",
+      "xml_sha256": "9c17d18f0345d069c411991809fc90d3ed98713a2d42b2a283b7cdefb5728d9f",
+      "elapsed_s": 63.5517256000021,
+      "mesh_lines": {
+        "x": 701,
+        "y": 701,
+        "z": 5
+      }
+    },
+    {
+      "tag": "branch_air_h0.1_p10",
+      "result_sha256": "e47850a05ba2aa24914040a0d8361a2f73214c912c75001658ee395af897213c",
+      "field_sha256": "b23d5427172cea0d6c0eae5c8f2d86737ec52f8b6b06316eeac16d0a73641f29",
+      "xml_sha256": "3adb0774227ed600fac67123b9c58842053f6ea2811e775d8239b2164b093e46",
+      "elapsed_s": 90.47216169999956,
+      "mesh_lines": {
+        "x": 901,
+        "y": 901,
+        "z": 5
+      }
+    },
+    {
+      "tag": "branch_air_h0.2_p0",
+      "result_sha256": "3e8b7232c0065f60be7e8bb7ac0c4324a63e58abc36861786cf305971117f994",
+      "field_sha256": "b9f98d1a6163f696338c17dafd9ff52effcfa313fe08f9b11eeefc23443f10b4",
+      "xml_sha256": "0a4dad86ccf5728adc76c82753354b8fbbe97b2a0cf0616f9a4db449cecb7bd8",
+      "elapsed_s": 16.790798000001814,
+      "mesh_lines": {
+        "x": 351,
+        "y": 351,
+        "z": 5
+      }
+    },
+    {
+      "tag": "branch_object_h0.1_p0",
+      "result_sha256": "b489da98f4c890cdf7e5a7e2939d4710627c4395a5f83908a52a79a01b630d47",
+      "field_sha256": "22e64cef81f7c51cf08fd4cd3debc73ca500490fc0f7a8c769e00cf184cb7455",
+      "xml_sha256": "bfdf773ed8edc56cf527fbc052f69d5ec1002a542e40d13aecf2ddf073363b11",
+      "elapsed_s": 93.27527000000191,
+      "mesh_lines": {
+        "x": 701,
+        "y": 701,
+        "z": 5
+      }
+    },
+    {
+      "tag": "branch_object_h0.1_p10",
+      "result_sha256": "b8d86cf6bb5548187ed3f74e657658a143fd8e4a940df4280f8c775f1b415482",
+      "field_sha256": "f1847b4579e2e2e850dc5dea04d0b0a01b9b597d383521b7ca15a324b082fa53",
+      "xml_sha256": "072d63aa05e92ff008a695d936d5f8954c72750a756a6f0dbb8b3bcccaff4491",
+      "elapsed_s": 128.6238708000019,
+      "mesh_lines": {
+        "x": 901,
+        "y": 901,
+        "z": 5
+      }
+    },
+    {
+      "tag": "branch_object_h0.2_p0",
+      "result_sha256": "bbb615ec9f2bd29281a90ca3892e3ffadf9eccf9d29ffbf2058627a38ce44aa1",
+      "field_sha256": "13ca9f8f599e2bf1802e557a2764661fe8234c7f031b52a99ec0c5c30111613b",
+      "xml_sha256": "5e6fdb74e88952996e541881f5447eb92aa4d730b4d52d8be8541e6fec40c196",
+      "elapsed_s": 16.872182099999918,
+      "mesh_lines": {
+        "x": 351,
+        "y": 351,
+        "z": 5
+      }
+    },
+    {
+      "tag": "leaf_air_h0.1_p0",
+      "result_sha256": "5f95b4aba8f8c775d640f0dd6dae2a298ab75bbc3e1b0b594d1daad19c6c6de7",
+      "field_sha256": "d7ad63105621121d7fcab7216e8871c4b2f178203d07c940927c21ccce870be6",
+      "xml_sha256": "abebef0ec5dc5ea7d30d82833a635ffb04866e8e2874a9e9db19b1e8f6cd001b",
+      "elapsed_s": 153.44509349999862,
+      "mesh_lines": {
+        "x": 731,
+        "y": 701,
+        "z": 5
+      }
+    },
+    {
+      "tag": "leaf_air_h0.1_p10",
+      "result_sha256": "4e8feb0561aeaec7949b2f2214358cb5478983703c118d5cef763e9e5be81eb5",
+      "field_sha256": "90ff1ac3a26de0a95158b34c730e7e3a8c4005a692928552a2f7a2f844783331",
+      "xml_sha256": "147b8928eb0433479a35cee9ce12f87788a67583d08545a0223e26c1aacdbfa9",
+      "elapsed_s": 193.77237149999928,
+      "mesh_lines": {
+        "x": 931,
+        "y": 901,
+        "z": 5
+      }
+    },
+    {
+      "tag": "leaf_air_h0.2_p0",
+      "result_sha256": "b45a79aabcfe30c19d1b07049a5a3cac7b64eae27e7421a37054f2bfba2329b4",
+      "field_sha256": "c4e67689370a455e7896ce9bb7e9a1af4c027a29f888412a4e9fd8e77edc7526",
+      "xml_sha256": "c500a8848057c1d94cc8b75be53907d97398d0bf66669289d3ecdae395041d2a",
+      "elapsed_s": 37.126118499996664,
+      "mesh_lines": {
+        "x": 367,
+        "y": 351,
+        "z": 5
+      }
+    },
+    {
+      "tag": "leaf_object_h0.1_p0",
+      "result_sha256": "5574afaea0948cffd3e3bba7fe953636e47491531e92ca07903d208b61ab7ffb",
+      "field_sha256": "5fc9bed5b55bf73761c079a3011a31d3d68a8ae7b248e90d6bd968a3364aa3cc",
+      "xml_sha256": "050c58e7f11fcdbf30b3619ab4a8db48e4f2044f5b39d5b48c8a8014f9256905",
+      "elapsed_s": 170.46209049999743,
+      "mesh_lines": {
+        "x": 731,
+        "y": 701,
+        "z": 5
+      }
+    },
+    {
+      "tag": "leaf_object_h0.1_p10",
+      "result_sha256": "deefdb5c286c26c30589102cc5b8518ef73126d42b059726643a1273b777e50e",
+      "field_sha256": "46f7feb5cd37b915766b036226445e56e7db45566057e324bf665a6015f29ba5",
+      "xml_sha256": "565d61bde83284a7694760f3822f7f855a29c4bc68d4c39b31cfa5b16784223a",
+      "elapsed_s": 142.4053414000009,
+      "mesh_lines": {
+        "x": 931,
+        "y": 901,
+        "z": 5
+      }
+    },
+    {
+      "tag": "leaf_object_h0.2_p0",
+      "result_sha256": "2eac61a5f5404e69f34e66b371e06ef7e6a230fda2b7ff53325447c587c6cedc",
+      "field_sha256": "417a0387ef7f4bc667d9876c89285b1e3e46b782bc7bdf63f03014cae5a55b34",
+      "xml_sha256": "99ff36478da674859fc5b9220bceb7aedd87eabbf3cb93c569bc82392ace5293",
+      "elapsed_s": 41.126542199999676,
+      "mesh_lines": {
+        "x": 367,
+        "y": 351,
+        "z": 5
+      }
+    }
+  ],
+  "library_source_hashes": {
+    "work\\envs\\differt012\\Lib\\site-packages\\differt\\em\\_solvers.py": "23d4b5a4647d542bb6f22bd6e38ab95d01de389523a79dfd3d9356989cade465",
+    "work\\envs\\differt012\\Lib\\site-packages\\differt\\em\\_utd.py": "fa1ed8859b15759c8591a667d54853af3c7ab15e5ee4b2094e2348c1bbad2823",
+    "work\\envs\\differt012\\Lib\\site-packages\\differt\\geometry\\_mesh.py": "27357e26ecab2252451c931afce868e2299eea872c67f30ec864d9732cd24005",
+    "work\\envs\\sionna22\\Lib\\site-packages\\sionna\\rt\\radio_materials\\radio_material.py": "e32aca941e7e1e841fff8d46b6fcbcbb59b9488b5401ff163559afda8d2ebb1e"
+  },
+  "artifact_hashes": {
+    "contract.json": "2b29f528e4e3f01f61da5932e986157ba1a7aaef630dabd59f95b018f9045877",
+    "analysis.json": "015e4a0cd0e27e4d6d31ada9a85accfebd90577d6e02a711ff2f9d80f973e33b",
+    "coefficients.json": "c0b874914f79d308d966256d294da19ddfcf3791e6859661c636a12a0db2368e",
+    "zero_contrast.json": "236f251834e282ebada38438a5687639ee590990b5db7a87899c1cdbb36a0ece"
+  }
+}

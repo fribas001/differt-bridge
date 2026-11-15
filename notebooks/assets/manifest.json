@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "license": "GPL-3.0-or-later; project-generated assets",
+  "files": [
+    {
+      "path": "models.json",
+      "sha256": "ef6b7175874610a7ba311b6cb4803b9407e706149150f749ae9fa4ee4727ff72",
+      "kind": "geometry-extract",
+      "transform": "Selected synthetic cases and four retained blocked-link paths; coordinates and indices unchanged."
+    },
+    {
+      "path": "focused_paths.png",
+      "sha256": "4b6b5c7353cc86bb80fb8531b8c139008e039d895fdd58a566b777b655df7f57",
+      "source_sha256": "4b6b5c7353cc86bb80fb8531b8c139008e039d895fdd58a566b777b655df7f57",
+      "source_relative": "focused_solver_comparison_20261017/figures/01_geometry_and_paths.png",
+      "kind": "historical-figure",
+      "transform": "byte-for-byte copy",
+      "caption": "Historical top-view path projections. Panels have different scales; panel (c) is a separate short wood-edge link."
+    },
+    {
+      "path": "multiple_paths.png",
+      "sha256": "d7ce727e10f84da4da447b8347f3fca32e9d2bec93d642dc32a89fa017130b9e",
+      "source_sha256": "d7ce727e10f84da4da447b8347f3fca32e9d2bec93d642dc32a89fa017130b9e",
+      "source_relative": "multidiffraction_20261017/figures/01_native_paths.png",
+      "kind": "historical-figure",
+      "transform": "byte-for-byte copy",
+      "caption": "Historical blocked_coupled case, V polarization. Actual retained 3D paths projected onto XY; labeled losses are individual-path values, not total-channel loss or an accuracy ranking."
+    },
+    {
+      "path": "fullwave_fields.png",
+      "sha256": "1f77c713e5315f24e8bd33c42d4ed17df227148cb5d1c24c551a51607e247461",
+      "source_sha256": "1f77c713e5315f24e8bd33c42d4ed17df227148cb5d1c24c551a51607e247461",
+      "source_relative": "edge_fullwave_20261017/figures/02_fullwave_fields.png",
+      "kind": "historical-figure",
+      "transform": "byte-for-byte copy",
+      "caption": "Historical openEMS normalized coherent Ez field maps for 2D infinite-z coupons. These are not the finite 3D ray-tracing scenes. White circles locate the 12 probes per coupon."
+    },
+    {
+      "path": "ris_two_leaves.png",
+      "sha256": "ef42b00d68ff1a9132c3ba30a62f4551f2c0d49baba02044b1c15e8828c8a718",
+      "kind": "blender-render",
+      "case": "ris/two_leaves"
+    },
+    {
+      "path": "ris_two_leaves.json",
+      "sha256": "4a27fcf0d60794b53a48e236a822fde770cb1bcb474da1ac5ab4885673491438",
+      "kind": "blender-render",
+      "case": "ris/two_leaves"
+    },
+    {
+      "path": "focused_leaf_branch.png",
+      "sha256": "0549c43d0bb136cf0e0fef6487ca6d62f0d770de6cc547bad33ff819c9526eea",
+      "kind": "blender-render",
+      "case": "focused/leaf_branch"
+    },
+    {
+      "path": "focused_leaf_branch.json",
+      "sha256": "ed195dfb45ad9957f64062cba92e0030036674767b7d7b1bea31c19e9e242699",
+      "kind": "blender-render",
+      "case": "focused/leaf_branch"
+    },
+    {
+      "path": "focused_wood_slab.png",
+      "sha256": "b2bf2c87b41f8d3d7d75f7da91db4f4890d5d324cd552abc8e4ca518d956435f",
+      "kind": "blender-render",
+      "case": "focused/wood_slab_20mm"
+    },
+    {
+      "path": "focused_wood_slab.json",
+      "sha256": "d6e479ff7cfb324346c50be4f70c6f1d1404193e7422c26c8ac7f9b4d59fda56",
+      "kind": "blender-render",
+      "case": "focused/wood_slab_20mm"
+    },
+    {
+      "path": "focused_wood_box.png",
+      "sha256": "8f94a2cb527c671b4cf58f1362e6a2a220d5ca8cd268ffeccb3f5ac634ad21b6",
+      "kind": "blender-render",
+      "case": "focused/wood_box_10mm"
+    },
+    {
+      "path": "focused_wood_box.json",
+      "sha256": "bce4a9e5cb1acbb677eb909af5e6cde07cd5aed152169268c9e0ae4f0b31fb81",
+      "kind": "blender-render",
+      "case": "focused/wood_box_10mm"
+    },
+    {
+      "path": "multiple_cluster.png",
+      "sha256": "51ab1fcba2a23ebc0e1a0ef31117e2edbf49ecad344502769b186d546d6cd9d5",
+      "kind": "blender-render",
+      "case": "multiple/mixed_centre"
+    },
+    {
+      "path": "multiple_cluster.json",
+      "sha256": "2d283e9e78c80ea2c572bbc1d745f39aa60f4d55385a3707856d8e215d7fb17a",
+      "kind": "blender-render",
+      "case": "multiple/mixed_centre"
+    },
+    {
+      "path": "blocked_sionna.png",
+      "sha256": "8144a5a24176c23f0d581c7d8a5d701b0b09b1bc0b3dde40e6ed09c7b1d29f93",
+      "kind": "blender-render",
+      "case": "multiple/blocked_coupled"
+    },
+    {
+      "path": "blocked_sionna.json",
+      "sha256": "7714f13302a2d57fe8cae951d1e34f6222a61630770a589bd7d06fdd01c2d0e4",
+      "kind": "blender-render",
+      "case": "multiple/blocked_coupled"
+    },
+    {
+      "path": "blocked_differt.png",
+      "sha256": "116b3397b458538f322880a6d51bbf1fcfc4675821c179faa75b3b9307bfc8b1",
+      "kind": "blender-render",
+      "case": "multiple/blocked_coupled"
+    },
+    {
+      "path": "blocked_differt.json",
+      "sha256": "daedeba5b10d1a0c254df011be5f888fd054a562804e3b1fcdf4c2657ef65b5d",
+      "kind": "blender-render",
+      "case": "multiple/blocked_coupled"
+    }
+  ]
+}

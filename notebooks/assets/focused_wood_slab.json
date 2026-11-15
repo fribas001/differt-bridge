@@ -1,0 +1,31 @@
+{
+  "case": "focused/wood_slab_20mm",
+  "scene": "DiffeRT Notebook - focused - wood_slab_20mm",
+  "blender": "5.2.0 LTS",
+  "engine": "CYCLES",
+  "device": "CPU",
+  "samples": 24,
+  "geometry_sha256": "ef6b7175874610a7ba311b6cb4803b9407e706149150f749ae9fa4ee4727ff72",
+  "renderer_sha256": "0fea467e7cf99f74f95ef4b623fee62f9aeed681dd2066afed09e18690ef0346",
+  "image_sha256": "b2bf2c87b41f8d3d7d75f7da91db4f4890d5d324cd552abc8e4ca518d956435f",
+  "path_label": null,
+  "detail_crop": true,
+  "camera": {
+    "location": [
+      0.12999999523162842,
+      -0.2800000011920929,
+      0.17000000178813934
+    ],
+    "rotation": [
+      1.0674283504486084,
+      3.120651115295914e-08,
+      0.43467023968696594
+    ],
+    "ortho_scale": 0.3537365794181824,
+    "resolution": [
+      1000,
+      650
+    ]
+  },
+  "scope": "Presentation render of preserved geometry; no electromagnetic calculation."
+}

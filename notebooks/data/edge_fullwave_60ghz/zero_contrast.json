@@ -1,0 +1,507 @@
+{
+  "scope": "Diagnostic only: keep exactly the same edge construction while replacing the material by air. Exact total/empty field must be one. GO is set to one; only the retained edge-formula contrast limit is tested. Native path-search filtering is outside this test. This checks suitability for transmitting objects, not an experimental material.",
+  "rows": [
+    {
+      "case": "leaf",
+      "index": 0,
+      "sionna": {
+        "ratio": [
+          0.5309110560542856,
+          0.08005895268166946
+        ],
+        "loss_db": 5.401915347414397,
+        "absolute_field_error": 0.47587169829334397
+      },
+      "differt": {
+        "ratio": [
+          0.5949183083355942,
+          0.09110187914507363
+        ],
+        "loss_db": 4.410187661742006,
+        "absolute_field_error": 0.4151996258493742
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 1,
+      "sionna": {
+        "ratio": [
+          1.0556563194328623,
+          0.21654006484419783
+        ],
+        "loss_db": -0.6494437534335085,
+        "absolute_field_error": 0.22357823144381075
+      },
+      "differt": {
+        "ratio": [
+          1.0132205004404176,
+          0.16492058744763138
+        ],
+        "loss_db": -0.22764204041520855,
+        "absolute_field_error": 0.16544963522464143
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 2,
+      "sionna": {
+        "ratio": [
+          0.9410793218382378,
+          -0.11963987517411795
+        ],
+        "loss_db": 0.457845191285556,
+        "absolute_field_error": 0.13336171132195507
+      },
+      "differt": {
+        "ratio": [
+          0.9921527741519918,
+          -0.11962734308601103
+        ],
+        "loss_db": 0.005745917372176954,
+        "absolute_field_error": 0.11988444505993194
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 3,
+      "sionna": {
+        "ratio": [
+          1.0036406708279804,
+          -0.09107593379979778
+        ],
+        "loss_db": -0.06718168715250142,
+        "absolute_field_error": 0.09114867087118086
+      },
+      "differt": {
+        "ratio": [
+          1.0472684526882772,
+          -0.08863648011192946
+        ],
+        "loss_db": -0.4321590500046192,
+        "absolute_field_error": 0.10045263673083134
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 4,
+      "sionna": {
+        "ratio": [
+          1.4115085692736313,
+          -0.04598101973084944
+        ],
+        "loss_db": -2.998276596183524,
+        "absolute_field_error": 0.41406950716168395
+      },
+      "differt": {
+        "ratio": [
+          1.4531381771908836,
+          -0.03406818374164415
+        ],
+        "loss_db": -3.248524688515867,
+        "absolute_field_error": 0.4544170427826525
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 5,
+      "sionna": {
+        "ratio": [
+          0.6547803134154214,
+          0.1341543391641996
+        ],
+        "loss_db": 3.4995036543946156,
+        "absolute_field_error": 0.37037011045998
+      },
+      "differt": {
+        "ratio": [
+          0.6554032765099295,
+          0.08181154007295538
+        ],
+        "loss_db": 3.6026796177988043,
+        "absolute_field_error": 0.3541751401908397
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 6,
+      "sionna": {
+        "ratio": [
+          1.1330527778530286,
+          0.20868928993023206
+        ],
+        "loss_db": -1.2298866620495146,
+        "absolute_field_error": 0.24749598264616707
+      },
+      "differt": {
+        "ratio": [
+          1.151126075429814,
+          0.22407797884294967
+        ],
+        "loss_db": -1.3839813206872098,
+        "absolute_field_error": 0.27027769289595327
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 7,
+      "sionna": {
+        "ratio": [
+          0.8823851215053249,
+          -0.017212507426923325
+        ],
+        "loss_db": 1.0851842269308574,
+        "absolute_field_error": 0.11886769979788067
+      },
+      "differt": {
+        "ratio": [
+          0.90020705170968,
+          0.019264197805568713
+        ],
+        "loss_db": 0.9111633957466385,
+        "absolute_field_error": 0.1016353375827845
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 8,
+      "sionna": {
+        "ratio": [
+          1.355530195512849,
+          -0.18919384092349387
+        ],
+        "loss_db": -2.725972297716103,
+        "absolute_field_error": 0.4027356817626033
+      },
+      "differt": {
+        "ratio": [
+          1.390065225640503,
+          -0.21106726286592195
+        ],
+        "loss_db": -2.9596948161103924,
+        "absolute_field_error": 0.44350904129193214
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 9,
+      "sionna": {
+        "ratio": [
+          1.4350814483422394,
+          -0.06558146283523708
+        ],
+        "loss_db": -3.1465912577053894,
+        "absolute_field_error": 0.439996357893097
+      },
+      "differt": {
+        "ratio": [
+          1.4295372373090889,
+          -0.09832391201695524
+        ],
+        "loss_db": -3.124406268162118,
+        "absolute_field_error": 0.4406470582103579
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 10,
+      "sionna": {
+        "ratio": [
+          0.7676423398180419,
+          0.2734364873204401
+        ],
+        "loss_db": 1.7780427155256162,
+        "absolute_field_error": 0.35882808536035127
+      },
+      "differt": {
+        "ratio": [
+          0.781963243710464,
+          0.28767156066515365
+        ],
+        "loss_db": 1.585019770844016,
+        "absolute_field_error": 0.36096392327875054
+      }
+    },
+    {
+      "case": "leaf",
+      "index": 11,
+      "sionna": {
+        "ratio": [
+          1.133534345690337,
+          0.07646869775427736
+        ],
+        "loss_db": -1.1084131765059784,
+        "absolute_field_error": 0.1538794437707047
+      },
+      "differt": {
+        "ratio": [
+          1.096407337155067,
+          0.08163809209410336
+        ],
+        "loss_db": -0.8234504787995383,
+        "absolute_field_error": 0.1263295402433496
+      }
+    },
+    {
+      "case": "branch",
+      "index": 0,
+      "sionna": {
+        "ratio": [
+          1.1252809719440218,
+          0.020788397960897802
+        ],
+        "loss_db": -1.0267014426197032,
+        "absolute_field_error": 0.1269940133274771
+      },
+      "differt": {
+        "ratio": [
+          1.3864918654011236,
+          -0.13327921924594996
+        ],
+        "loss_db": -2.87829273872274,
+        "absolute_field_error": 0.4088267509643299
+      }
+    },
+    {
+      "case": "branch",
+      "index": 1,
+      "sionna": {
+        "ratio": [
+          0.4846559078201119,
+          0.2398632354453398
+        ],
+        "loss_db": 5.339844310704605,
+        "absolute_field_error": 0.5684310908659197
+      },
+      "differt": {
+        "ratio": [
+          0.6401537621118445,
+          0.10823070461498843
+        ],
+        "loss_db": 3.7519137107199825,
+        "absolute_field_error": 0.3757701429647064
+      }
+    },
+    {
+      "case": "branch",
+      "index": 2,
+      "sionna": {
+        "ratio": [
+          1.071014025493494,
+          0.3360994205982053
+        ],
+        "loss_db": -1.0038221691108253,
+        "absolute_field_error": 0.3435197408348462
+      },
+      "differt": {
+        "ratio": [
+          1.028695055401994,
+          0.20745650762989273
+        ],
+        "loss_db": -0.4188659955645904,
+        "absolute_field_error": 0.20943163266926812
+      }
+    },
+    {
+      "case": "branch",
+      "index": 3,
+      "sionna": {
+        "ratio": [
+          0.9018776138354501,
+          -0.18111554684007614
+        ],
+        "loss_db": 0.7253412750109631,
+        "absolute_field_error": 0.20598748499315409
+      },
+      "differt": {
+        "ratio": [
+          0.9470293487184661,
+          -0.1046099264984645
+        ],
+        "loss_db": 0.42006078555316356,
+        "absolute_field_error": 0.11725666982821921
+      }
+    },
+    {
+      "case": "branch",
+      "index": 4,
+      "sionna": {
+        "ratio": [
+          1.087869106265552,
+          -0.015351988839624705
+        ],
+        "loss_db": -0.7323976760789093,
+        "absolute_field_error": 0.08920013115034557
+      },
+      "differt": {
+        "ratio": [
+          1.3205981068031023,
+          -0.2798279920658384
+        ],
+        "loss_db": -2.606158391285525,
+        "absolute_field_error": 0.4255430074966951
+      }
+    },
+    {
+      "case": "branch",
+      "index": 5,
+      "sionna": {
+        "ratio": [
+          0.34536602694977975,
+          0.12041219297892469
+        ],
+        "loss_db": 8.736192331697914,
+        "absolute_field_error": 0.6656160566644334
+      },
+      "differt": {
+        "ratio": [
+          0.49878482309153893,
+          0.08179411786070337
+        ],
+        "loss_db": 5.9264891057754,
+        "absolute_field_error": 0.5078453812726769
+      }
+    },
+    {
+      "case": "branch",
+      "index": 6,
+      "sionna": {
+        "ratio": [
+          0.7380395885618439,
+          0.33919659147677667
+        ],
+        "loss_db": 1.8061614993055843,
+        "absolute_field_error": 0.4285762298941827
+      },
+      "differt": {
+        "ratio": [
+          0.7490753930235803,
+          0.15310873778616632
+        ],
+        "loss_db": 2.3317370655039933,
+        "absolute_field_error": 0.2939480293738057
+      }
+    },
+    {
+      "case": "branch",
+      "index": 7,
+      "sionna": {
+        "ratio": [
+          1.255167766186656,
+          -0.005772566930225369
+        ],
+        "loss_db": -1.9741274105417457,
+        "absolute_field_error": 0.25523305316837763
+      },
+      "differt": {
+        "ratio": [
+          1.109850935573339,
+          -0.04894368448956284
+        ],
+        "loss_db": -0.9137307940185989,
+        "absolute_field_error": 0.12026101736536139
+      }
+    },
+    {
+      "case": "branch",
+      "index": 8,
+      "sionna": {
+        "ratio": [
+          1.0279660052756179,
+          0.025152997366999875
+        ],
+        "loss_db": -0.24217447568456668,
+        "absolute_field_error": 0.03761343812549166
+      },
+      "differt": {
+        "ratio": [
+          1.1563632237016754,
+          -0.13587765333017365
+        ],
+        "loss_db": -1.3214393968966376,
+        "absolute_field_error": 0.2071525872416153
+      }
+    },
+    {
+      "case": "branch",
+      "index": 9,
+      "sionna": {
+        "ratio": [
+          1.279757287397563,
+          -0.009713756409736818
+        ],
+        "loss_db": -2.1428024272872808,
+        "absolute_field_error": 0.2799258775383768
+      },
+      "differt": {
+        "ratio": [
+          1.4837493382533518,
+          -0.16446371627183082
+        ],
+        "loss_db": -3.480244116161728,
+        "absolute_field_error": 0.5109420086766178
+      }
+    },
+    {
+      "case": "branch",
+      "index": 10,
+      "sionna": {
+        "ratio": [
+          0.48121992104610145,
+          0.2279042295945789
+        ],
+        "loss_db": 5.474270986542093,
+        "absolute_field_error": 0.5666331336822017
+      },
+      "differt": {
+        "ratio": [
+          0.5649096839679213,
+          0.16825147214026115
+        ],
+        "loss_db": 4.591307974930397,
+        "absolute_field_error": 0.46648916491410514
+      }
+    },
+    {
+      "case": "branch",
+      "index": 11,
+      "sionna": {
+        "ratio": [
+          1.000789014658711,
+          0.33626391104941666
+        ],
+        "loss_db": -0.4713932677934247,
+        "absolute_field_error": 0.3362648367260271
+      },
+      "differt": {
+        "ratio": [
+          0.9258783580570171,
+          0.24153479345639173
+        ],
+        "loss_db": 0.38299058736022684,
+        "absolute_field_error": 0.25265208143679635
+      }
+    }
+  ],
+  "summary": {
+    "leaf": {
+      "sionna": {
+        "max_absolute_loss_db": 5.401915347414397,
+        "max_absolute_field_error": 0.47587169829334397
+      },
+      "differt": {
+        "max_absolute_loss_db": 4.410187661742006,
+        "max_absolute_field_error": 0.4544170427826525
+      }
+    },
+    "branch": {
+      "sionna": {
+        "max_absolute_loss_db": 8.736192331697914,
+        "max_absolute_field_error": 0.6656160566644334
+      },
+      "differt": {
+        "max_absolute_loss_db": 5.9264891057754,
+        "max_absolute_field_error": 0.5109420086766178
+      }
+    }
+  }
+}

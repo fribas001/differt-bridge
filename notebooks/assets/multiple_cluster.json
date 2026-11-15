@@ -1,0 +1,31 @@
+{
+  "case": "multiple/mixed_centre",
+  "scene": "DiffeRT Notebook - multiple - mixed_centre",
+  "blender": "5.2.0 LTS",
+  "engine": "CYCLES",
+  "device": "CPU",
+  "samples": 24,
+  "geometry_sha256": "ef6b7175874610a7ba311b6cb4803b9407e706149150f749ae9fa4ee4727ff72",
+  "renderer_sha256": "0fea467e7cf99f74f95ef4b623fee62f9aeed681dd2066afed09e18690ef0346",
+  "image_sha256": "51ab1fcba2a23ebc0e1a0ef31117e2edbf49ecad344502769b186d546d6cd9d5",
+  "path_label": null,
+  "detail_crop": false,
+  "camera": {
+    "location": [
+      0.7800000309944153,
+      -1.678296685218811,
+      1.0200001001358032
+    ],
+    "rotation": [
+      1.0674281120300293,
+      -2.6381041351442036e-08,
+      0.43467026948928833
+    ],
+    "ortho_scale": 1.36051344871521,
+    "resolution": [
+      1000,
+      650
+    ]
+  },
+  "scope": "Presentation render of preserved geometry; no electromagnetic calculation."
+}

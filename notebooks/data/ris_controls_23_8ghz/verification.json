@@ -1,0 +1,26 @@
+{
+  "status": "passed_for_ideal_controls_with_explicit_failed_diagnostics",
+  "ideal_rt": "passed",
+  "fullwave_slabs": "passed",
+  "native_rt_field_evaluations": 234,
+  "native_fullwave_solves": 26,
+  "prior_project_files_verified_unchanged": 426,
+  "source_receipts": {
+    "differt_0.001_results.json": "c90024694c3d5e4dea6ca9fc7cc336f96192bad06d41bc51ea5fe328b5f467a8",
+    "differt_eps1e-10_results.json": "f743f4a79efff3d181e7a9ff19c434a5a74fccb9e142510f4eb4ab51785354e7",
+    "differt_results.json": "6d8ea632b74059fbf112eb41c2b0caef329e2756599a52de5ea06ac37b499bd6",
+    "differt_smallfacets_results.json": "6c5fd3e508657b506a03f0fa198046a02d00eccaaf931b840b7d569bae758ecc",
+    "sionna_0.0001_results.json": "94fc188e8f957b37e102a3bb30c0bdabcae5ce2b4320a273e67a6bafe97c81f1",
+    "sionna_0.001_results.json": "057b7e548e79689959a8a6512dba80d7002d8f4e41a0dcf051500dd612757ef5",
+    "sionna_0.001_s1048576_results.json": "f03965150fc7559ba74764fa23454d4223e7f1c518ec43de96518a6df1bfd9f6",
+    "sionna_0.001_s1048576_smalloffset_results.json": "b20ecad5b95a63295ddf449fd9b58258ece8761d144913ada7a7ed250da3db0c",
+    "sionna_results.json": "c537d69964d199b9d335ba92599205cd012829057f93e14bea3f1a4d2462c7e9"
+  },
+  "geometry_gate": "review_required",
+  "finite_leaf_geometry": "prepared_not_simulated",
+  "addon_changed": false,
+  "installed_solver_files_changed": false,
+  "measured_validation": false,
+  "production_acceptance": false,
+  "reason": "Curved grazing leaf paths retain discovery and physical-model limits; scanner registration and calibration remain unknown."
+}

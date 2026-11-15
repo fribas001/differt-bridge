@@ -1,5 +1,14 @@
 # Changes
 
+## Unreleased
+
+- Add original geometry/path/field images, seven Blender model renders and a fifth notebook with optional live rendering through Jan-Hendrik Müller's Jupyter extension.
+- Preserve 22 synthetic case geometries and matched-camera native path views with source hashes; retain the numerical inputs and excluded actual-plant diagnostics unchanged.
+- Link the research branch, eleven-study catalog and complete project archive from the default README.
+- Add four executable Jupyter walkthroughs with a compact checksummed historical-data supplement.
+- Recompute native-control, multiple-diffraction and full-wave summary checks while retaining missing paths, failed diagnostics and model limitations.
+- Add isolated notebook execution, HTML export and Windows/Linux notebook CI; extension source and the 0.6.3 package contents are unchanged.
+
 ## 0.6.3 — first public prerelease
 
 - Separate Blender namespace, runtime preferences and result collections for DiffeRT beside SionnaRT-Bridge.
